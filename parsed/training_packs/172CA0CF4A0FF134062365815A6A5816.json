@@ -1,0 +1,177 @@
+{
+  "file_name": "172CA0CF4A0FF134062365815A6A5816.Tem",
+  "header": {
+    "file_size_bytes": 1848,
+    "encrypted_payload_bytes": 1840,
+    "stored_crc32": "0xE9328B99",
+    "calculated_crc32": "0xE9328B99",
+    "crc_valid": true
+  },
+  "savedata_envelope": {
+    "foosball_magic": "0xF005BA11",
+    "header_magic": "0x7FFFFFFF",
+    "engine_version": 868,
+    "licensee_version": 34,
+    "type_version": 0,
+    "savedata_byte_length": 1772,
+    "trailing_zero_padding_bytes": 3
+  },
+  "root_properties": {
+    "TrainingData": 0
+  },
+  "object_types": [
+    {
+      "type": "TAGame.TrainingEditorData_TA",
+      "file_position": 65,
+      "object_index": 0
+    }
+  ],
+  "objects": [
+    {
+      "object_index": 0,
+      "type": "TAGame.TrainingEditorData_TA",
+      "file_position": 65,
+      "obj_header_magic": "0xFFFFFFFF",
+      "properties": {
+        "TM_Guid": "172CA0CF-4A0FF134-06236581-5A6A5816",
+        "TM_Name": "New Sequence",
+        "Type": {
+          "ETrainingType": "Training_Striker"
+        },
+        "MapName": "woods_p",
+        "Rounds": [
+          {
+            "TimeLimit": 10.0,
+            "SerializedArchetypes": [
+              {
+                "ObjectArchetype": "Archetypes.Ball.Ball_GameEditor",
+                "StartLocationX": -3798.0398,
+                "StartLocationY": -1111.01,
+                "StartLocationZ": 1663.37,
+                "VelocityStartRotationP": 2931,
+                "VelocityStartRotationY": -23881,
+                "VelocityStartRotationR": 0,
+                "VelocityStartSpeed": 0.0,
+                "role": "Ball",
+                "computed": {
+                  "velocity_rotation_deg": {
+                    "pitch": 16.1005,
+                    "yaw": -131.1823,
+                    "roll": 0.0
+                  },
+                  "initial_velocity_vector_uu_s": {
+                    "vx": -0.0,
+                    "vy": -0.0,
+                    "vz": 0.0
+                  },
+                  "initial_speed_kph": 0.0
+                }
+              },
+              {
+                "ObjectArchetype": "Archetypes.GameEditor.DynamicSpawnPointMesh",
+                "LocationX": 602.2137,
+                "LocationY": -4733.6426,
+                "LocationZ": 30.0,
+                "RotationP": 0,
+                "RotationY": -38822,
+                "RotationR": 0,
+                "VelocityStartSpeed": 0.0,
+                "role": "PlayerCarSpawn",
+                "computed": {
+                  "rotation_deg": {
+                    "pitch": 0.0,
+                    "yaw": -213.2556,
+                    "roll": 0.0
+                  }
+                }
+              },
+              {
+                "IsPC": true,
+                "LocationX": -542.0004,
+                "LocationY": -609.0275,
+                "LocationZ": 530.0,
+                "RotationP": 10012,
+                "RotationY": 10464,
+                "RotationR": 0,
+                "role": "EditorFreeCam",
+                "computed": {
+                  "rotation_deg": {
+                    "pitch": 54.9976,
+                    "yaw": 57.4805,
+                    "roll": 0.0
+                  }
+                }
+              }
+            ],
+            "round_index": 1
+          },
+          {
+            "TimeLimit": 10.0,
+            "SerializedArchetypes": [
+              {
+                "ObjectArchetype": "Archetypes.Ball.Ball_GameEditor",
+                "StartLocationX": -2699.8,
+                "StartLocationY": 2868.5898,
+                "StartLocationZ": 100.0,
+                "VelocityStartRotationP": 235,
+                "VelocityStartRotationY": -27545,
+                "VelocityStartRotationR": 0,
+                "VelocityStartSpeed": 3650.0,
+                "role": "Ball",
+                "computed": {
+                  "velocity_rotation_deg": {
+                    "pitch": 1.2909,
+                    "yaw": -151.3092,
+                    "roll": 0.0
+                  },
+                  "initial_velocity_vector_uu_s": {
+                    "vx": -3201.0523,
+                    "vy": -1751.8569,
+                    "vz": 82.2292
+                  },
+                  "initial_speed_kph": 131.4
+                }
+              },
+              {
+                "ObjectArchetype": "Archetypes.GameEditor.DynamicSpawnPointMesh",
+                "LocationX": 602.2137,
+                "LocationY": -4733.6426,
+                "LocationZ": 30.0,
+                "RotationP": 0,
+                "RotationY": -38822,
+                "RotationR": 0,
+                "VelocityStartSpeed": 0.0,
+                "role": "PlayerCarSpawn",
+                "computed": {
+                  "rotation_deg": {
+                    "pitch": 0.0,
+                    "yaw": -213.2556,
+                    "roll": 0.0
+                  }
+                }
+              },
+              {
+                "IsPC": true,
+                "LocationX": 2016.3418,
+                "LocationY": -4429.5645,
+                "LocationZ": 530.0,
+                "RotationP": 28,
+                "RotationY": 23951,
+                "RotationR": 0,
+                "role": "EditorFreeCam",
+                "computed": {
+                  "rotation_deg": {
+                    "pitch": 0.1538,
+                    "yaw": 131.5668,
+                    "roll": 0.0
+                  }
+                }
+              }
+            ],
+            "round_index": 2
+          }
+        ]
+      }
+    }
+  ]
+}

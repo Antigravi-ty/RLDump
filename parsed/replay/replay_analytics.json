@@ -1,0 +1,2835 @@
+{
+  "crc_verification": {
+    "file_size_bytes": 1708616,
+    "part1_header": {
+      "length_bytes": 11286,
+      "stored_crc32": "0x0C94FA50",
+      "calculated_crc32": "0x0C94FA50",
+      "crc_valid": true
+    },
+    "part2_content": {
+      "length_bytes": 1697314,
+      "stored_crc32": "0x0FC4075E",
+      "calculated_crc32": "0x0FC4075E",
+      "crc_valid": true
+    }
+  },
+  "match_metadata": {
+    "replay_name": "WORLDS P-L KC vs FLCN G2 2026-09-20.13.37",
+    "replay_id": "92468BAF4847478F181A2882B9873616",
+    "match_guid": "91C3752A11F1B521D5514198DFFAAFCB",
+    "build_version": "260825.79374.526531",
+    "build_id": -1887694083,
+    "changelist": 526531,
+    "engine_version": 868,
+    "licensee_version": 33,
+    "net_version": 11,
+    "replay_version": 8,
+    "game_version": 30,
+    "map_name": "CHN_Stadium_P",
+    "match_type": "Private",
+    "date_local": "2026-09-20 13-37-49",
+    "game_start_time_iso": "2026-09-20T13:32:04-0500",
+    "match_start_epoch": 1789929120,
+    "match_start_utc": "2026-09-20T18:32:00+00:00",
+    "total_seconds_played": 301.45685,
+    "record_fps": 30.0,
+    "num_frames": 9379,
+    "max_channels": 2047,
+    "server_name": "LAN230-Laserath-5",
+    "game_server_id": "200114737",
+    "server_region": "TR21",
+    "playlist_id": 6,
+    "mutator_index": -1,
+    "team_0_name": "KARMINE CORP",
+    "team_0_score": 1,
+    "team_1_name": "TEAM FALCONS",
+    "team_1_score": 0,
+    "bakkesmod_debug_info": [
+      {
+        "frame": 0,
+        "user": "Message from the Wizard",
+        "text": "Additional replay data provided by BakkesMod. You can support our work at: https://www.patreon.com/bakkesmod"
+      },
+      {
+        "frame": 0,
+        "user": "GameStartTime",
+        "text": "2026-09-20T13:32:04-0500"
+      }
+    ]
+  },
+  "lobby_reservations_frame0": [
+    {
+      "number": 0,
+      "unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198129459418"
+        },
+        "local_id": 0
+      },
+      "name": "RLCS REFEREE",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 1,
+      "unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198139620936"
+        },
+        "local_id": 0
+      },
+      "name": "RLCS REFEREE",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 2,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "aab96296dc704222b85ee9985361a612"
+        },
+        "local_id": 0
+      },
+      "name": "baguetteobs1",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 3,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "5d11da18ca094606826cb11d4d776046"
+        },
+        "local_id": 0
+      },
+      "name": "blastobserver1",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 4,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "f935828ffd104990a5af3c2c41baba85"
+        },
+        "local_id": 0
+      },
+      "name": "blastobserver2",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 5,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "c7c09cddf9384f6c9d41bba992b55c99"
+        },
+        "local_id": 0
+      },
+      "name": "blastobserver3",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 6,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "f7cb8ded2c8f4d29b0f0dbba914ec1af"
+        },
+        "local_id": 0
+      },
+      "name": "blastobserver5",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    },
+    {
+      "number": 7,
+      "unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "298a10606ed04dccbc59fe2ce1a92ea4"
+        },
+        "local_id": 0
+      },
+      "name": "blastobserver4",
+      "unknown1": true,
+      "unknown2": true,
+      "unknown3": 0
+    }
+  ],
+  "participants": [
+    {
+      "player_id": 284,
+      "name": "dralii",
+      "anonymized_name": "Player 1",
+      "role": "Player (Team 1 - TEAM FALCONS)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561199031413358"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002207a58cf4fbdbb9abe889f4c82ea",
+      "club_id": "25765418",
+      "spectator_shortcut": 6,
+      "steering_sensitivity": 1.77,
+      "title": "RLCS_2024_World_Champion",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 90.0,
+        "angle": -5.0,
+        "distance": 270.0,
+        "stiffness": 0.5,
+        "swivel": 4.2,
+        "transition": 1.5,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 12496,
+        "banner": 11132,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 65,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 12496,
+        "banner": 11132,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4286533376,
+            "argb_hex": "#FF7F4F00"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 42751,
+            "argb_hex": "#0000A6FF"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_2024_World_Champion"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 1,
+        "primary_color": 69,
+        "accent_color": 0,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4625,
+        "avg_speed_uu_s": 1575.5,
+        "avg_speed_kph": 56.72,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 15.57,
+        "avg_elevation_z": 150.24,
+        "max_elevation_z": 1470.34,
+        "airborne_pct": 41.25,
+        "high_aerial_pct": 15.14,
+        "offensive_half_pct": 26.94,
+        "avg_boost_amount": 49.3,
+        "boost_pads": {
+          "big": 21,
+          "small": 81,
+          "stolen_big": 3,
+          "stolen_small": 19,
+          "total_boost_from_pads": 3072
+        }
+      },
+      "match_stats": {
+        "score": 196,
+        "goals": 0,
+        "assists": 0,
+        "saves": 1,
+        "shots": 2,
+        "demolishes_inflicted": 1,
+        "times_demolished": 1,
+        "total_game_time_played_s": 301.1364
+      }
+    },
+    {
+      "player_id": 285,
+      "name": "Kiileerrz",
+      "anonymized_name": "Player 2",
+      "role": "Player (Team 1 - TEAM FALCONS)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198980777579"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "00028e46a31746eb89d68318c30db8b4",
+      "club_id": "25765418",
+      "spectator_shortcut": 5,
+      "steering_sensitivity": 2.0,
+      "title": "RLCS_2025_Major_2_Champion",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 100.0,
+        "angle": -5.0,
+        "distance": 270.0,
+        "stiffness": 0.4,
+        "swivel": 10.0,
+        "transition": 1.5,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 3224,
+        "goal_explosion": 3703,
+        "banner": 3166,
+        "product_id": 5719,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 3224,
+        "goal_explosion": 3703,
+        "banner": 3166,
+        "product_id": 5719,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 14,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 11,
+            "paint_name": "Grey"
+          }
+        },
+        {
+          "slot_index": 15,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 5,
+            "paint_name": "Cobalt"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4278195455,
+            "argb_hex": "#FF0014FF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4282335039,
+            "argb_hex": "#FF3F3F3F"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_2025_Major_2_Champion"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 1,
+        "primary_color": 69,
+        "accent_color": 90,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4514,
+        "avg_speed_uu_s": 1449.01,
+        "avg_speed_kph": 52.16,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 12.52,
+        "avg_elevation_z": 205.47,
+        "max_elevation_z": 2016.33,
+        "airborne_pct": 47.7,
+        "high_aerial_pct": 21.36,
+        "offensive_half_pct": 24.81,
+        "avg_boost_amount": 48.1,
+        "boost_pads": {
+          "big": 17,
+          "small": 67,
+          "stolen_big": 2,
+          "stolen_small": 11,
+          "total_boost_from_pads": 2504
+        }
+      },
+      "match_stats": {
+        "score": 375,
+        "goals": 0,
+        "assists": 0,
+        "saves": 3,
+        "shots": 0,
+        "demolishes_inflicted": 0,
+        "times_demolished": 4,
+        "total_game_time_played_s": 300.59973
+      }
+    },
+    {
+      "player_id": 286,
+      "name": "vatira",
+      "anonymized_name": "Player 3",
+      "role": "Player (Team 0 - KARMINE CORP)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198960239428"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002150d5a464203b32587e683f90749",
+      "club_id": "32975387",
+      "spectator_shortcut": 2,
+      "steering_sensitivity": 1.5,
+      "title": "RLCS_2026_Major_2_Champion",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 90.0,
+        "angle": -5.0,
+        "distance": 270.0,
+        "stiffness": 0.35,
+        "swivel": 8.5,
+        "transition": 1.7,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 3224,
+        "goal_explosion": 10518,
+        "banner": 2479,
+        "product_id": 5944,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 3224,
+        "goal_explosion": 10518,
+        "banner": 2479,
+        "product_id": 5944,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 14,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 12,
+            "paint_name": "Titanium White"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4282335039,
+            "argb_hex": "#FF3F3F3F"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4282335039,
+            "argb_hex": "#FF3F3F3F"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_2026_Major_2_Champion"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 0,
+        "primary_color": 9,
+        "accent_color": 90,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4627,
+        "avg_speed_uu_s": 1631.43,
+        "avg_speed_kph": 58.73,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 19.71,
+        "avg_elevation_z": 174.99,
+        "max_elevation_z": 1938.55,
+        "airborne_pct": 44.87,
+        "high_aerial_pct": 17.05,
+        "offensive_half_pct": 42.1,
+        "avg_boost_amount": 57.6,
+        "boost_pads": {
+          "big": 22,
+          "small": 71,
+          "stolen_big": 3,
+          "stolen_small": 22,
+          "total_boost_from_pads": 3052
+        }
+      },
+      "match_stats": {
+        "score": 291,
+        "goals": 0,
+        "assists": 0,
+        "saves": 2,
+        "shots": 4,
+        "demolishes_inflicted": 1,
+        "times_demolished": 1,
+        "total_game_time_played_s": 300.85123
+      }
+    },
+    {
+      "player_id": 287,
+      "name": "blastobserver3",
+      "anonymized_name": "Player 4",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "c7c09cddf9384f6c9d41bba992b55c99"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002b51eb11a4631ab0797acd7286768",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "Bathroom_Title",
+      "ping_raw_byte": 3,
+      "camera_settings": null,
+      "loadout_blue": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 376,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 376,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "Bathroom_Title"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 288,
+      "name": "blastobserver1",
+      "anonymized_name": "Player 5",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "5d11da18ca094606826cb11d4d776046"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "00025258ec5d4775a2a533aa37e2475a",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "Bathroom_Title",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 110.0,
+        "angle": -4.0,
+        "distance": 270.0,
+        "stiffness": 0.7,
+        "swivel": 4.2,
+        "transition": 1.2,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 2,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 14,
+            "paint_name": "Gold"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "Bathroom_Title"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 289,
+      "name": "Rw9",
+      "anonymized_name": "Player 6",
+      "role": "Player (Team 1 - TEAM FALCONS)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561199017029799"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "000254224e3f45579238fa90697be5f8",
+      "club_id": "25765418",
+      "spectator_shortcut": 7,
+      "steering_sensitivity": 1.5,
+      "title": "RLCS_2025_Major_2_Champion",
+      "ping_raw_byte": 3,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 100.0,
+        "angle": -5.0,
+        "distance": 270.0,
+        "stiffness": 0.35,
+        "swivel": 3.5,
+        "transition": 1.0,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 2044,
+        "banner": 8296,
+        "product_id": 5695,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 2044,
+        "banner": 8296,
+        "product_id": 5695,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 15,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 14,
+            "paint_name": "Gold"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4278255360,
+            "argb_hex": "#FF00FF00"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_2025_Major_2_Champion"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 1,
+        "primary_color": 69,
+        "accent_color": 90,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4626,
+        "avg_speed_uu_s": 1575.15,
+        "avg_speed_kph": 56.71,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 19.15,
+        "avg_elevation_z": 210.09,
+        "max_elevation_z": 1948.51,
+        "airborne_pct": 47.15,
+        "high_aerial_pct": 20.82,
+        "offensive_half_pct": 28.02,
+        "avg_boost_amount": 43.2,
+        "boost_pads": {
+          "big": 16,
+          "small": 69,
+          "stolen_big": 1,
+          "stolen_small": 22,
+          "total_boost_from_pads": 2428
+        }
+      },
+      "match_stats": {
+        "score": 287,
+        "goals": 0,
+        "assists": 0,
+        "saves": 2,
+        "shots": 4,
+        "demolishes_inflicted": 0,
+        "times_demolished": 1,
+        "total_game_time_played_s": 301.265
+      }
+    },
+    {
+      "player_id": 290,
+      "name": "juicy",
+      "anonymized_name": "Player 7",
+      "role": "Player (Team 0 - KARMINE CORP)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561199013030566"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002beb5193a457199c59bc01785cb90",
+      "club_id": "32975387",
+      "spectator_shortcut": 1,
+      "steering_sensitivity": 1.4,
+      "title": null,
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 90.0,
+        "angle": -4.0,
+        "distance": 270.0,
+        "stiffness": 0.45,
+        "swivel": 7.2,
+        "transition": 1.2,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 10518,
+        "banner": 2509,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 66,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 10518,
+        "banner": 2509,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4282335039,
+            "argb_hex": "#FF3F3F3F"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4282335039,
+            "argb_hex": "#FF3F3F3F"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 0,
+        "primary_color": 67,
+        "accent_color": 90,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4706,
+        "avg_speed_uu_s": 1628.63,
+        "avg_speed_kph": 58.63,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 15.17,
+        "avg_elevation_z": 182.33,
+        "max_elevation_z": 2027.11,
+        "airborne_pct": 41.73,
+        "high_aerial_pct": 19.1,
+        "offensive_half_pct": 45.33,
+        "avg_boost_amount": 53.4,
+        "boost_pads": {
+          "big": 16,
+          "small": 80,
+          "stolen_big": 1,
+          "stolen_small": 30,
+          "total_boost_from_pads": 2560
+        }
+      },
+      "match_stats": {
+        "score": 330,
+        "goals": 0,
+        "assists": 1,
+        "saves": 2,
+        "shots": 1,
+        "demolishes_inflicted": 2,
+        "times_demolished": 0,
+        "total_game_time_played_s": 301.4095
+      }
+    },
+    {
+      "player_id": 291,
+      "name": "blastobserver4",
+      "anonymized_name": "Player 8",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "298a10606ed04dccbc59fe2ce1a92ea4"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002107270c24a429f76bf41ae2b08d9",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "jstncrdbl",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 100.0,
+        "angle": -3.0,
+        "distance": 260.0,
+        "stiffness": 0.15,
+        "swivel": 6.9,
+        "transition": 1.4,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 23,
+        "decal": 11673,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1798,
+        "trail": 1948,
+        "goal_explosion": 11839,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 23,
+        "decal": 11673,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1798,
+        "trail": 1948,
+        "goal_explosion": 11839,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 2,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 14,
+            "paint_name": "Gold"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "jstncrdbl"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 292,
+      "name": "baguetteobs1",
+      "anonymized_name": "Player 9",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "aab96296dc704222b85ee9985361a612"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002ed7d155a4806bb1747ab2c3151a0",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": 1.8,
+      "title": "Bracket_Rivalry_Team1",
+      "ping_raw_byte": 2,
+      "camera_settings": null,
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 1577,
+        "wheels": 2819,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1796,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 11887,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 1577,
+        "wheels": 2819,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1796,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 11887,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "Bracket_Rivalry_Team1"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 293,
+      "name": "Atow",
+      "anonymized_name": "Player 10",
+      "role": "Player (Team 0 - KARMINE CORP)",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198289610054"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002235ce23143fd8e5f47688d344671",
+      "club_id": "32975387",
+      "spectator_shortcut": 3,
+      "steering_sensitivity": 2.0,
+      "title": "RLCS_2026_Major_2_Champion",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 100.0,
+        "angle": -3.0,
+        "distance": 270.0,
+        "stiffness": 0.4,
+        "swivel": 4.2,
+        "transition": 1.4,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 32,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 12015,
+        "banner": 8243,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 7598,
+        "wheels": 386,
+        "rocket_trail": 32,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 12015,
+        "banner": 8243,
+        "product_id": 0,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 0,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 3,
+            "paint_name": "Black"
+          }
+        },
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_TeamEdition_TA",
+          "value": {
+            "NewTeamEdition": 37
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 11798279,
+            "argb_hex": "#00B40707"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 5638409,
+            "argb_hex": "#00560909"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_2026_Major_2_Champion"
+          }
+        }
+      ],
+      "team_paint": {
+        "team": 0,
+        "primary_color": 19,
+        "accent_color": 90,
+        "primary_finish": 270,
+        "accent_finish": 270
+      },
+      "telemetry_summary": {
+        "position_samples": 4658,
+        "avg_speed_uu_s": 1672.82,
+        "avg_speed_kph": 60.22,
+        "max_speed_uu_s": 2300.0,
+        "supersonic_pct": 20.18,
+        "avg_elevation_z": 221.2,
+        "max_elevation_z": 2026.24,
+        "airborne_pct": 46.61,
+        "high_aerial_pct": 22.78,
+        "offensive_half_pct": 48.39,
+        "avg_boost_amount": 46.9,
+        "boost_pads": {
+          "big": 15,
+          "small": 104,
+          "stolen_big": 6,
+          "stolen_small": 45,
+          "total_boost_from_pads": 2748
+        }
+      },
+      "match_stats": {
+        "score": 320,
+        "goals": 1,
+        "assists": 0,
+        "saves": 1,
+        "shots": 3,
+        "demolishes_inflicted": 3,
+        "times_demolished": 0,
+        "total_game_time_played_s": 301.10413
+      }
+    },
+    {
+      "player_id": 294,
+      "name": "blastobserver5",
+      "anonymized_name": "Player 11",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "f7cb8ded2c8f4d29b0f0dbba914ec1af"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "00024534ceb74afbbd3efcf630c7af27",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "jstncrdbl",
+      "ping_raw_byte": 3,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 110.0,
+        "angle": -3.0,
+        "distance": 270.0,
+        "stiffness": 0.15,
+        "swivel": 6.9,
+        "transition": 1.4,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 23,
+        "decal": 11673,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1798,
+        "trail": 1948,
+        "goal_explosion": 11839,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 23,
+        "decal": 11673,
+        "wheels": 386,
+        "rocket_trail": 11846,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 1798,
+        "trail": 1948,
+        "goal_explosion": 11839,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 2,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 14,
+            "paint_name": "Gold"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "jstncrdbl"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 295,
+      "name": "RLCS REFEREE",
+      "anonymized_name": "Player 12",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198129459418"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002571ddf884a918558e467274150b6",
+      "club_id": "30767366",
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "RLCS_Referee",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 130.0,
+        "angle": -3.0,
+        "distance": 270.0,
+        "stiffness": 0.4,
+        "swivel": 4.0,
+        "transition": 1.1,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 4284,
+        "decal": 4869,
+        "wheels": 731,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 2922,
+        "banner": 2734,
+        "product_id": 5686,
+        "body_name": "Fennec"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 4284,
+        "decal": 4869,
+        "wheels": 731,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 2922,
+        "banner": 2734,
+        "product_id": 5686,
+        "body_name": "Fennec"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 1,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 4,
+            "paint_name": "Sky Blue"
+          }
+        },
+        {
+          "slot_index": 2,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 1,
+            "paint_name": "Crimson"
+          }
+        },
+        {
+          "slot_index": 15,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 5,
+            "paint_name": "Cobalt"
+          }
+        },
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4278195455,
+            "argb_hex": "#FF0014FF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_Painted_TA",
+          "value": {
+            "paint_id": 2,
+            "paint_name": "Lime"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 16734208,
+            "argb_hex": "#00FF5800"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_Referee"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 296,
+      "name": "RLCS REFEREE",
+      "anonymized_name": "Player 13",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 1,
+        "remote_id": {
+          "Steam": "76561198139620936"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "0002b3f8e0d64906b1b33a62a1a346a6",
+      "club_id": "30767366",
+      "spectator_shortcut": null,
+      "steering_sensitivity": 1.3,
+      "title": "RLCS_Referee",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 105.0,
+        "height": 100.0,
+        "angle": -6.0,
+        "distance": 290.0,
+        "stiffness": 0.75,
+        "swivel": 5.0,
+        "transition": 1.1,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 1568,
+        "decal": 0,
+        "wheels": 2022,
+        "rocket_trail": 67,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 2695,
+        "goal_explosion": 3020,
+        "banner": 3002,
+        "product_id": 0,
+        "body_name": "Dominus"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 1568,
+        "decal": 0,
+        "wheels": 2022,
+        "rocket_trail": 67,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1900,
+        "goal_explosion": 3020,
+        "banner": 3002,
+        "product_id": 0,
+        "body_name": "Dominus"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 880639,
+            "argb_hex": "#000D6FFF"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "RLCS_Referee"
+          }
+        }
+      ],
+      "team_paint": null
+    },
+    {
+      "player_id": 297,
+      "name": "blastobserver2",
+      "anonymized_name": "Player 14",
+      "role": "Spectator / Referee / Observer",
+      "platform_unique_id": {
+        "system_id": 11,
+        "remote_id": {
+          "Epic": "f935828ffd104990a5af3c2c41baba85"
+        },
+        "local_id": 0
+      },
+      "epic_puid": "00023f16fc1a4be89f395fad9589734d",
+      "club_id": null,
+      "spectator_shortcut": null,
+      "steering_sensitivity": null,
+      "title": "Bathroom_Title",
+      "ping_raw_byte": 2,
+      "camera_settings": {
+        "fov": 110.0,
+        "height": 100.0,
+        "angle": -4.0,
+        "distance": 270.0,
+        "stiffness": 0.9,
+        "swivel": 9.0,
+        "transition": 1.6,
+        "camera_accel_rate": null,
+        "camera_decel_rate": null,
+        "free_look_speed": null,
+        "unconstrain_rotation": null,
+        "free_look_smoothing": null
+      },
+      "loadout_blue": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 376,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "loadout_orange": {
+        "version": 28,
+        "body": 23,
+        "decal": 12866,
+        "wheels": 376,
+        "rocket_trail": 63,
+        "antenna": 0,
+        "topper": 0,
+        "unknown1": 0,
+        "unknown2": 0,
+        "engine_audio": 0,
+        "trail": 1948,
+        "goal_explosion": 1903,
+        "banner": 2526,
+        "product_id": 0,
+        "body_name": "Octane"
+      },
+      "online_product_attributes": [
+        {
+          "slot_index": 16,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 4279070719,
+            "argb_hex": "#FF0D6FFF"
+          }
+        },
+        {
+          "slot_index": 20,
+          "attribute_class": "TAGame.ProductAttribute_UserColor_TA",
+          "value": {
+            "raw_uint32": 0,
+            "argb_hex": "#00000000"
+          }
+        },
+        {
+          "slot_index": 21,
+          "attribute_class": "TAGame.ProductAttribute_TitleID_TA",
+          "value": {
+            "Title": "Bathroom_Title"
+          }
+        }
+      ],
+      "team_paint": null
+    }
+  ],
+  "events": {
+    "goals": [
+      {
+        "frame": 1169,
+        "time_s": 58.379,
+        "scorer": "Atow",
+        "goal_explosion_object": "CHN_Stadium_P.TheWorld:PersistentLevel.GoalVolume_TA_4.Goal_TA_12",
+        "location": {
+          "x": -6.39,
+          "y": 51.71,
+          "z": 2.88
+        }
+      }
+    ],
+    "demolishes": [
+      {
+        "frame": 1442,
+        "time_s": 76.467,
+        "attacker": "Atow",
+        "victim": "Kiileerrz",
+        "attacker_velocity": {
+          "x": 2.08,
+          "y": 22.75,
+          "z": 1.02
+        },
+        "attacker_speed_uu_s": 2286.76,
+        "victim_velocity": {
+          "x": 13.88,
+          "y": -18.27,
+          "z": 1.6
+        },
+        "victim_speed_uu_s": 2300.02
+      },
+      {
+        "frame": 2709,
+        "time_s": 119.059,
+        "attacker": "Atow",
+        "victim": "Kiileerrz",
+        "attacker_velocity": {
+          "x": -7.6,
+          "y": -21.71,
+          "z": 0.0
+        },
+        "attacker_speed_uu_s": 2300.18,
+        "victim_velocity": {
+          "x": -1.51,
+          "y": -18.12,
+          "z": 0.0
+        },
+        "victim_speed_uu_s": 1818.28
+      },
+      {
+        "frame": 4193,
+        "time_s": 169.41,
+        "attacker": "vatira",
+        "victim": "Kiileerrz",
+        "attacker_velocity": {
+          "x": 22.9,
+          "y": -0.06,
+          "z": 2.12
+        },
+        "attacker_speed_uu_s": 2299.8,
+        "victim_velocity": {
+          "x": -4.67,
+          "y": 10.31,
+          "z": 0.0
+        },
+        "victim_speed_uu_s": 1131.83
+      },
+      {
+        "frame": 5206,
+        "time_s": 203.54,
+        "attacker": "juicy",
+        "victim": "Rw9",
+        "attacker_velocity": {
+          "x": -16.94,
+          "y": -14.71,
+          "z": 3.08
+        },
+        "attacker_speed_uu_s": 2264.58,
+        "victim_velocity": {
+          "x": -14.95,
+          "y": -4.46,
+          "z": 0.0
+        },
+        "victim_speed_uu_s": 1560.11
+      },
+      {
+        "frame": 5467,
+        "time_s": 212.384,
+        "attacker": "dralii",
+        "victim": "vatira",
+        "attacker_velocity": {
+          "x": -10.77,
+          "y": -20.32,
+          "z": 0.0
+        },
+        "attacker_speed_uu_s": 2299.77,
+        "victim_velocity": {
+          "x": -6.7,
+          "y": -16.34,
+          "z": -0.82
+        },
+        "victim_speed_uu_s": 1767.93
+      },
+      {
+        "frame": 7028,
+        "time_s": 264.92,
+        "attacker": "Atow",
+        "victim": "Kiileerrz",
+        "attacker_velocity": {
+          "x": 1.49,
+          "y": 19.47,
+          "z": 12.05
+        },
+        "attacker_speed_uu_s": 2294.57,
+        "victim_velocity": {
+          "x": 8.74,
+          "y": -17.68,
+          "z": 0.1
+        },
+        "victim_speed_uu_s": 1972.26
+      },
+      {
+        "frame": 9186,
+        "time_s": 337.627,
+        "attacker": "juicy",
+        "victim": "dralii",
+        "attacker_velocity": {
+          "x": -22.73,
+          "y": 1.18,
+          "z": 0.0
+        },
+        "attacker_speed_uu_s": 2276.06,
+        "victim_velocity": {
+          "x": 14.33,
+          "y": -6.05,
+          "z": 2.77
+        },
+        "victim_speed_uu_s": 1579.95
+      }
+    ],
+    "stat_events": [
+      {
+        "frame": 462,
+        "time_s": 34.651,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 951,
+        "time_s": 50.999,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 1040,
+        "time_s": 53.976,
+        "event": "StatEvents.Events.EpicSave"
+      },
+      {
+        "frame": 1141,
+        "time_s": 57.426,
+        "event": "StatEvents.Events.EpicSave"
+      },
+      {
+        "frame": 1169,
+        "time_s": 58.379,
+        "event": "StatEvents.Events.Goal"
+      },
+      {
+        "frame": 2003,
+        "time_s": 95.344,
+        "event": "StatEvents.Events.EpicSave"
+      },
+      {
+        "frame": 4157,
+        "time_s": 168.148,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 4851,
+        "time_s": 191.535,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 5514,
+        "time_s": 213.951,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 6342,
+        "time_s": 241.881,
+        "event": "StatEvents.Events.Save"
+      },
+      {
+        "frame": 9051,
+        "time_s": 333.05,
+        "event": "StatEvents.Events.EpicSave"
+      },
+      {
+        "frame": 9281,
+        "time_s": 340.812,
+        "event": "StatEvents.Events.Save"
+      }
+    ],
+    "tick_marks": [
+      {
+        "description": "Team1Save",
+        "frame": 417
+      },
+      {
+        "description": "Team1Save",
+        "frame": 906
+      },
+      {
+        "description": "Team1Save",
+        "frame": 995
+      },
+      {
+        "description": "Team1Save",
+        "frame": 1096
+      },
+      {
+        "description": "Team0Goal",
+        "frame": 1124
+      },
+      {
+        "description": "Team1Save",
+        "frame": 1958
+      },
+      {
+        "description": "Team0Save",
+        "frame": 4112
+      },
+      {
+        "description": "Team1Save",
+        "frame": 4806
+      },
+      {
+        "description": "Team0Save",
+        "frame": 5469
+      },
+      {
+        "description": "Team0Save",
+        "frame": 6297
+      },
+      {
+        "description": "Team0Save",
+        "frame": 9006
+      },
+      {
+        "description": "Team0Save",
+        "frame": 9236
+      }
+    ],
+    "highlights": [
+      {
+        "frame": 462,
+        "CarName": "Car_TA_200",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 951,
+        "CarName": "Car_TA_199",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1040,
+        "CarName": "Car_TA_201",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1141,
+        "CarName": "Car_TA_199",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1169,
+        "CarName": "Car_TA_198",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "GoalVolume_TA_4"
+      },
+      {
+        "frame": 2003,
+        "CarName": "Car_TA_214",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 4157,
+        "CarName": "Car_TA_211",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 4851,
+        "CarName": "Car_TA_210",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 5514,
+        "CarName": "Car_TA_213",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 6342,
+        "CarName": "Car_TA_218",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 9051,
+        "CarName": "Car_TA_218",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 9281,
+        "CarName": "Car_TA_211",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      }
+    ],
+    "boost_pad_pickups_count": 579,
+    "boost_pad_pickups_sample": [
+      {
+        "frame": 121,
+        "time_s": 23.198,
+        "player": "vatira",
+        "pad_name": "VehiclePickup_Boost_TA_4",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": -2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 121,
+        "time_s": 23.198,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_11",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1788,
+          "Y": -2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 121,
+        "time_s": 23.198,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_21",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": 2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 121,
+        "time_s": 23.198,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_28",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1788,
+          "Y": 2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 131,
+        "time_s": 23.531,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_39",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 4240,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 135,
+        "time_s": 23.664,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_17",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 940,
+          "Y": -3308,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 173,
+        "time_s": 24.931,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_66",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": 3072,
+          "Y": -4096,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 179,
+        "time_s": 25.131,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_41",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": -1024,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 187,
+        "time_s": 25.398,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_34",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 2816,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 203,
+        "time_s": 25.931,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_5",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": -2816,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 213,
+        "time_s": 26.264,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_40",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1024,
+          "Y": 0,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 230,
+        "time_s": 26.851,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_42",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1024,
+          "Y": 0,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 232,
+        "time_s": 26.917,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_3",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 2048,
+          "Y": -1036,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 254,
+        "time_s": 27.661,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_7",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -2048,
+          "Y": -1036,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 254,
+        "time_s": 27.661,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_19",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 1024,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 267,
+        "time_s": 28.11,
+        "player": "vatira",
+        "pad_name": "VehiclePickup_Boost_TA_63",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": -3584,
+          "Y": 0,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 275,
+        "time_s": 28.377,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_67",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": -3072,
+          "Y": -4096,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 287,
+        "time_s": 28.777,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_20",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -2048,
+          "Y": 1036,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 303,
+        "time_s": 29.311,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_21",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": 2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 306,
+        "time_s": 29.411,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_31",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 3584,
+          "Y": 2484,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 312,
+        "time_s": 29.611,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_4",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": -2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 330,
+        "time_s": 30.213,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_35",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -940,
+          "Y": 3308,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 331,
+        "time_s": 30.247,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_68",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": 3072,
+          "Y": 4096,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 341,
+        "time_s": 30.589,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_41",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": -1024,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 360,
+        "time_s": 31.223,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_40",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1024,
+          "Y": 0,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 379,
+        "time_s": 31.856,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_23",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 2048,
+          "Y": 1036,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 411,
+        "time_s": 32.925,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_39",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 4240,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 413,
+        "time_s": 32.992,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_32",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1792,
+          "Y": 4184,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 435,
+        "time_s": 33.739,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_38",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 940,
+          "Y": 3308,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 453,
+        "time_s": 34.351,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_34",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 2816,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 518,
+        "time_s": 36.517,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_33",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1792,
+          "Y": 4184,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 524,
+        "time_s": 36.717,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_19",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 1024,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      },
+      {
+        "frame": 537,
+        "time_s": 37.151,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_42",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1024,
+          "Y": 0,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 540,
+        "time_s": 37.251,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_65",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": -3072,
+          "Y": 4096,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 549,
+        "time_s": 37.551,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_39",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 4240,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 551,
+        "time_s": 37.617,
+        "player": "Atow",
+        "pad_name": "VehiclePickup_Boost_TA_41",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": -1024,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 576,
+        "time_s": 38.458,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_35",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -940,
+          "Y": 3308,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 598,
+        "time_s": 39.191,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_3",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 2048,
+          "Y": -1036,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 602,
+        "time_s": 39.324,
+        "player": "Kiileerrz",
+        "pad_name": "VehiclePickup_Boost_TA_21",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": 2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 607,
+        "time_s": 39.491,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_20",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -2048,
+          "Y": 1036,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 619,
+        "time_s": 39.891,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_11",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1788,
+          "Y": -2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 647,
+        "time_s": 40.824,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_23",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 2048,
+          "Y": 1036,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 648,
+        "time_s": 40.858,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_5",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": -2816,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 659,
+        "time_s": 41.224,
+        "player": "Rw9",
+        "pad_name": "VehiclePickup_Boost_TA_34",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 0,
+          "Y": 2816,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 663,
+        "time_s": 41.357,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_14",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -940,
+          "Y": -3308,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 665,
+        "time_s": 41.424,
+        "player": "dralii",
+        "pad_name": "VehiclePickup_Boost_TA_28",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": 1788,
+          "Y": 2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 670,
+        "time_s": 41.597,
+        "player": "vatira",
+        "pad_name": "VehiclePickup_Boost_TA_63",
+        "pad_type": "Big (100)",
+        "location": {
+          "X": -3584,
+          "Y": 0,
+          "Z": 72
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 684,
+        "time_s": 42.082,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_4",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -1788,
+          "Y": -2302,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 706,
+        "time_s": 42.817,
+        "player": "juicy",
+        "pad_name": "VehiclePickup_Boost_TA_7",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -2048,
+          "Y": -1036,
+          "Z": 69.96471
+        },
+        "is_stolen": false
+      },
+      {
+        "frame": 723,
+        "time_s": 43.384,
+        "player": "vatira",
+        "pad_name": "VehiclePickup_Boost_TA_36",
+        "pad_type": "Small (12)",
+        "location": {
+          "X": -3584,
+          "Y": 2484,
+          "Z": 69.96471
+        },
+        "is_stolen": true
+      }
+    ]
+  }
+}

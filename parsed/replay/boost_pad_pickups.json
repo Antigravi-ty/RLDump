@@ -1,0 +1,7529 @@
+[
+  {
+    "frame": 121,
+    "time_s": 23.198,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 121,
+    "time_s": 23.198,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 121,
+    "time_s": 23.198,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 121,
+    "time_s": 23.198,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 131,
+    "time_s": 23.531,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 135,
+    "time_s": 23.664,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 173,
+    "time_s": 24.931,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 179,
+    "time_s": 25.131,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 187,
+    "time_s": 25.398,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 203,
+    "time_s": 25.931,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 213,
+    "time_s": 26.264,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 230,
+    "time_s": 26.851,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 232,
+    "time_s": 26.917,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 254,
+    "time_s": 27.661,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 254,
+    "time_s": 27.661,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 267,
+    "time_s": 28.11,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 275,
+    "time_s": 28.377,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 287,
+    "time_s": 28.777,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 303,
+    "time_s": 29.311,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 306,
+    "time_s": 29.411,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 312,
+    "time_s": 29.611,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 330,
+    "time_s": 30.213,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 331,
+    "time_s": 30.247,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 341,
+    "time_s": 30.589,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 360,
+    "time_s": 31.223,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 379,
+    "time_s": 31.856,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 411,
+    "time_s": 32.925,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 413,
+    "time_s": 32.992,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 435,
+    "time_s": 33.739,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 453,
+    "time_s": 34.351,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 518,
+    "time_s": 36.517,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 524,
+    "time_s": 36.717,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 537,
+    "time_s": 37.151,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 540,
+    "time_s": 37.251,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 549,
+    "time_s": 37.551,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 551,
+    "time_s": 37.617,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 576,
+    "time_s": 38.458,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 598,
+    "time_s": 39.191,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 602,
+    "time_s": 39.324,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 607,
+    "time_s": 39.491,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 619,
+    "time_s": 39.891,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 647,
+    "time_s": 40.824,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 648,
+    "time_s": 40.858,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 659,
+    "time_s": 41.224,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 663,
+    "time_s": 41.357,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 665,
+    "time_s": 41.424,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 670,
+    "time_s": 41.597,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 684,
+    "time_s": 42.082,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 706,
+    "time_s": 42.817,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 723,
+    "time_s": 43.384,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 726,
+    "time_s": 43.484,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 759,
+    "time_s": 44.583,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 774,
+    "time_s": 45.083,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 793,
+    "time_s": 45.717,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 798,
+    "time_s": 45.883,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 808,
+    "time_s": 46.216,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 818,
+    "time_s": 46.55,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 832,
+    "time_s": 47.016,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 848,
+    "time_s": 47.55,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 860,
+    "time_s": 47.953,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 876,
+    "time_s": 48.498,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 880,
+    "time_s": 48.631,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 883,
+    "time_s": 48.731,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 909,
+    "time_s": 49.599,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 929,
+    "time_s": 50.265,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 986,
+    "time_s": 52.176,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 986,
+    "time_s": 52.176,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1059,
+    "time_s": 54.614,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1097,
+    "time_s": 55.955,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1134,
+    "time_s": 57.193,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1138,
+    "time_s": 57.326,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1154,
+    "time_s": 57.859,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1168,
+    "time_s": 58.344,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1200,
+    "time_s": 59.431,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1208,
+    "time_s": 59.697,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1213,
+    "time_s": 59.864,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1223,
+    "time_s": 60.197,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1224,
+    "time_s": 60.231,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1391,
+    "time_s": 74.767,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1406,
+    "time_s": 75.267,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1427,
+    "time_s": 75.967,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1427,
+    "time_s": 75.967,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1428,
+    "time_s": 76.0,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1430,
+    "time_s": 76.067,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1484,
+    "time_s": 77.867,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1490,
+    "time_s": 78.074,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1503,
+    "time_s": 78.525,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1505,
+    "time_s": 78.592,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1507,
+    "time_s": 78.661,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1535,
+    "time_s": 79.602,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1541,
+    "time_s": 79.802,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1554,
+    "time_s": 80.235,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1559,
+    "time_s": 80.402,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1561,
+    "time_s": 80.468,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1571,
+    "time_s": 80.802,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1588,
+    "time_s": 81.368,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1593,
+    "time_s": 81.535,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1600,
+    "time_s": 81.768,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1632,
+    "time_s": 82.851,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1633,
+    "time_s": 82.884,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1647,
+    "time_s": 83.36,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1714,
+    "time_s": 85.611,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1715,
+    "time_s": 85.645,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1747,
+    "time_s": 86.711,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1747,
+    "time_s": 86.711,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1761,
+    "time_s": 87.178,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1778,
+    "time_s": 87.745,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1782,
+    "time_s": 87.878,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1785,
+    "time_s": 87.978,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1797,
+    "time_s": 88.381,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1810,
+    "time_s": 88.834,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1836,
+    "time_s": 89.716,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1863,
+    "time_s": 90.616,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1879,
+    "time_s": 91.15,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1910,
+    "time_s": 92.183,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1912,
+    "time_s": 92.253,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1929,
+    "time_s": 92.853,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1940,
+    "time_s": 93.236,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1955,
+    "time_s": 93.744,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1962,
+    "time_s": 93.977,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 1964,
+    "time_s": 94.044,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 1999,
+    "time_s": 95.211,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2011,
+    "time_s": 95.611,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2034,
+    "time_s": 96.377,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2069,
+    "time_s": 97.57,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2073,
+    "time_s": 97.707,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2098,
+    "time_s": 98.544,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2157,
+    "time_s": 100.521,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2165,
+    "time_s": 100.788,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2174,
+    "time_s": 101.088,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2190,
+    "time_s": 101.621,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2208,
+    "time_s": 102.221,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2224,
+    "time_s": 102.757,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2225,
+    "time_s": 102.79,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2259,
+    "time_s": 103.924,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2328,
+    "time_s": 106.239,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2344,
+    "time_s": 106.772,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2387,
+    "time_s": 108.205,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2409,
+    "time_s": 108.938,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2413,
+    "time_s": 109.071,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2413,
+    "time_s": 109.071,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2439,
+    "time_s": 109.938,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2479,
+    "time_s": 111.279,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2488,
+    "time_s": 111.592,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2506,
+    "time_s": 112.212,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2509,
+    "time_s": 112.312,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2510,
+    "time_s": 112.346,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2528,
+    "time_s": 112.949,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2548,
+    "time_s": 113.638,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2565,
+    "time_s": 114.225,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2600,
+    "time_s": 115.4,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2601,
+    "time_s": 115.434,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2603,
+    "time_s": 115.501,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2603,
+    "time_s": 115.501,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2654,
+    "time_s": 117.225,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2670,
+    "time_s": 117.759,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2682,
+    "time_s": 118.159,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2712,
+    "time_s": 119.159,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2735,
+    "time_s": 119.926,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2758,
+    "time_s": 120.694,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2786,
+    "time_s": 121.634,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2793,
+    "time_s": 121.878,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2806,
+    "time_s": 122.325,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2816,
+    "time_s": 122.664,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2836,
+    "time_s": 123.331,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2838,
+    "time_s": 123.398,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2852,
+    "time_s": 123.864,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2853,
+    "time_s": 123.898,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2857,
+    "time_s": 124.031,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2862,
+    "time_s": 124.198,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2880,
+    "time_s": 124.798,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2884,
+    "time_s": 124.931,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2891,
+    "time_s": 125.164,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 2904,
+    "time_s": 125.615,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2916,
+    "time_s": 126.034,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2920,
+    "time_s": 126.173,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 2974,
+    "time_s": 127.978,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3012,
+    "time_s": 129.268,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3017,
+    "time_s": 129.436,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3031,
+    "time_s": 129.903,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3044,
+    "time_s": 130.35,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3055,
+    "time_s": 130.724,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3059,
+    "time_s": 130.858,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3061,
+    "time_s": 130.924,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3073,
+    "time_s": 131.328,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3078,
+    "time_s": 131.501,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3086,
+    "time_s": 131.781,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3111,
+    "time_s": 132.649,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3114,
+    "time_s": 132.753,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3114,
+    "time_s": 132.753,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3118,
+    "time_s": 132.889,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3146,
+    "time_s": 133.851,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3147,
+    "time_s": 133.885,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3165,
+    "time_s": 134.485,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3189,
+    "time_s": 135.285,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3191,
+    "time_s": 135.351,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3208,
+    "time_s": 135.918,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3224,
+    "time_s": 136.451,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3228,
+    "time_s": 136.584,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3241,
+    "time_s": 137.018,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3254,
+    "time_s": 137.451,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3260,
+    "time_s": 137.651,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3274,
+    "time_s": 138.138,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3288,
+    "time_s": 138.614,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3290,
+    "time_s": 138.68,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3344,
+    "time_s": 140.488,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3369,
+    "time_s": 141.328,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3407,
+    "time_s": 142.654,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3411,
+    "time_s": 142.794,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3421,
+    "time_s": 143.144,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3430,
+    "time_s": 143.454,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3443,
+    "time_s": 143.887,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3447,
+    "time_s": 144.02,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3461,
+    "time_s": 144.487,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3476,
+    "time_s": 144.987,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3494,
+    "time_s": 145.587,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3501,
+    "time_s": 145.82,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3544,
+    "time_s": 147.281,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3565,
+    "time_s": 148.011,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3577,
+    "time_s": 148.412,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3578,
+    "time_s": 148.445,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3583,
+    "time_s": 148.612,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3600,
+    "time_s": 149.178,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3605,
+    "time_s": 149.345,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3611,
+    "time_s": 149.545,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3636,
+    "time_s": 150.378,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3650,
+    "time_s": 150.856,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3659,
+    "time_s": 151.173,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3685,
+    "time_s": 152.053,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3691,
+    "time_s": 152.252,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3722,
+    "time_s": 153.294,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3747,
+    "time_s": 154.166,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3747,
+    "time_s": 154.166,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3766,
+    "time_s": 154.835,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3787,
+    "time_s": 155.565,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3798,
+    "time_s": 155.945,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3806,
+    "time_s": 156.22,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3813,
+    "time_s": 156.457,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3840,
+    "time_s": 157.36,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 3873,
+    "time_s": 158.464,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3892,
+    "time_s": 159.101,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3909,
+    "time_s": 159.669,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3912,
+    "time_s": 159.769,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3932,
+    "time_s": 160.436,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3933,
+    "time_s": 160.469,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3938,
+    "time_s": 160.636,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3967,
+    "time_s": 161.625,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 3996,
+    "time_s": 162.638,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4018,
+    "time_s": 163.388,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4020,
+    "time_s": 163.455,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4040,
+    "time_s": 164.128,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4059,
+    "time_s": 164.761,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4061,
+    "time_s": 164.828,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4079,
+    "time_s": 165.431,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4080,
+    "time_s": 165.467,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4096,
+    "time_s": 166.03,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4100,
+    "time_s": 166.169,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4101,
+    "time_s": 166.205,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4117,
+    "time_s": 166.766,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4138,
+    "time_s": 167.489,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4139,
+    "time_s": 167.524,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4159,
+    "time_s": 168.22,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4164,
+    "time_s": 168.399,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4178,
+    "time_s": 168.888,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4184,
+    "time_s": 169.094,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4199,
+    "time_s": 169.62,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4210,
+    "time_s": 170.003,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4231,
+    "time_s": 170.731,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4238,
+    "time_s": 170.966,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4254,
+    "time_s": 171.501,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4256,
+    "time_s": 171.568,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4304,
+    "time_s": 173.172,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4309,
+    "time_s": 173.34,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4329,
+    "time_s": 174.02,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4346,
+    "time_s": 174.612,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4348,
+    "time_s": 174.679,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4384,
+    "time_s": 175.903,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4398,
+    "time_s": 176.37,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4414,
+    "time_s": 176.904,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4417,
+    "time_s": 177.004,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4426,
+    "time_s": 177.304,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4437,
+    "time_s": 177.671,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4437,
+    "time_s": 177.671,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4452,
+    "time_s": 178.174,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4464,
+    "time_s": 178.585,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4479,
+    "time_s": 179.088,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4501,
+    "time_s": 179.821,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4506,
+    "time_s": 179.988,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4520,
+    "time_s": 180.454,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4525,
+    "time_s": 180.621,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4561,
+    "time_s": 181.821,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4583,
+    "time_s": 182.554,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4593,
+    "time_s": 182.894,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4602,
+    "time_s": 183.194,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4607,
+    "time_s": 183.36,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4624,
+    "time_s": 183.927,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4626,
+    "time_s": 183.994,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4631,
+    "time_s": 184.162,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4635,
+    "time_s": 184.305,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4701,
+    "time_s": 186.52,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4728,
+    "time_s": 187.42,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4735,
+    "time_s": 187.653,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4764,
+    "time_s": 188.636,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4766,
+    "time_s": 188.702,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4787,
+    "time_s": 189.402,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4807,
+    "time_s": 190.069,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4811,
+    "time_s": 190.202,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4850,
+    "time_s": 191.502,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4857,
+    "time_s": 191.751,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4859,
+    "time_s": 191.823,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4872,
+    "time_s": 192.274,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4874,
+    "time_s": 192.344,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4888,
+    "time_s": 192.818,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4904,
+    "time_s": 193.365,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4923,
+    "time_s": 194.003,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4933,
+    "time_s": 194.336,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4937,
+    "time_s": 194.469,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4945,
+    "time_s": 194.736,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4959,
+    "time_s": 195.203,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 4961,
+    "time_s": 195.269,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 4997,
+    "time_s": 196.469,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5010,
+    "time_s": 196.902,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5018,
+    "time_s": 197.169,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5027,
+    "time_s": 197.469,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5041,
+    "time_s": 197.944,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5046,
+    "time_s": 198.111,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5073,
+    "time_s": 199.032,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5089,
+    "time_s": 199.587,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5100,
+    "time_s": 199.958,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5120,
+    "time_s": 200.627,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5151,
+    "time_s": 201.66,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5159,
+    "time_s": 201.926,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5186,
+    "time_s": 202.838,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5196,
+    "time_s": 203.189,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5213,
+    "time_s": 203.782,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5237,
+    "time_s": 204.611,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5274,
+    "time_s": 205.875,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5289,
+    "time_s": 206.375,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5310,
+    "time_s": 207.076,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5319,
+    "time_s": 207.376,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5325,
+    "time_s": 207.579,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5327,
+    "time_s": 207.647,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5343,
+    "time_s": 208.195,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5346,
+    "time_s": 208.298,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5357,
+    "time_s": 208.67,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5358,
+    "time_s": 208.703,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5377,
+    "time_s": 209.336,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5377,
+    "time_s": 209.336,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5396,
+    "time_s": 209.97,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5470,
+    "time_s": 212.484,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5496,
+    "time_s": 213.35,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5528,
+    "time_s": 214.417,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5548,
+    "time_s": 215.1,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5570,
+    "time_s": 215.866,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5578,
+    "time_s": 216.148,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5595,
+    "time_s": 216.722,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5615,
+    "time_s": 217.389,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5629,
+    "time_s": 217.855,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5631,
+    "time_s": 217.922,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5634,
+    "time_s": 218.025,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5644,
+    "time_s": 218.377,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5654,
+    "time_s": 218.726,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5671,
+    "time_s": 219.309,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5688,
+    "time_s": 219.902,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5690,
+    "time_s": 219.971,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5730,
+    "time_s": 221.346,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5764,
+    "time_s": 222.496,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5793,
+    "time_s": 223.462,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5814,
+    "time_s": 224.162,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5821,
+    "time_s": 224.396,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5825,
+    "time_s": 224.529,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5836,
+    "time_s": 224.895,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5853,
+    "time_s": 225.462,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5878,
+    "time_s": 226.299,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5913,
+    "time_s": 227.483,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5928,
+    "time_s": 227.983,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5938,
+    "time_s": 228.317,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5956,
+    "time_s": 228.917,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 5973,
+    "time_s": 229.483,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 5989,
+    "time_s": 230.016,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6001,
+    "time_s": 230.416,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6023,
+    "time_s": 231.15,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6043,
+    "time_s": 231.816,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6080,
+    "time_s": 233.049,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6083,
+    "time_s": 233.149,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6084,
+    "time_s": 233.183,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6099,
+    "time_s": 233.699,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6112,
+    "time_s": 234.138,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6127,
+    "time_s": 234.639,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6134,
+    "time_s": 234.876,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6141,
+    "time_s": 235.109,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6154,
+    "time_s": 235.553,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6197,
+    "time_s": 236.988,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6227,
+    "time_s": 237.992,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6239,
+    "time_s": 238.403,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6245,
+    "time_s": 238.613,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6255,
+    "time_s": 238.96,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6261,
+    "time_s": 239.169,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6272,
+    "time_s": 239.545,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6281,
+    "time_s": 239.845,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6282,
+    "time_s": 239.879,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6291,
+    "time_s": 240.18,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6324,
+    "time_s": 241.28,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6340,
+    "time_s": 241.814,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6342,
+    "time_s": 241.881,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6351,
+    "time_s": 242.181,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6371,
+    "time_s": 242.847,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6380,
+    "time_s": 243.158,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6389,
+    "time_s": 243.466,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6403,
+    "time_s": 243.953,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6437,
+    "time_s": 245.103,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6473,
+    "time_s": 246.307,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6474,
+    "time_s": 246.34,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6498,
+    "time_s": 247.14,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6506,
+    "time_s": 247.407,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6519,
+    "time_s": 247.84,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6580,
+    "time_s": 249.878,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6593,
+    "time_s": 250.311,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6597,
+    "time_s": 250.445,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6617,
+    "time_s": 251.111,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6620,
+    "time_s": 251.211,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6636,
+    "time_s": 251.745,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6652,
+    "time_s": 252.291,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6656,
+    "time_s": 252.429,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6661,
+    "time_s": 252.599,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6661,
+    "time_s": 252.599,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6667,
+    "time_s": 252.799,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6668,
+    "time_s": 252.832,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6674,
+    "time_s": 253.032,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6707,
+    "time_s": 254.132,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6769,
+    "time_s": 256.226,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6778,
+    "time_s": 256.536,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_18",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6818,
+    "time_s": 257.883,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6848,
+    "time_s": 258.883,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6864,
+    "time_s": 259.416,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6897,
+    "time_s": 260.549,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6925,
+    "time_s": 261.486,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6938,
+    "time_s": 261.92,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6939,
+    "time_s": 261.953,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6956,
+    "time_s": 262.52,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 6966,
+    "time_s": 262.853,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 6998,
+    "time_s": 263.92,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7019,
+    "time_s": 264.62,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7035,
+    "time_s": 265.156,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7134,
+    "time_s": 268.473,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7140,
+    "time_s": 268.673,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7140,
+    "time_s": 268.673,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7158,
+    "time_s": 269.273,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7175,
+    "time_s": 269.849,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7181,
+    "time_s": 270.055,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7182,
+    "time_s": 270.088,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7204,
+    "time_s": 270.825,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7205,
+    "time_s": 270.858,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7229,
+    "time_s": 271.659,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7249,
+    "time_s": 272.325,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7261,
+    "time_s": 272.725,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7274,
+    "time_s": 273.158,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7322,
+    "time_s": 274.758,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7348,
+    "time_s": 275.628,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7349,
+    "time_s": 275.661,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7373,
+    "time_s": 276.461,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7399,
+    "time_s": 277.327,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7424,
+    "time_s": 278.164,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7459,
+    "time_s": 279.333,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7461,
+    "time_s": 279.4,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7480,
+    "time_s": 280.033,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7504,
+    "time_s": 280.834,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7508,
+    "time_s": 280.967,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7530,
+    "time_s": 281.7,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7540,
+    "time_s": 282.034,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7552,
+    "time_s": 282.441,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7581,
+    "time_s": 283.435,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7604,
+    "time_s": 284.224,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7608,
+    "time_s": 284.357,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7703,
+    "time_s": 287.528,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7715,
+    "time_s": 287.928,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7715,
+    "time_s": 287.928,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7771,
+    "time_s": 289.794,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7780,
+    "time_s": 290.094,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7797,
+    "time_s": 290.661,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7815,
+    "time_s": 291.261,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7819,
+    "time_s": 291.394,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7822,
+    "time_s": 291.494,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7831,
+    "time_s": 291.794,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7848,
+    "time_s": 292.369,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7865,
+    "time_s": 292.947,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7883,
+    "time_s": 293.547,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7897,
+    "time_s": 294.014,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7903,
+    "time_s": 294.215,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7908,
+    "time_s": 294.381,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 7911,
+    "time_s": 294.482,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7978,
+    "time_s": 296.723,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 7997,
+    "time_s": 297.378,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8003,
+    "time_s": 297.578,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8016,
+    "time_s": 298.017,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_32",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8032,
+    "time_s": 298.55,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8053,
+    "time_s": 299.25,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8055,
+    "time_s": 299.317,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8062,
+    "time_s": 299.55,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8080,
+    "time_s": 300.15,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8084,
+    "time_s": 300.283,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8106,
+    "time_s": 301.017,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8148,
+    "time_s": 302.42,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8151,
+    "time_s": 302.52,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8155,
+    "time_s": 302.653,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_28",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8167,
+    "time_s": 303.06,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8195,
+    "time_s": 304.001,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8227,
+    "time_s": 305.068,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8240,
+    "time_s": 305.536,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8259,
+    "time_s": 306.204,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8286,
+    "time_s": 307.146,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8301,
+    "time_s": 307.656,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8322,
+    "time_s": 308.356,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8327,
+    "time_s": 308.523,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_34",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8345,
+    "time_s": 309.139,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8350,
+    "time_s": 309.316,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8353,
+    "time_s": 309.422,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8405,
+    "time_s": 311.189,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_12",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8424,
+    "time_s": 311.828,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8451,
+    "time_s": 312.757,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8455,
+    "time_s": 312.89,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_36",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8488,
+    "time_s": 313.995,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8492,
+    "time_s": 314.128,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8494,
+    "time_s": 314.195,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8506,
+    "time_s": 314.595,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8513,
+    "time_s": 314.829,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_23",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8514,
+    "time_s": 314.862,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8516,
+    "time_s": 314.929,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_39",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8521,
+    "time_s": 315.095,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8524,
+    "time_s": 315.195,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8539,
+    "time_s": 315.695,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8544,
+    "time_s": 315.862,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8556,
+    "time_s": 316.262,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8604,
+    "time_s": 317.891,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8629,
+    "time_s": 318.738,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8649,
+    "time_s": 319.432,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_65",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8661,
+    "time_s": 319.832,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8663,
+    "time_s": 319.899,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_38",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8686,
+    "time_s": 320.699,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8697,
+    "time_s": 321.065,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8713,
+    "time_s": 321.6,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_35",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": 3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8719,
+    "time_s": 321.799,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8734,
+    "time_s": 322.299,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8738,
+    "time_s": 322.433,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_33",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1792,
+      "Y": 4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8739,
+    "time_s": 322.466,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8812,
+    "time_s": 324.96,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8812,
+    "time_s": 324.96,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_21",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": 2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8832,
+    "time_s": 325.632,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_19",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": 1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8837,
+    "time_s": 325.808,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8873,
+    "time_s": 327.013,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8875,
+    "time_s": 327.079,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8894,
+    "time_s": 327.713,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8897,
+    "time_s": 327.813,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8928,
+    "time_s": 328.846,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_20",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": 1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8990,
+    "time_s": 330.971,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_17",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 8993,
+    "time_s": 331.072,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 8997,
+    "time_s": 331.207,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9009,
+    "time_s": 331.614,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9026,
+    "time_s": 332.187,
+    "player": "juicy",
+    "pad_name": "VehiclePickup_Boost_TA_14",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -940,
+      "Y": -3308,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9047,
+    "time_s": 332.913,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9049,
+    "time_s": 332.98,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_3",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9054,
+    "time_s": 333.153,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_5",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -2816,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9124,
+    "time_s": 335.559,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9162,
+    "time_s": 336.827,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_43",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -4240,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9172,
+    "time_s": 337.161,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_67",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9176,
+    "time_s": 337.294,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_63",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": -3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9177,
+    "time_s": 337.327,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9197,
+    "time_s": 337.994,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_40",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9234,
+    "time_s": 339.23,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_64",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3584,
+      "Y": 0,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9243,
+    "time_s": 339.53,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_7",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -2048,
+      "Y": -1036,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9297,
+    "time_s": 341.35,
+    "player": "vatira",
+    "pad_name": "VehiclePickup_Boost_TA_13",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1792,
+      "Y": -4184,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9297,
+    "time_s": 341.35,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_10",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -3584,
+      "Y": -2484,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9299,
+    "time_s": 341.417,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_68",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": 4096,
+      "Z": 72
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9313,
+    "time_s": 341.884,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_42",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1024,
+      "Y": 0,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9323,
+    "time_s": 342.217,
+    "player": "Rw9",
+    "pad_name": "VehiclePickup_Boost_TA_4",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": -1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9330,
+    "time_s": 342.451,
+    "player": "dralii",
+    "pad_name": "VehiclePickup_Boost_TA_31",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 3584,
+      "Y": 2484,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9335,
+    "time_s": 342.617,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_41",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 0,
+      "Y": -1024,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  },
+  {
+    "frame": 9345,
+    "time_s": 342.95,
+    "player": "Kiileerrz",
+    "pad_name": "VehiclePickup_Boost_TA_66",
+    "pad_type": "Big (100)",
+    "location": {
+      "X": 3072,
+      "Y": -4096,
+      "Z": 72
+    },
+    "is_stolen": true
+  },
+  {
+    "frame": 9365,
+    "time_s": 343.617,
+    "player": "Atow",
+    "pad_name": "VehiclePickup_Boost_TA_11",
+    "pad_type": "Small (12)",
+    "location": {
+      "X": 1788,
+      "Y": -2302,
+      "Z": 69.96471
+    },
+    "is_stolen": false
+  }
+]

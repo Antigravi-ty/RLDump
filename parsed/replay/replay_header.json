@@ -1,0 +1,3061 @@
+{
+  "header_size": 11286,
+  "header_crc": 211090000,
+  "major_version": 868,
+  "minor_version": 33,
+  "net_version": 11,
+  "game_type": "TAGame.Replay_Soccar_TA",
+  "properties": {
+    "TeamSize": 3,
+    "UnfairTeamSize": 1,
+    "bMatchCreatorAdminEnabled": true,
+    "Team0Score": 1,
+    "TotalSecondsPlayed": 301.45685,
+    "MatchStartEpoch": "1789929120",
+    "Goals": [
+      {
+        "frame": 1169,
+        "PlayerName": "Atow",
+        "PlayerTeam": 0
+      }
+    ],
+    "HighLights": [
+      {
+        "frame": 462,
+        "CarName": "Car_TA_200",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 951,
+        "CarName": "Car_TA_199",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1040,
+        "CarName": "Car_TA_201",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1141,
+        "CarName": "Car_TA_199",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 1169,
+        "CarName": "Car_TA_198",
+        "BallName": "Ball_TA_38",
+        "GoalActorName": "GoalVolume_TA_4"
+      },
+      {
+        "frame": 2003,
+        "CarName": "Car_TA_214",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 4157,
+        "CarName": "Car_TA_211",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 4851,
+        "CarName": "Car_TA_210",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 5514,
+        "CarName": "Car_TA_213",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 6342,
+        "CarName": "Car_TA_218",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 9051,
+        "CarName": "Car_TA_218",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      },
+      {
+        "frame": 9281,
+        "CarName": "Car_TA_211",
+        "BallName": "Ball_TA_40",
+        "GoalActorName": "None"
+      }
+    ],
+    "PlayerStats": [
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561199031413358",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "dralii",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561199031413358",
+        "Team": 1,
+        "Score": 196,
+        "Goals": 0,
+        "Assists": 0,
+        "Saves": 1,
+        "Shots": 2,
+        "bBot": false
+      },
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561198960239428",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "vatira",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561198960239428",
+        "Team": 0,
+        "Score": 291,
+        "Goals": 0,
+        "Assists": 0,
+        "Saves": 2,
+        "Shots": 4,
+        "bBot": false
+      },
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561199017029799",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "Rw9",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561199017029799",
+        "Team": 1,
+        "Score": 287,
+        "Goals": 0,
+        "Assists": 0,
+        "Saves": 2,
+        "Shots": 4,
+        "bBot": false
+      },
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561198289610054",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "Atow",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561198289610054",
+        "Team": 0,
+        "Score": 320,
+        "Goals": 1,
+        "Assists": 0,
+        "Saves": 1,
+        "Shots": 3,
+        "bBot": false
+      },
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561199013030566",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "juicy",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561199013030566",
+        "Team": 0,
+        "Score": 330,
+        "Goals": 0,
+        "Assists": 1,
+        "Saves": 2,
+        "Shots": 1,
+        "bBot": false
+      },
+      {
+        "PlayerID": {
+          "name": "UniqueNetId",
+          "fields": {
+            "Uid": "76561198980777579",
+            "NpId": {
+              "name": "SceNpId",
+              "fields": {
+                "Handle": {
+                  "name": "SceNpOnlineId",
+                  "fields": {
+                    "Data": "0"
+                  }
+                },
+                "Opt": "0",
+                "Reserved": "0"
+              }
+            },
+            "EpicAccountId": "",
+            "Platform": {
+              "kind": "OnlinePlatform",
+              "value": "OnlinePlatform_Steam"
+            }
+          }
+        },
+        "Name": "Kiileerrz",
+        "Platform": {
+          "kind": "OnlinePlatform",
+          "value": "OnlinePlatform_Steam"
+        },
+        "OnlineID": "76561198980777579",
+        "Team": 1,
+        "Score": 375,
+        "Goals": 0,
+        "Assists": 0,
+        "Saves": 3,
+        "Shots": 0,
+        "bBot": false
+      }
+    ],
+    "ReplayName": "WORLDS P-L KC vs FLCN G2 2026-09-20.13.37",
+    "ReplayVersion": 8,
+    "ReplayLastSaveVersion": 8,
+    "GameVersion": 30,
+    "BuildID": -1887694083,
+    "Changelist": 526531,
+    "BuildVersion": "260825.79374.526531",
+    "ReserveMegabytes": 4,
+    "RecordFPS": 30.0,
+    "KeyframeDelay": 10.0,
+    "MaxChannels": 2047,
+    "MaxReplaySizeMB": 10,
+    "Id": "92468BAF4847478F181A2882B9873616",
+    "MatchGUID": "91C3752A11F1B521D5514198DFFAAFCB",
+    "MapName": "CHN_Stadium_P",
+    "Date": "2026-09-20 13-37-49",
+    "NumFrames": 9379,
+    "MatchType": "Private"
+  },
+  "content_size": 1697314,
+  "content_crc": 264505182,
+  "network_frames": null,
+  "levels": [
+    "CHN_Stadium_SFX",
+    "CHN_Stadium_OOB",
+    "CHN_Stadium_VFX",
+    "CHN_Stadium_OOB_Mountains",
+    "CHN_Stadium_Field"
+  ],
+  "keyframes": [
+    {
+      "time": 18.791142,
+      "frame": 0,
+      "position": 0
+    },
+    {
+      "time": 28.810722,
+      "frame": 288,
+      "position": 279548
+    },
+    {
+      "time": 38.824253,
+      "frame": 587,
+      "position": 705882
+    },
+    {
+      "time": 48.831295,
+      "frame": 886,
+      "position": 1130707
+    },
+    {
+      "time": 58.857742,
+      "frame": 1183,
+      "position": 1558576
+    },
+    {
+      "time": 70.35357,
+      "frame": 1259,
+      "position": 1704855
+    },
+    {
+      "time": 80.36833,
+      "frame": 1558,
+      "position": 1987627
+    },
+    {
+      "time": 90.383,
+      "frame": 1856,
+      "position": 2426368
+    },
+    {
+      "time": 100.38802,
+      "frame": 2153,
+      "position": 2860275
+    },
+    {
+      "time": 110.40601,
+      "frame": 2453,
+      "position": 3289463
+    },
+    {
+      "time": 120.42642,
+      "frame": 2750,
+      "position": 3717681
+    },
+    {
+      "time": 130.45435,
+      "frame": 3047,
+      "position": 4144726
+    },
+    {
+      "time": 140.45474,
+      "frame": 3343,
+      "position": 4575480
+    },
+    {
+      "time": 150.47816,
+      "frame": 3639,
+      "position": 5008121
+    },
+    {
+      "time": 160.5025,
+      "frame": 3934,
+      "position": 5439001
+    },
+    {
+      "time": 170.52237,
+      "frame": 4225,
+      "position": 5872813
+    },
+    {
+      "time": 180.55424,
+      "frame": 4523,
+      "position": 6298752
+    },
+    {
+      "time": 190.5685,
+      "frame": 4822,
+      "position": 6730326
+    },
+    {
+      "time": 200.59334,
+      "frame": 5119,
+      "position": 7153081
+    },
+    {
+      "time": 210.6124,
+      "frame": 5415,
+      "position": 7573879
+    },
+    {
+      "time": 220.62517,
+      "frame": 5709,
+      "position": 8001698
+    },
+    {
+      "time": 230.64967,
+      "frame": 6008,
+      "position": 8427536
+    },
+    {
+      "time": 240.68037,
+      "frame": 6306,
+      "position": 8855901
+    },
+    {
+      "time": 250.71149,
+      "frame": 6605,
+      "position": 9274951
+    },
+    {
+      "time": 260.7188,
+      "frame": 6902,
+      "position": 9699704
+    },
+    {
+      "time": 270.7251,
+      "frame": 7201,
+      "position": 10130950
+    },
+    {
+      "time": 280.734,
+      "frame": 7501,
+      "position": 10562878
+    },
+    {
+      "time": 290.76077,
+      "frame": 7800,
+      "position": 10990519
+    },
+    {
+      "time": 300.78317,
+      "frame": 8099,
+      "position": 11422634
+    },
+    {
+      "time": 310.80627,
+      "frame": 8394,
+      "position": 11851479
+    },
+    {
+      "time": 320.8318,
+      "frame": 8690,
+      "position": 12287597
+    },
+    {
+      "time": 330.86832,
+      "frame": 8987,
+      "position": 12715542
+    },
+    {
+      "time": 340.8804,
+      "frame": 9283,
+      "position": 13142695
+    }
+  ],
+  "debug_info": [
+    {
+      "frame": 0,
+      "user": "Message from the Wizard",
+      "text": "Additional replay data provided by BakkesMod. You can support our work at: https://www.patreon.com/bakkesmod"
+    },
+    {
+      "frame": 0,
+      "user": "GameStartTime",
+      "text": "2026-09-20T13:32:04-0500"
+    }
+  ],
+  "tick_marks": [
+    {
+      "description": "Team1Save",
+      "frame": 417
+    },
+    {
+      "description": "Team1Save",
+      "frame": 906
+    },
+    {
+      "description": "Team1Save",
+      "frame": 995
+    },
+    {
+      "description": "Team1Save",
+      "frame": 1096
+    },
+    {
+      "description": "Team0Goal",
+      "frame": 1124
+    },
+    {
+      "description": "Team1Save",
+      "frame": 1958
+    },
+    {
+      "description": "Team0Save",
+      "frame": 4112
+    },
+    {
+      "description": "Team1Save",
+      "frame": 4806
+    },
+    {
+      "description": "Team0Save",
+      "frame": 5469
+    },
+    {
+      "description": "Team0Save",
+      "frame": 6297
+    },
+    {
+      "description": "Team0Save",
+      "frame": 9006
+    },
+    {
+      "description": "Team0Save",
+      "frame": 9236
+    }
+  ],
+  "packages": [
+    "..\\..\\TAGame\\CookedPCConsole\\GFxShell_SF.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\GameInfo_Soccar_SF.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\Mutators_SF.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_P.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_SFX.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_OOB.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_VFX.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_OOB_Mountains.upk",
+    "..\\..\\TAGame\\CookedPCConsole\\CHN_Stadium_Field.upk"
+  ],
+  "objects": [
+    "Core.Object",
+    "Engine.Actor:RelativeRotation",
+    "Engine.Actor:RelativeLocation",
+    "Engine.Actor:Velocity",
+    "Engine.Actor:Instigator",
+    "Engine.Actor:bNetOwner",
+    "Engine.Actor:bBlockActors",
+    "Engine.Actor:bCollideWorld",
+    "Engine.Actor:bCollideActors",
+    "Engine.Actor:bHardAttach",
+    "Engine.Actor:bTearOff",
+    "Engine.Actor:bHidden",
+    "Engine.Actor:Base",
+    "Engine.Actor:Owner",
+    "Engine.Actor:ReplicatedCollisionType",
+    "Engine.Actor:Role",
+    "Engine.Actor:RemoteRole",
+    "Engine.Actor:Physics",
+    "Engine.Actor:DrawScale",
+    "Engine.Actor:Rotation",
+    "Engine.Actor:Location",
+    "Engine.Actor",
+    "Engine.Pawn:RootMotionInterpCurveLastValue",
+    "Engine.Pawn:RootMotionInterpCurrentTime",
+    "Engine.Pawn:RootMotionInterpRate",
+    "Engine.Pawn:PlayerReplicationInfo",
+    "Engine.Pawn:AirControl",
+    "Engine.Pawn:JumpZ",
+    "Engine.Pawn:AccelRate",
+    "Engine.Pawn:AirSpeed",
+    "Engine.Pawn:GroundSpeed",
+    "Engine.Pawn:RemoteViewPitch",
+    "Engine.Pawn:bFastAttachedMove",
+    "Engine.Pawn:bRootMotionFromInterpCurve",
+    "Engine.Pawn:bUsedByMatinee",
+    "Engine.Pawn:bCanSwatTurn",
+    "Engine.Pawn:bSimulateGravity",
+    "Engine.Pawn:bIsCrouched",
+    "Engine.Pawn:bIsWalking",
+    "Engine.Pawn:Controller",
+    "Engine.Pawn",
+    "ProjectX.Pawn_X",
+    "TAGame.RBActor_TA:TeleportCounter",
+    "TAGame.RBActor_TA:ReplicatedCollisionScale",
+    "TAGame.RBActor_TA:ReplicatedGravityScale",
+    "TAGame.RBActor_TA:WeldedInfo",
+    "TAGame.RBActor_TA:ReplicatedRBState",
+    "TAGame.RBActor_TA:bIgnoreSyncing",
+    "TAGame.RBActor_TA:bFrozen",
+    "TAGame.RBActor_TA:bReplayActor",
+    "TAGame.RBActor_TA:MaxAngularSpeed",
+    "TAGame.RBActor_TA:MaxLinearSpeed",
+    "TAGame.RBActor_TA",
+    "TAGame.Ball_TA:MinResistanceVelocity",
+    "TAGame.Ball_TA:AirResistance",
+    "TAGame.Ball_TA:ReplicatedExplosionDataExtended",
+    "TAGame.Ball_TA:ReplicatedExplosionData",
+    "TAGame.Ball_TA:GameEvent",
+    "TAGame.Ball_TA:GameBallIndex",
+    "TAGame.Ball_TA:ReplicatedPhysMatOverride",
+    "TAGame.Ball_TA:AdditionalCarGroundBounceScaleXY",
+    "TAGame.Ball_TA:AdditionalCarGroundBounceScaleZ",
+    "TAGame.Ball_TA:ReplicatedAddedCarBounceScale",
+    "TAGame.Ball_TA:ReplicatedBallMaxLinearSpeedScale",
+    "TAGame.Ball_TA:ReplicatedBallGravityScale",
+    "TAGame.Ball_TA:ReplicatedWorldBounceScale",
+    "TAGame.Ball_TA:ReplicatedBallMesh",
+    "TAGame.Ball_TA:ReplicatedBallScale",
+    "TAGame.Ball_TA:HitTeamNum",
+    "TAGame.Ball_TA:BallHitSpinScale",
+    "TAGame.Ball_TA:MagnusMinSpeed",
+    "TAGame.Ball_TA:MagnusCoefficient",
+    "TAGame.Ball_TA:bPossessionEnabled",
+    "TAGame.Ball_TA:bWarnBallReset",
+    "TAGame.Ball_TA:bEndOfGameHidden",
+    "TAGame.Ball_TA:DoRBTeleportEffect",
+    "TAGame.Ball_TA",
+    "Archetypes.Ball.Ball_Default",
+    "TAGame.GameEvent_TA:DemoFXOverride",
+    "TAGame.GameEvent_TA:MatchTotalSecondsPlayed",
+    "TAGame.GameEvent_TA:MatchStartEpoch",
+    "TAGame.GameEvent_TA:ReplicatedRoundCountDownNumber",
+    "TAGame.GameEvent_TA:RichPresenceString",
+    "TAGame.GameEvent_TA:MatchSettings",
+    "TAGame.GameEvent_TA:GameOwner",
+    "TAGame.GameEvent_TA:ReplicatedGameStateTimeRemaining",
+    "TAGame.GameEvent_TA:ReplicatedStateName",
+    "TAGame.GameEvent_TA:ReplicatedStateIndex",
+    "TAGame.GameEvent_TA:ActivatorCar",
+    "TAGame.GameEvent_TA:BotSkill",
+    "TAGame.GameEvent_TA:bAlwaysShowMatchTypeLabel",
+    "TAGame.GameEvent_TA:bIsBotMatch",
+    "TAGame.GameEvent_TA:bCanVoteToForfeit",
+    "TAGame.GameEvent_TA:bHasLeaveMatchPenalty",
+    "TAGame.GameEvent_TA:bAllowReadyUp",
+    "TAGame.GameEvent_TA:bAllowQueueSaveReplay",
+    "TAGame.GameEvent_TA:MatchTypeClass",
+    "TAGame.GameEvent_TA",
+    "TAGame.GameEvent_Team_TA:bDisableQuickChat",
+    "TAGame.GameEvent_Team_TA:bForfeit",
+    "TAGame.GameEvent_Team_TA:bDisableMutingOtherTeam",
+    "TAGame.GameEvent_Team_TA:MaxTeamSize",
+    "TAGame.GameEvent_Team_TA",
+    "TAGame.GameEvent_Soccar_TA:ReplicatedStatEvent",
+    "TAGame.GameEvent_Soccar_TA:SubRulesArchetype",
+    "TAGame.GameEvent_Soccar_TA:RoundNum",
+    "TAGame.GameEvent_Soccar_TA:MVP",
+    "TAGame.GameEvent_Soccar_TA:ReplicatedServerPerformanceState",
+    "TAGame.GameEvent_Soccar_TA:ReplicatedScoredOnTeam",
+    "TAGame.GameEvent_Soccar_TA:TieBreakDecision",
+    "TAGame.GameEvent_Soccar_TA:MatchWinner",
+    "TAGame.GameEvent_Soccar_TA:GameWinner",
+    "TAGame.GameEvent_Soccar_TA:TotalGameBalls",
+    "TAGame.GameEvent_Soccar_TA:ReplayDirector",
+    "TAGame.GameEvent_Soccar_TA:WaitTimeRemaining",
+    "TAGame.GameEvent_Soccar_TA:SecondsRemaining",
+    "TAGame.GameEvent_Soccar_TA:MaxScore",
+    "TAGame.GameEvent_Soccar_TA:GameTime",
+    "TAGame.GameEvent_Soccar_TA:SeriesLength",
+    "TAGame.GameEvent_Soccar_TA:bThistleMatch",
+    "TAGame.GameEvent_Soccar_TA:bHonorDuelAccepted",
+    "TAGame.GameEvent_Soccar_TA:bAllowHonorDuels",
+    "TAGame.GameEvent_Soccar_TA:bCanDropOnlineRewards",
+    "TAGame.GameEvent_Soccar_TA:bMatchCreatorAdminEnabled",
+    "TAGame.GameEvent_Soccar_TA:bFullClubMatch",
+    "TAGame.GameEvent_Soccar_TA:bClubMatch",
+    "TAGame.GameEvent_Soccar_TA:bReadyToStartGame",
+    "TAGame.GameEvent_Soccar_TA:bShowIntroScene",
+    "TAGame.GameEvent_Soccar_TA:bDisableCrowdSound",
+    "TAGame.GameEvent_Soccar_TA:bFullMatchWinnerDecided",
+    "TAGame.GameEvent_Soccar_TA:bMatchEnded",
+    "TAGame.GameEvent_Soccar_TA:bAntiCheatTerminated",
+    "TAGame.GameEvent_Soccar_TA:bNoContest",
+    "TAGame.GameEvent_Soccar_TA:bGoalsEnabled",
+    "TAGame.GameEvent_Soccar_TA:bUnlimitedTime",
+    "TAGame.GameEvent_Soccar_TA:bOverTime",
+    "TAGame.GameEvent_Soccar_TA:bBallHasBeenHit",
+    "TAGame.GameEvent_Soccar_TA:bShouldSpawnGoalIndicators",
+    "TAGame.GameEvent_Soccar_TA",
+    "Archetypes.GameEvent.GameEvent_Soccar",
+    "Engine.Info",
+    "Engine.ReplicationInfo",
+    "Engine.PlayerReplicationInfo:RemoteUserData",
+    "Engine.PlayerReplicationInfo:UniqueId",
+    "Engine.PlayerReplicationInfo:bTimedOut",
+    "Engine.PlayerReplicationInfo:bFromPreviousLevel",
+    "Engine.PlayerReplicationInfo:bIsInactive",
+    "Engine.PlayerReplicationInfo:bBot",
+    "Engine.PlayerReplicationInfo:bOutOfLives",
+    "Engine.PlayerReplicationInfo:bReadyToPlay",
+    "Engine.PlayerReplicationInfo:bWaitingPlayer",
+    "Engine.PlayerReplicationInfo:bOnlySpectator",
+    "Engine.PlayerReplicationInfo:bIsSpectator",
+    "Engine.PlayerReplicationInfo:bAdmin",
+    "Engine.PlayerReplicationInfo:Team",
+    "Engine.PlayerReplicationInfo:PlayerID",
+    "Engine.PlayerReplicationInfo:PlayerName",
+    "Engine.PlayerReplicationInfo:Ping",
+    "Engine.PlayerReplicationInfo:Deaths",
+    "Engine.PlayerReplicationInfo:Score",
+    "Engine.PlayerReplicationInfo:ClientFillRemoteUserData",
+    "Engine.PlayerReplicationInfo:ServerUpdateRemoteUserData",
+    "Engine.PlayerReplicationInfo",
+    "ProjectX.PRI_X",
+    "TAGame.PRI_TA:AnonymizedName",
+    "TAGame.PRI_TA:DemoSelectionData",
+    "TAGame.PRI_TA:EpicPUID",
+    "TAGame.PRI_TA:KeepUpPossessions",
+    "TAGame.PRI_TA:KeepUpClears",
+    "TAGame.PRI_TA:KeepUpDenials",
+    "TAGame.PRI_TA:SelfDemolitions",
+    "TAGame.PRI_TA:BallDemolitions",
+    "TAGame.PRI_TA:CarDemolitions",
+    "TAGame.PRI_TA:BallDemolitionSaves",
+    "TAGame.PRI_TA:PossessionClears",
+    "TAGame.PRI_TA:PossessionDenials",
+    "TAGame.PRI_TA:PossessionSteals",
+    "TAGame.PRI_TA:CurrentVoiceRoom",
+    "TAGame.PRI_TA:ViralItemActor",
+    "TAGame.PRI_TA:PickupTimer",
+    "TAGame.PRI_TA:StayAsPartyVoteYes",
+    "TAGame.PRI_TA:StayAsPartyVoter",
+    "TAGame.PRI_TA:SpectatorShortcut",
+    "TAGame.PRI_TA:ClubID",
+    "TAGame.PRI_TA:BotBannerProductID",
+    "TAGame.PRI_TA:BotAvatarProductID",
+    "TAGame.PRI_TA:BotProductName",
+    "TAGame.PRI_TA:SecondaryTitle",
+    "TAGame.PRI_TA:PrimaryTitle",
+    "TAGame.PRI_TA:ReplacingBotPRI",
+    "TAGame.PRI_TA:SteeringSensitivity",
+    "TAGame.PRI_TA:SkillTier",
+    "TAGame.PRI_TA:Title",
+    "TAGame.PRI_TA:PartyLeader",
+    "TAGame.PRI_TA:QuitSeverity",
+    "TAGame.PRI_TA:ReplicatedWorstNetQualityBeyondLatency",
+    "TAGame.PRI_TA:PlayerHistoryKey",
+    "TAGame.PRI_TA:PawnType",
+    "TAGame.PRI_TA:PersistentCamera",
+    "TAGame.PRI_TA:TotalGameTimePlayed",
+    "TAGame.PRI_TA:ClientLoadoutsOnline",
+    "TAGame.PRI_TA:ClientLoadouts",
+    "TAGame.PRI_TA:ClientLoadoutOnline",
+    "TAGame.PRI_TA:ClientLoadout",
+    "TAGame.PRI_TA:ReplicatedGameEvent",
+    "TAGame.PRI_TA:bReceivedAnonymizationSettings",
+    "TAGame.PRI_TA:bAnonymizeToOpponents",
+    "TAGame.PRI_TA:bAnonymizeToTeammates",
+    "TAGame.PRI_TA:bAbleToStart",
+    "TAGame.PRI_TA:bIdleBanned",
+    "TAGame.PRI_TA:bUsingItems",
+    "TAGame.PRI_TA:bStartVoteToForfeitDisabled",
+    "TAGame.PRI_TA:bIsInSplitScreen",
+    "TAGame.PRI_TA:bIsDistracted",
+    "TAGame.PRI_TA:bReady",
+    "TAGame.PRI_TA:bOnlineLoadoutSet",
+    "TAGame.PRI_TA:bMatchAdmin",
+    "TAGame.PRI_TA:bMatchMVP",
+    "TAGame.PRI_TA:TotalIdleTime",
+    "TAGame.PRI_TA:MatchBreakoutDamage",
+    "TAGame.PRI_TA:MatchDemolishes",
+    "TAGame.PRI_TA:MatchShots",
+    "TAGame.PRI_TA:MatchSaves",
+    "TAGame.PRI_TA:MatchAssists",
+    "TAGame.PRI_TA:MatchGoals",
+    "TAGame.PRI_TA:MatchScore",
+    "TAGame.PRI_TA:ServerSetPlayerHistoryKey",
+    "TAGame.PRI_TA:ServerSetDistracted",
+    "TAGame.PRI_TA:ServerSetPartyLeader",
+    "TAGame.PRI_TA:ServerSplitScreenStatusChanged",
+    "TAGame.PRI_TA:ServerSetTeamLoadoutPaint",
+    "TAGame.PRI_TA:ServerSetTeamLoadoutProduct",
+    "TAGame.PRI_TA:ServerSetLoadoutDataProduct",
+    "TAGame.PRI_TA:ServerSetLoadoutComplete",
+    "TAGame.PRI_TA:ClientNotifyGainedStat",
+    "TAGame.PRI_TA:ClientScoredGoal",
+    "TAGame.PRI_TA:ClientNotifyStatTickerMessage",
+    "TAGame.PRI_TA:ClientGiveOnlineReward",
+    "TAGame.PRI_TA:ClientGiveRewardDrop",
+    "TAGame.PRI_TA:ClientGiveOnlineCurrencyDrop",
+    "TAGame.PRI_TA:ClientUpdateOnlineProductStats",
+    "TAGame.PRI_TA:ServerReadyUp",
+    "TAGame.PRI_TA:ServerMatchAdminSetScoreAndTime",
+    "TAGame.PRI_TA:ServerMatchAdminSetPaused",
+    "TAGame.PRI_TA:ServerSetVoteStatus",
+    "TAGame.PRI_TA:ServerChangeTeam",
+    "TAGame.PRI_TA:ClientChangeTeamFailed",
+    "TAGame.PRI_TA:ServerSpectate",
+    "TAGame.PRI_TA:ServerSetUserCarPreferences",
+    "TAGame.PRI_TA:ServerSetAutoSkipGoalReplay",
+    "TAGame.PRI_TA:ServerSetAnonymizationSettings",
+    "TAGame.PRI_TA:ServerVoteToForfeit",
+    "TAGame.PRI_TA:ClientUnlockAchievement",
+    "TAGame.PRI_TA:ServerSetPublicIP",
+    "TAGame.PRI_TA:ServerSetCurrentVoiceRoom",
+    "TAGame.PRI_TA:ClientStayAsPartyFollower",
+    "TAGame.PRI_TA:ServerInviteeConfirmedMerge",
+    "TAGame.PRI_TA:ClientStayAsPartyLeader",
+    "TAGame.PRI_TA",
+    "TAGame.Default__PRI_TA",
+    "TAGame.CameraSettingsActor_TA:CameraYaw",
+    "TAGame.CameraSettingsActor_TA:CameraPitch",
+    "TAGame.CameraSettingsActor_TA:bUsingFreecam",
+    "TAGame.CameraSettingsActor_TA:bUsingBehindView",
+    "TAGame.CameraSettingsActor_TA:bUsingSecondaryCamera",
+    "TAGame.CameraSettingsActor_TA:ProfileSettings",
+    "TAGame.CameraSettingsActor_TA:PRI",
+    "TAGame.CameraSettingsActor_TA:ServerSetCameraSettings",
+    "TAGame.CameraSettingsActor_TA:ServerSetUsingSecondaryCamera",
+    "TAGame.CameraSettingsActor_TA:ServerSetUsingBehindView",
+    "TAGame.CameraSettingsActor_TA:ServerSetUsingFreecam",
+    "TAGame.CameraSettingsActor_TA:ServerSetCameraRotation",
+    "TAGame.CameraSettingsActor_TA:ServerSetCameraRotationReliable",
+    "TAGame.CameraSettingsActor_TA",
+    "TAGame.Default__CameraSettingsActor_TA",
+    "TAGame.ViralItemActor_TA:ClientFXInfectedType",
+    "TAGame.ViralItemActor_TA:InfectedStatus",
+    "TAGame.ViralItemActor_TA",
+    "TAGame.Default__ViralItemActor_TA",
+    "Engine.GameReplicationInfo:Winner",
+    "Engine.GameReplicationInfo:ServerName",
+    "Engine.GameReplicationInfo:TimeLimit",
+    "Engine.GameReplicationInfo:GoalScore",
+    "Engine.GameReplicationInfo:RemainingMinute",
+    "Engine.GameReplicationInfo:ElapsedTime",
+    "Engine.GameReplicationInfo:RemainingTime",
+    "Engine.GameReplicationInfo:bMatchIsOver",
+    "Engine.GameReplicationInfo:bMatchHasBegun",
+    "Engine.GameReplicationInfo:bStopCountDown",
+    "Engine.GameReplicationInfo:GameClass",
+    "Engine.GameReplicationInfo",
+    "ProjectX.GRI_X:MatchGUID",
+    "ProjectX.GRI_X:bGameStarted",
+    "ProjectX.GRI_X:GameServerID",
+    "ProjectX.GRI_X:Reservations",
+    "ProjectX.GRI_X:ReplicatedServerRegion",
+    "ProjectX.GRI_X:ReplicatedGameMutatorIndex",
+    "ProjectX.GRI_X:ReplicatedGamePlaylist",
+    "ProjectX.GRI_X",
+    "TAGame.GRI_TA:LanMatchGUID",
+    "TAGame.GRI_TA:bAllowTargetFind",
+    "TAGame.GRI_TA",
+    "GameInfo_Soccar.GameInfo.GameInfo_Soccar:GameReplicationInfoArchetype",
+    "ProjectX.NetModeReplicator_X",
+    "ProjectX.Default__NetModeReplicator_X",
+    "Engine.TeamInfo:TeamIndex",
+    "Engine.TeamInfo:Score",
+    "Engine.TeamInfo:TeamName",
+    "Engine.TeamInfo",
+    "TAGame.Team_TA:Difficulty",
+    "TAGame.Team_TA:ClubColors",
+    "TAGame.Team_TA:LogoData",
+    "TAGame.Team_TA:ClubID",
+    "TAGame.Team_TA:CustomTeamName",
+    "TAGame.Team_TA:GameEvent",
+    "TAGame.Team_TA",
+    "TAGame.Team_Soccar_TA:GameScore",
+    "TAGame.Team_Soccar_TA",
+    "Archetypes.Teams.Team1",
+    "Archetypes.Teams.Team0",
+    "TAGame.CarComponent_TA:ReplicatedActivityTime",
+    "TAGame.CarComponent_TA:Vehicle",
+    "TAGame.CarComponent_TA:ReplicatedActive",
+    "TAGame.CarComponent_TA",
+    "TAGame.CarComponent_AirActivate_TA:AirActivateCount",
+    "TAGame.CarComponent_AirActivate_TA",
+    "TAGame.CarComponent_Boost_TA:ReplicatedBoost",
+    "TAGame.CarComponent_Boost_TA:ReplicatedBoostAmount",
+    "TAGame.CarComponent_Boost_TA:BoostRestriction",
+    "TAGame.CarComponent_Boost_TA:UnlimitedBoostRefCount",
+    "TAGame.CarComponent_Boost_TA:RechargeDelay",
+    "TAGame.CarComponent_Boost_TA:RechargeRate",
+    "TAGame.CarComponent_Boost_TA:bNoBoost",
+    "TAGame.CarComponent_Boost_TA:bRechargeGroundOnly",
+    "TAGame.CarComponent_Boost_TA:BoostModifier",
+    "TAGame.CarComponent_Boost_TA:CurrentBoostAmount",
+    "TAGame.CarComponent_Boost_TA:StartBoostAmount",
+    "TAGame.CarComponent_Boost_TA:ServerConfirmBoostAmount",
+    "TAGame.CarComponent_Boost_TA:ClientFixBoostAmount",
+    "TAGame.CarComponent_Boost_TA:ClientGiveBoost",
+    "TAGame.CarComponent_Boost_TA",
+    "Archetypes.CarComponents.CarComponent_Boost",
+    "TAGame.CarComponent_FlipCar_TA:bFlipRight",
+    "TAGame.CarComponent_FlipCar_TA:FlipCarTime",
+    "TAGame.CarComponent_FlipCar_TA",
+    "Archetypes.CarComponents.CarComponent_FlipCar",
+    "TAGame.CarComponent_Jump_TA",
+    "Archetypes.CarComponents.CarComponent_Jump",
+    "TAGame.CarComponent_DoubleJump_TA:DoubleJumpImpulse",
+    "TAGame.CarComponent_DoubleJump_TA",
+    "Archetypes.CarComponents.CarComponent_DoubleJump",
+    "TAGame.CarComponent_Dodge_TA:DodgeTorque",
+    "TAGame.CarComponent_Dodge_TA",
+    "Archetypes.CarComponents.CarComponent_Dodge",
+    "TAGame.Vehicle_TA:PMCAnimIdx",
+    "TAGame.Vehicle_TA:PodiumSpot",
+    "TAGame.Vehicle_TA:InputRestriction",
+    "TAGame.Vehicle_TA:ReplicatedSteer",
+    "TAGame.Vehicle_TA:ReplicatedThrottle",
+    "TAGame.Vehicle_TA:bHasPostMatchCelebration",
+    "TAGame.Vehicle_TA:bPodiumMode",
+    "TAGame.Vehicle_TA:bReplicatedHandbrake",
+    "TAGame.Vehicle_TA:bDriving",
+    "TAGame.Vehicle_TA",
+    "TAGame.Car_TA:DodgesRefreshedCounter",
+    "TAGame.Car_TA:PostMatchAnim",
+    "TAGame.Car_TA:ReplicatedCarMaxLinearSpeedScale",
+    "TAGame.Car_TA:AddedCarForceMultiplier",
+    "TAGame.Car_TA:AddedBallForceMultiplier",
+    "TAGame.Car_TA:RumblePickups",
+    "TAGame.Car_TA:AttachedPickup",
+    "TAGame.Car_TA:ReplicatedDemolishGoalExplosion",
+    "TAGame.Car_TA:ReplicatedDemolish",
+    "TAGame.Car_TA:ReplicatedDemolishExtended",
+    "TAGame.Car_TA:ReplicatedCarScale",
+    "TAGame.Car_TA:ClubColors",
+    "TAGame.Car_TA:TeamPaint",
+    "TAGame.Car_TA:MaxNumJumps",
+    "TAGame.Car_TA:MaxTimeForDodge",
+    "TAGame.Car_TA:bConstrained3D",
+    "TAGame.Car_TA:bOverrideBoostOn",
+    "TAGame.Car_TA:bOverrideHandbrakeOn",
+    "TAGame.Car_TA:bUnlimitedJumps",
+    "TAGame.Car_TA:bUnlimitedTimeForDodge",
+    "TAGame.Car_TA:ServerEquipProduct",
+    "TAGame.Car_TA",
+    "Archetypes.Car.Car_Default",
+    "TAGame.RumblePickups_TA:PreviewTimeSeconds",
+    "TAGame.RumblePickups_TA:ConcurrentItemCount",
+    "TAGame.RumblePickups_TA:PickupInfo",
+    "TAGame.RumblePickups_TA",
+    "TAGame.Default__RumblePickups_TA",
+    "TAGame.MatchType_Private_TA",
+    "TAGame.ProductAttribute_Painted_TA",
+    "TAGame.ProductAttribute_UserColor_TA",
+    "TAGame.ProductAttribute_TitleID_TA",
+    "TAGame.GameInfo_Soccar_TA",
+    "TAGame.ProductAttribute_TeamEdition_TA",
+    "TAGame.VehiclePickup_TA:bNoPickup",
+    "TAGame.VehiclePickup_TA:NewReplicatedPickupData",
+    "TAGame.VehiclePickup_TA:ReplicatedPickupData",
+    "TAGame.VehiclePickup_TA",
+    "TAGame.VehiclePickup_Boost_TA",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_4",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_11",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_21",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_28",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_39",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_17",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_66",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_41",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_34",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_5",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_40",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_42",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_3",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_7",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_19",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_63",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_67",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_20",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_31",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_35",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_68",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_23",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_32",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_38",
+    "StatEvents.Events.Save",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_33",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_65",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_14",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_36",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_64",
+    "StatEvents.Events.EpicSave",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.GoalVolume_TA_4.Goal_TA_12",
+    "StatEvents.Events.Goal",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_18",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_12",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_43",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_13",
+    "CHN_Stadium_P.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_10"
+  ],
+  "names": [
+    "Ball_TA_38",
+    "GameEvent_Soccar_TA_4",
+    "PRI_TA_35",
+    "CameraSettingsActor_TA_370",
+    "CameraSettingsActor_TA_371",
+    "CameraSettingsActor_TA_372",
+    "CameraSettingsActor_TA_373",
+    "CameraSettingsActor_TA_374",
+    "CameraSettingsActor_TA_375",
+    "CameraSettingsActor_TA_376",
+    "PRI_TA_36",
+    "CameraSettingsActor_TA_377",
+    "CameraSettingsActor_TA_378",
+    "PRI_TA_37",
+    "CameraSettingsActor_TA_379",
+    "ViralItemActor_TA_35",
+    "ViralItemActor_TA_36",
+    "ViralItemActor_TA_37",
+    "ViralItemActor_TA_38",
+    "ViralItemActor_TA_39",
+    "ViralItemActor_TA_40",
+    "CameraSettingsActor_TA_380",
+    "PRI_TA_38",
+    "CameraSettingsActor_TA_381",
+    "CameraSettingsActor_TA_382",
+    "CameraSettingsActor_TA_383",
+    "ViralItemActor_TA_41",
+    "PRI_TA_39",
+    "ViralItemActor_TA_42",
+    "ViralItemActor_TA_43",
+    "ViralItemActor_TA_44",
+    "GRI_TA_7",
+    "NetModeReplicator_X_4",
+    "ViralItemActor_TA_45",
+    "ViralItemActor_TA_46",
+    "ViralItemActor_TA_47",
+    "ViralItemActor_TA_48",
+    "PRI_TA_40",
+    "PRI_TA_41",
+    "PRI_TA_42",
+    "PRI_TA_43",
+    "PRI_TA_44",
+    "PRI_TA_45",
+    "PRI_TA_46",
+    "Team_Soccar_TA_14",
+    "Team_Soccar_TA_15",
+    "CarComponent_Boost_TA_196",
+    "CarComponent_FlipCar_TA_196",
+    "CarComponent_Jump_TA_196",
+    "CarComponent_DoubleJump_TA_196",
+    "CarComponent_Dodge_TA_196",
+    "Car_TA_196",
+    "PRI_TA_47",
+    "RumblePickups_TA_196",
+    "PRI_TA_48",
+    "Car_TA_197",
+    "CarComponent_Jump_TA_197",
+    "CarComponent_Boost_TA_197",
+    "CarComponent_DoubleJump_TA_197",
+    "CarComponent_FlipCar_TA_197",
+    "CarComponent_Dodge_TA_197",
+    "RumblePickups_TA_197",
+    "CarComponent_Dodge_TA_198",
+    "CarComponent_DoubleJump_TA_198",
+    "CarComponent_Jump_TA_198",
+    "CarComponent_Boost_TA_198",
+    "CarComponent_FlipCar_TA_198",
+    "Car_TA_198",
+    "RumblePickups_TA_198",
+    "Car_TA_199",
+    "CarComponent_Jump_TA_199",
+    "CarComponent_Boost_TA_199",
+    "CarComponent_FlipCar_TA_199",
+    "CarComponent_Dodge_TA_199",
+    "CarComponent_DoubleJump_TA_199",
+    "RumblePickups_TA_199",
+    "CarComponent_Dodge_TA_200",
+    "CarComponent_DoubleJump_TA_200",
+    "CarComponent_Jump_TA_200",
+    "CarComponent_FlipCar_TA_200",
+    "CarComponent_Boost_TA_200",
+    "Car_TA_200",
+    "RumblePickups_TA_200",
+    "Car_TA_201",
+    "CarComponent_FlipCar_TA_201",
+    "CarComponent_DoubleJump_TA_201",
+    "CarComponent_Jump_TA_201",
+    "CarComponent_Boost_TA_201",
+    "CarComponent_Dodge_TA_201",
+    "RumblePickups_TA_201",
+    "Countdown",
+    "RLCS_2024_World_Champion",
+    "RLCS_Referee",
+    "Bathroom_Title",
+    "RLCS_2026_Major_2_Champion",
+    "RLCS_2025_Major_2_Champion",
+    "Bracket_Rivalry_Team1",
+    "jstncrdbl",
+    "Active",
+    "VehiclePickup_Boost_TA_4",
+    "VehiclePickup_Boost_TA_11",
+    "VehiclePickup_Boost_TA_21",
+    "VehiclePickup_Boost_TA_28",
+    "VehiclePickup_Boost_TA_39",
+    "VehiclePickup_Boost_TA_17",
+    "VehiclePickup_Boost_TA_66",
+    "VehiclePickup_Boost_TA_41",
+    "VehiclePickup_Boost_TA_34",
+    "VehiclePickup_Boost_TA_5",
+    "VehiclePickup_Boost_TA_40",
+    "VehiclePickup_Boost_TA_42",
+    "VehiclePickup_Boost_TA_3",
+    "VehiclePickup_Boost_TA_7",
+    "VehiclePickup_Boost_TA_19",
+    "VehiclePickup_Boost_TA_63",
+    "VehiclePickup_Boost_TA_67",
+    "VehiclePickup_Boost_TA_20",
+    "VehiclePickup_Boost_TA_31",
+    "VehiclePickup_Boost_TA_35",
+    "VehiclePickup_Boost_TA_68",
+    "VehiclePickup_Boost_TA_23",
+    "VehiclePickup_Boost_TA_32",
+    "VehiclePickup_Boost_TA_38",
+    "VehiclePickup_Boost_TA_33",
+    "VehiclePickup_Boost_TA_65",
+    "VehiclePickup_Boost_TA_14",
+    "VehiclePickup_Boost_TA_36",
+    "VehiclePickup_Boost_TA_64",
+    "PostGoalScored",
+    "Car_TA_208",
+    "Car_TA_209",
+    "Car_TA_210",
+    "CarComponent_Boost_TA_208",
+    "CarComponent_Boost_TA_209",
+    "CarComponent_DoubleJump_TA_208",
+    "Ball_TA_40",
+    "CarComponent_Jump_TA_208",
+    "CarComponent_DoubleJump_TA_209",
+    "CarComponent_Dodge_TA_208",
+    "CarComponent_Jump_TA_209",
+    "CarComponent_Boost_TA_210",
+    "CarComponent_FlipCar_TA_208",
+    "CarComponent_Dodge_TA_209",
+    "CarComponent_DoubleJump_TA_210",
+    "CarComponent_Jump_TA_210",
+    "CarComponent_FlipCar_TA_209",
+    "CarComponent_Dodge_TA_210",
+    "CarComponent_Boost_TA_211",
+    "CarComponent_FlipCar_TA_210",
+    "CarComponent_FlipCar_TA_211",
+    "CarComponent_Dodge_TA_211",
+    "CarComponent_FlipCar_TA_212",
+    "CarComponent_Dodge_TA_212",
+    "CarComponent_DoubleJump_TA_211",
+    "CarComponent_Jump_TA_211",
+    "CarComponent_Jump_TA_212",
+    "CarComponent_Boost_TA_212",
+    "CarComponent_Dodge_TA_213",
+    "CarComponent_DoubleJump_TA_212",
+    "CarComponent_Jump_TA_213",
+    "CarComponent_Boost_TA_213",
+    "CarComponent_FlipCar_TA_213",
+    "CarComponent_DoubleJump_TA_213",
+    "Car_TA_211",
+    "Car_TA_212",
+    "Car_TA_213",
+    "RumblePickups_TA_208",
+    "RumblePickups_TA_209",
+    "RumblePickups_TA_210",
+    "RumblePickups_TA_211",
+    "RumblePickups_TA_212",
+    "RumblePickups_TA_213",
+    "VehiclePickup_Boost_TA_18",
+    "CarComponent_Jump_TA_214",
+    "CarComponent_FlipCar_TA_214",
+    "CarComponent_Dodge_TA_214",
+    "CarComponent_Boost_TA_214",
+    "CarComponent_DoubleJump_TA_214",
+    "Car_TA_214",
+    "RumblePickups_TA_214",
+    "VehiclePickup_Boost_TA_12",
+    "VehiclePickup_Boost_TA_43",
+    "VehiclePickup_Boost_TA_13",
+    "CarComponent_DoubleJump_TA_215",
+    "CarComponent_Boost_TA_215",
+    "CarComponent_Dodge_TA_215",
+    "CarComponent_Jump_TA_215",
+    "CarComponent_FlipCar_TA_215",
+    "Car_TA_215",
+    "RumblePickups_TA_215",
+    "VehiclePickup_Boost_TA_10",
+    "CarComponent_Jump_TA_216",
+    "CarComponent_FlipCar_TA_216",
+    "CarComponent_Boost_TA_216",
+    "CarComponent_Dodge_TA_216",
+    "CarComponent_DoubleJump_TA_216",
+    "Car_TA_216",
+    "RumblePickups_TA_216",
+    "Car_TA_217",
+    "CarComponent_DoubleJump_TA_217",
+    "CarComponent_Jump_TA_217",
+    "CarComponent_FlipCar_TA_217",
+    "CarComponent_Dodge_TA_217",
+    "CarComponent_Boost_TA_217",
+    "RumblePickups_TA_217",
+    "CarComponent_Jump_TA_218",
+    "CarComponent_Dodge_TA_218",
+    "CarComponent_FlipCar_TA_218",
+    "CarComponent_Boost_TA_218",
+    "CarComponent_DoubleJump_TA_218",
+    "Car_TA_218",
+    "RumblePickups_TA_218",
+    "CarComponent_Jump_TA_219",
+    "CarComponent_Dodge_TA_219",
+    "CarComponent_FlipCar_TA_219",
+    "CarComponent_Boost_TA_219",
+    "CarComponent_DoubleJump_TA_219",
+    "Car_TA_219",
+    "RumblePickups_TA_219",
+    "CarComponent_FlipCar_TA_220",
+    "CarComponent_Boost_TA_220",
+    "CarComponent_Jump_TA_220",
+    "CarComponent_Dodge_TA_220",
+    "CarComponent_DoubleJump_TA_220",
+    "Car_TA_220",
+    "RumblePickups_TA_220"
+  ],
+  "class_indices": [
+    {
+      "class": "Core.Object",
+      "index": 0
+    },
+    {
+      "class": "Engine.Actor",
+      "index": 21
+    },
+    {
+      "class": "Engine.Pawn",
+      "index": 40
+    },
+    {
+      "class": "ProjectX.Pawn_X",
+      "index": 41
+    },
+    {
+      "class": "TAGame.RBActor_TA",
+      "index": 52
+    },
+    {
+      "class": "TAGame.Ball_TA",
+      "index": 76
+    },
+    {
+      "class": "TAGame.GameEvent_TA",
+      "index": 97
+    },
+    {
+      "class": "TAGame.GameEvent_Team_TA",
+      "index": 102
+    },
+    {
+      "class": "TAGame.GameEvent_Soccar_TA",
+      "index": 138
+    },
+    {
+      "class": "Engine.Info",
+      "index": 140
+    },
+    {
+      "class": "Engine.ReplicationInfo",
+      "index": 141
+    },
+    {
+      "class": "Engine.PlayerReplicationInfo",
+      "index": 162
+    },
+    {
+      "class": "ProjectX.PRI_X",
+      "index": 163
+    },
+    {
+      "class": "TAGame.PRI_TA",
+      "index": 258
+    },
+    {
+      "class": "TAGame.CameraSettingsActor_TA",
+      "index": 273
+    },
+    {
+      "class": "TAGame.ViralItemActor_TA",
+      "index": 277
+    },
+    {
+      "class": "Engine.GameReplicationInfo",
+      "index": 290
+    },
+    {
+      "class": "ProjectX.GRI_X",
+      "index": 298
+    },
+    {
+      "class": "TAGame.GRI_TA",
+      "index": 301
+    },
+    {
+      "class": "ProjectX.NetModeReplicator_X",
+      "index": 303
+    },
+    {
+      "class": "Engine.TeamInfo",
+      "index": 308
+    },
+    {
+      "class": "TAGame.Team_TA",
+      "index": 315
+    },
+    {
+      "class": "TAGame.Team_Soccar_TA",
+      "index": 317
+    },
+    {
+      "class": "TAGame.CarComponent_TA",
+      "index": 323
+    },
+    {
+      "class": "TAGame.CarComponent_AirActivate_TA",
+      "index": 325
+    },
+    {
+      "class": "TAGame.CarComponent_Boost_TA",
+      "index": 340
+    },
+    {
+      "class": "TAGame.CarComponent_FlipCar_TA",
+      "index": 344
+    },
+    {
+      "class": "TAGame.CarComponent_Jump_TA",
+      "index": 346
+    },
+    {
+      "class": "TAGame.CarComponent_DoubleJump_TA",
+      "index": 349
+    },
+    {
+      "class": "TAGame.CarComponent_Dodge_TA",
+      "index": 352
+    },
+    {
+      "class": "TAGame.Vehicle_TA",
+      "index": 363
+    },
+    {
+      "class": "TAGame.Car_TA",
+      "index": 385
+    },
+    {
+      "class": "TAGame.RumblePickups_TA",
+      "index": 390
+    },
+    {
+      "class": "TAGame.MatchType_Private_TA",
+      "index": 392
+    },
+    {
+      "class": "TAGame.ProductAttribute_Painted_TA",
+      "index": 393
+    },
+    {
+      "class": "TAGame.ProductAttribute_UserColor_TA",
+      "index": 394
+    },
+    {
+      "class": "TAGame.ProductAttribute_TitleID_TA",
+      "index": 395
+    },
+    {
+      "class": "TAGame.GameInfo_Soccar_TA",
+      "index": 396
+    },
+    {
+      "class": "TAGame.ProductAttribute_TeamEdition_TA",
+      "index": 397
+    },
+    {
+      "class": "TAGame.VehiclePickup_TA",
+      "index": 401
+    },
+    {
+      "class": "TAGame.VehiclePickup_Boost_TA",
+      "index": 402
+    }
+  ],
+  "net_cache": [
+    {
+      "object_ind": 0,
+      "parent_id": 0,
+      "cache_id": 0,
+      "properties": []
+    },
+    {
+      "object_ind": 21,
+      "parent_id": 0,
+      "cache_id": 20,
+      "properties": [
+        {
+          "object_ind": 1,
+          "stream_id": 0
+        },
+        {
+          "object_ind": 2,
+          "stream_id": 1
+        },
+        {
+          "object_ind": 3,
+          "stream_id": 2
+        },
+        {
+          "object_ind": 4,
+          "stream_id": 3
+        },
+        {
+          "object_ind": 5,
+          "stream_id": 4
+        },
+        {
+          "object_ind": 6,
+          "stream_id": 5
+        },
+        {
+          "object_ind": 7,
+          "stream_id": 6
+        },
+        {
+          "object_ind": 8,
+          "stream_id": 7
+        },
+        {
+          "object_ind": 9,
+          "stream_id": 8
+        },
+        {
+          "object_ind": 10,
+          "stream_id": 9
+        },
+        {
+          "object_ind": 11,
+          "stream_id": 10
+        },
+        {
+          "object_ind": 12,
+          "stream_id": 11
+        },
+        {
+          "object_ind": 13,
+          "stream_id": 12
+        },
+        {
+          "object_ind": 14,
+          "stream_id": 13
+        },
+        {
+          "object_ind": 15,
+          "stream_id": 14
+        },
+        {
+          "object_ind": 16,
+          "stream_id": 15
+        },
+        {
+          "object_ind": 17,
+          "stream_id": 16
+        },
+        {
+          "object_ind": 18,
+          "stream_id": 17
+        },
+        {
+          "object_ind": 19,
+          "stream_id": 18
+        },
+        {
+          "object_ind": 20,
+          "stream_id": 19
+        }
+      ]
+    },
+    {
+      "object_ind": 40,
+      "parent_id": 20,
+      "cache_id": 38,
+      "properties": [
+        {
+          "object_ind": 22,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 23,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 24,
+          "stream_id": 22
+        },
+        {
+          "object_ind": 25,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 26,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 27,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 28,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 29,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 30,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 31,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 32,
+          "stream_id": 30
+        },
+        {
+          "object_ind": 33,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 34,
+          "stream_id": 32
+        },
+        {
+          "object_ind": 35,
+          "stream_id": 33
+        },
+        {
+          "object_ind": 36,
+          "stream_id": 34
+        },
+        {
+          "object_ind": 37,
+          "stream_id": 35
+        },
+        {
+          "object_ind": 38,
+          "stream_id": 36
+        },
+        {
+          "object_ind": 39,
+          "stream_id": 37
+        }
+      ]
+    },
+    {
+      "object_ind": 41,
+      "parent_id": 38,
+      "cache_id": 38,
+      "properties": []
+    },
+    {
+      "object_ind": 52,
+      "parent_id": 38,
+      "cache_id": 48,
+      "properties": [
+        {
+          "object_ind": 42,
+          "stream_id": 38
+        },
+        {
+          "object_ind": 43,
+          "stream_id": 39
+        },
+        {
+          "object_ind": 44,
+          "stream_id": 40
+        },
+        {
+          "object_ind": 45,
+          "stream_id": 41
+        },
+        {
+          "object_ind": 46,
+          "stream_id": 42
+        },
+        {
+          "object_ind": 47,
+          "stream_id": 43
+        },
+        {
+          "object_ind": 48,
+          "stream_id": 44
+        },
+        {
+          "object_ind": 49,
+          "stream_id": 45
+        },
+        {
+          "object_ind": 50,
+          "stream_id": 46
+        },
+        {
+          "object_ind": 51,
+          "stream_id": 47
+        }
+      ]
+    },
+    {
+      "object_ind": 76,
+      "parent_id": 48,
+      "cache_id": 70,
+      "properties": [
+        {
+          "object_ind": 53,
+          "stream_id": 48
+        },
+        {
+          "object_ind": 54,
+          "stream_id": 49
+        },
+        {
+          "object_ind": 55,
+          "stream_id": 50
+        },
+        {
+          "object_ind": 56,
+          "stream_id": 51
+        },
+        {
+          "object_ind": 57,
+          "stream_id": 52
+        },
+        {
+          "object_ind": 58,
+          "stream_id": 53
+        },
+        {
+          "object_ind": 59,
+          "stream_id": 54
+        },
+        {
+          "object_ind": 60,
+          "stream_id": 55
+        },
+        {
+          "object_ind": 61,
+          "stream_id": 56
+        },
+        {
+          "object_ind": 62,
+          "stream_id": 57
+        },
+        {
+          "object_ind": 63,
+          "stream_id": 58
+        },
+        {
+          "object_ind": 64,
+          "stream_id": 59
+        },
+        {
+          "object_ind": 65,
+          "stream_id": 60
+        },
+        {
+          "object_ind": 66,
+          "stream_id": 61
+        },
+        {
+          "object_ind": 67,
+          "stream_id": 62
+        },
+        {
+          "object_ind": 68,
+          "stream_id": 63
+        },
+        {
+          "object_ind": 69,
+          "stream_id": 64
+        },
+        {
+          "object_ind": 70,
+          "stream_id": 65
+        },
+        {
+          "object_ind": 71,
+          "stream_id": 66
+        },
+        {
+          "object_ind": 72,
+          "stream_id": 67
+        },
+        {
+          "object_ind": 73,
+          "stream_id": 68
+        },
+        {
+          "object_ind": 74,
+          "stream_id": 69
+        },
+        {
+          "object_ind": 75,
+          "stream_id": 70
+        }
+      ]
+    },
+    {
+      "object_ind": 97,
+      "parent_id": 20,
+      "cache_id": 39,
+      "properties": [
+        {
+          "object_ind": 78,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 79,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 80,
+          "stream_id": 22
+        },
+        {
+          "object_ind": 81,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 82,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 83,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 84,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 85,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 86,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 87,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 88,
+          "stream_id": 30
+        },
+        {
+          "object_ind": 89,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 90,
+          "stream_id": 32
+        },
+        {
+          "object_ind": 91,
+          "stream_id": 33
+        },
+        {
+          "object_ind": 92,
+          "stream_id": 34
+        },
+        {
+          "object_ind": 93,
+          "stream_id": 35
+        },
+        {
+          "object_ind": 94,
+          "stream_id": 36
+        },
+        {
+          "object_ind": 95,
+          "stream_id": 37
+        },
+        {
+          "object_ind": 96,
+          "stream_id": 38
+        }
+      ]
+    },
+    {
+      "object_ind": 102,
+      "parent_id": 39,
+      "cache_id": 43,
+      "properties": [
+        {
+          "object_ind": 98,
+          "stream_id": 39
+        },
+        {
+          "object_ind": 99,
+          "stream_id": 40
+        },
+        {
+          "object_ind": 100,
+          "stream_id": 41
+        },
+        {
+          "object_ind": 101,
+          "stream_id": 42
+        }
+      ]
+    },
+    {
+      "object_ind": 138,
+      "parent_id": 43,
+      "cache_id": 78,
+      "properties": [
+        {
+          "object_ind": 103,
+          "stream_id": 43
+        },
+        {
+          "object_ind": 104,
+          "stream_id": 44
+        },
+        {
+          "object_ind": 105,
+          "stream_id": 45
+        },
+        {
+          "object_ind": 106,
+          "stream_id": 46
+        },
+        {
+          "object_ind": 107,
+          "stream_id": 47
+        },
+        {
+          "object_ind": 108,
+          "stream_id": 48
+        },
+        {
+          "object_ind": 109,
+          "stream_id": 49
+        },
+        {
+          "object_ind": 110,
+          "stream_id": 50
+        },
+        {
+          "object_ind": 111,
+          "stream_id": 51
+        },
+        {
+          "object_ind": 112,
+          "stream_id": 52
+        },
+        {
+          "object_ind": 113,
+          "stream_id": 53
+        },
+        {
+          "object_ind": 114,
+          "stream_id": 54
+        },
+        {
+          "object_ind": 115,
+          "stream_id": 55
+        },
+        {
+          "object_ind": 116,
+          "stream_id": 56
+        },
+        {
+          "object_ind": 117,
+          "stream_id": 57
+        },
+        {
+          "object_ind": 118,
+          "stream_id": 58
+        },
+        {
+          "object_ind": 119,
+          "stream_id": 59
+        },
+        {
+          "object_ind": 120,
+          "stream_id": 60
+        },
+        {
+          "object_ind": 121,
+          "stream_id": 61
+        },
+        {
+          "object_ind": 122,
+          "stream_id": 62
+        },
+        {
+          "object_ind": 123,
+          "stream_id": 63
+        },
+        {
+          "object_ind": 124,
+          "stream_id": 64
+        },
+        {
+          "object_ind": 125,
+          "stream_id": 65
+        },
+        {
+          "object_ind": 126,
+          "stream_id": 66
+        },
+        {
+          "object_ind": 127,
+          "stream_id": 67
+        },
+        {
+          "object_ind": 128,
+          "stream_id": 68
+        },
+        {
+          "object_ind": 129,
+          "stream_id": 69
+        },
+        {
+          "object_ind": 130,
+          "stream_id": 70
+        },
+        {
+          "object_ind": 131,
+          "stream_id": 71
+        },
+        {
+          "object_ind": 132,
+          "stream_id": 72
+        },
+        {
+          "object_ind": 133,
+          "stream_id": 73
+        },
+        {
+          "object_ind": 134,
+          "stream_id": 74
+        },
+        {
+          "object_ind": 135,
+          "stream_id": 75
+        },
+        {
+          "object_ind": 136,
+          "stream_id": 76
+        },
+        {
+          "object_ind": 137,
+          "stream_id": 77
+        }
+      ]
+    },
+    {
+      "object_ind": 140,
+      "parent_id": 20,
+      "cache_id": 20,
+      "properties": []
+    },
+    {
+      "object_ind": 141,
+      "parent_id": 20,
+      "cache_id": 20,
+      "properties": []
+    },
+    {
+      "object_ind": 162,
+      "parent_id": 20,
+      "cache_id": 38,
+      "properties": [
+        {
+          "object_ind": 142,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 143,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 144,
+          "stream_id": 22
+        },
+        {
+          "object_ind": 145,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 146,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 147,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 148,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 149,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 150,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 151,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 152,
+          "stream_id": 30
+        },
+        {
+          "object_ind": 153,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 154,
+          "stream_id": 32
+        },
+        {
+          "object_ind": 155,
+          "stream_id": 33
+        },
+        {
+          "object_ind": 156,
+          "stream_id": 34
+        },
+        {
+          "object_ind": 157,
+          "stream_id": 35
+        },
+        {
+          "object_ind": 158,
+          "stream_id": 36
+        },
+        {
+          "object_ind": 159,
+          "stream_id": 37
+        },
+        {
+          "object_ind": 160,
+          "stream_id": 38
+        },
+        {
+          "object_ind": 161,
+          "stream_id": 39
+        }
+      ]
+    },
+    {
+      "object_ind": 163,
+      "parent_id": 40,
+      "cache_id": 38,
+      "properties": []
+    },
+    {
+      "object_ind": 258,
+      "parent_id": 40,
+      "cache_id": 100,
+      "properties": [
+        {
+          "object_ind": 164,
+          "stream_id": 40
+        },
+        {
+          "object_ind": 165,
+          "stream_id": 41
+        },
+        {
+          "object_ind": 166,
+          "stream_id": 42
+        },
+        {
+          "object_ind": 167,
+          "stream_id": 43
+        },
+        {
+          "object_ind": 168,
+          "stream_id": 44
+        },
+        {
+          "object_ind": 169,
+          "stream_id": 45
+        },
+        {
+          "object_ind": 170,
+          "stream_id": 46
+        },
+        {
+          "object_ind": 171,
+          "stream_id": 47
+        },
+        {
+          "object_ind": 172,
+          "stream_id": 48
+        },
+        {
+          "object_ind": 173,
+          "stream_id": 49
+        },
+        {
+          "object_ind": 174,
+          "stream_id": 50
+        },
+        {
+          "object_ind": 175,
+          "stream_id": 51
+        },
+        {
+          "object_ind": 176,
+          "stream_id": 52
+        },
+        {
+          "object_ind": 177,
+          "stream_id": 53
+        },
+        {
+          "object_ind": 178,
+          "stream_id": 54
+        },
+        {
+          "object_ind": 179,
+          "stream_id": 55
+        },
+        {
+          "object_ind": 180,
+          "stream_id": 56
+        },
+        {
+          "object_ind": 181,
+          "stream_id": 57
+        },
+        {
+          "object_ind": 182,
+          "stream_id": 58
+        },
+        {
+          "object_ind": 183,
+          "stream_id": 59
+        },
+        {
+          "object_ind": 184,
+          "stream_id": 60
+        },
+        {
+          "object_ind": 185,
+          "stream_id": 61
+        },
+        {
+          "object_ind": 186,
+          "stream_id": 62
+        },
+        {
+          "object_ind": 187,
+          "stream_id": 63
+        },
+        {
+          "object_ind": 188,
+          "stream_id": 64
+        },
+        {
+          "object_ind": 189,
+          "stream_id": 65
+        },
+        {
+          "object_ind": 190,
+          "stream_id": 66
+        },
+        {
+          "object_ind": 191,
+          "stream_id": 67
+        },
+        {
+          "object_ind": 192,
+          "stream_id": 68
+        },
+        {
+          "object_ind": 193,
+          "stream_id": 69
+        },
+        {
+          "object_ind": 194,
+          "stream_id": 70
+        },
+        {
+          "object_ind": 195,
+          "stream_id": 71
+        },
+        {
+          "object_ind": 196,
+          "stream_id": 72
+        },
+        {
+          "object_ind": 197,
+          "stream_id": 73
+        },
+        {
+          "object_ind": 198,
+          "stream_id": 74
+        },
+        {
+          "object_ind": 199,
+          "stream_id": 75
+        },
+        {
+          "object_ind": 200,
+          "stream_id": 76
+        },
+        {
+          "object_ind": 201,
+          "stream_id": 77
+        },
+        {
+          "object_ind": 202,
+          "stream_id": 78
+        },
+        {
+          "object_ind": 203,
+          "stream_id": 79
+        },
+        {
+          "object_ind": 204,
+          "stream_id": 80
+        },
+        {
+          "object_ind": 205,
+          "stream_id": 81
+        },
+        {
+          "object_ind": 206,
+          "stream_id": 82
+        },
+        {
+          "object_ind": 207,
+          "stream_id": 83
+        },
+        {
+          "object_ind": 208,
+          "stream_id": 84
+        },
+        {
+          "object_ind": 209,
+          "stream_id": 85
+        },
+        {
+          "object_ind": 210,
+          "stream_id": 86
+        },
+        {
+          "object_ind": 211,
+          "stream_id": 87
+        },
+        {
+          "object_ind": 212,
+          "stream_id": 88
+        },
+        {
+          "object_ind": 213,
+          "stream_id": 89
+        },
+        {
+          "object_ind": 214,
+          "stream_id": 90
+        },
+        {
+          "object_ind": 215,
+          "stream_id": 91
+        },
+        {
+          "object_ind": 216,
+          "stream_id": 92
+        },
+        {
+          "object_ind": 217,
+          "stream_id": 93
+        },
+        {
+          "object_ind": 218,
+          "stream_id": 94
+        },
+        {
+          "object_ind": 219,
+          "stream_id": 95
+        },
+        {
+          "object_ind": 220,
+          "stream_id": 96
+        },
+        {
+          "object_ind": 221,
+          "stream_id": 97
+        },
+        {
+          "object_ind": 222,
+          "stream_id": 98
+        },
+        {
+          "object_ind": 223,
+          "stream_id": 99
+        },
+        {
+          "object_ind": 224,
+          "stream_id": 100
+        },
+        {
+          "object_ind": 225,
+          "stream_id": 101
+        },
+        {
+          "object_ind": 226,
+          "stream_id": 102
+        },
+        {
+          "object_ind": 227,
+          "stream_id": 103
+        },
+        {
+          "object_ind": 228,
+          "stream_id": 104
+        },
+        {
+          "object_ind": 229,
+          "stream_id": 105
+        },
+        {
+          "object_ind": 230,
+          "stream_id": 106
+        },
+        {
+          "object_ind": 231,
+          "stream_id": 107
+        },
+        {
+          "object_ind": 232,
+          "stream_id": 108
+        },
+        {
+          "object_ind": 233,
+          "stream_id": 109
+        },
+        {
+          "object_ind": 234,
+          "stream_id": 110
+        },
+        {
+          "object_ind": 235,
+          "stream_id": 111
+        },
+        {
+          "object_ind": 236,
+          "stream_id": 112
+        },
+        {
+          "object_ind": 237,
+          "stream_id": 113
+        },
+        {
+          "object_ind": 238,
+          "stream_id": 114
+        },
+        {
+          "object_ind": 239,
+          "stream_id": 115
+        },
+        {
+          "object_ind": 240,
+          "stream_id": 116
+        },
+        {
+          "object_ind": 241,
+          "stream_id": 117
+        },
+        {
+          "object_ind": 242,
+          "stream_id": 118
+        },
+        {
+          "object_ind": 243,
+          "stream_id": 119
+        },
+        {
+          "object_ind": 244,
+          "stream_id": 120
+        },
+        {
+          "object_ind": 245,
+          "stream_id": 121
+        },
+        {
+          "object_ind": 246,
+          "stream_id": 122
+        },
+        {
+          "object_ind": 247,
+          "stream_id": 123
+        },
+        {
+          "object_ind": 248,
+          "stream_id": 124
+        },
+        {
+          "object_ind": 249,
+          "stream_id": 125
+        },
+        {
+          "object_ind": 250,
+          "stream_id": 126
+        },
+        {
+          "object_ind": 251,
+          "stream_id": 127
+        },
+        {
+          "object_ind": 252,
+          "stream_id": 128
+        },
+        {
+          "object_ind": 253,
+          "stream_id": 129
+        },
+        {
+          "object_ind": 254,
+          "stream_id": 130
+        },
+        {
+          "object_ind": 255,
+          "stream_id": 131
+        },
+        {
+          "object_ind": 256,
+          "stream_id": 132
+        },
+        {
+          "object_ind": 257,
+          "stream_id": 133
+        }
+      ]
+    },
+    {
+      "object_ind": 273,
+      "parent_id": 20,
+      "cache_id": 27,
+      "properties": [
+        {
+          "object_ind": 260,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 261,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 262,
+          "stream_id": 22
+        },
+        {
+          "object_ind": 263,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 264,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 265,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 266,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 267,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 268,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 269,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 270,
+          "stream_id": 30
+        },
+        {
+          "object_ind": 271,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 272,
+          "stream_id": 32
+        }
+      ]
+    },
+    {
+      "object_ind": 277,
+      "parent_id": 20,
+      "cache_id": 22,
+      "properties": [
+        {
+          "object_ind": 275,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 276,
+          "stream_id": 21
+        }
+      ]
+    },
+    {
+      "object_ind": 290,
+      "parent_id": 20,
+      "cache_id": 31,
+      "properties": [
+        {
+          "object_ind": 279,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 280,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 281,
+          "stream_id": 22
+        },
+        {
+          "object_ind": 282,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 283,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 284,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 285,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 286,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 287,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 288,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 289,
+          "stream_id": 30
+        }
+      ]
+    },
+    {
+      "object_ind": 298,
+      "parent_id": 31,
+      "cache_id": 38,
+      "properties": [
+        {
+          "object_ind": 291,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 292,
+          "stream_id": 32
+        },
+        {
+          "object_ind": 293,
+          "stream_id": 33
+        },
+        {
+          "object_ind": 294,
+          "stream_id": 34
+        },
+        {
+          "object_ind": 295,
+          "stream_id": 35
+        },
+        {
+          "object_ind": 296,
+          "stream_id": 36
+        },
+        {
+          "object_ind": 297,
+          "stream_id": 37
+        }
+      ]
+    },
+    {
+      "object_ind": 301,
+      "parent_id": 38,
+      "cache_id": 40,
+      "properties": [
+        {
+          "object_ind": 299,
+          "stream_id": 38
+        },
+        {
+          "object_ind": 300,
+          "stream_id": 39
+        }
+      ]
+    },
+    {
+      "object_ind": 303,
+      "parent_id": 20,
+      "cache_id": 20,
+      "properties": []
+    },
+    {
+      "object_ind": 308,
+      "parent_id": 20,
+      "cache_id": 23,
+      "properties": [
+        {
+          "object_ind": 305,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 306,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 307,
+          "stream_id": 22
+        }
+      ]
+    },
+    {
+      "object_ind": 315,
+      "parent_id": 23,
+      "cache_id": 29,
+      "properties": [
+        {
+          "object_ind": 309,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 310,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 311,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 312,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 313,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 314,
+          "stream_id": 28
+        }
+      ]
+    },
+    {
+      "object_ind": 317,
+      "parent_id": 29,
+      "cache_id": 30,
+      "properties": [
+        {
+          "object_ind": 316,
+          "stream_id": 29
+        }
+      ]
+    },
+    {
+      "object_ind": 323,
+      "parent_id": 20,
+      "cache_id": 23,
+      "properties": [
+        {
+          "object_ind": 320,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 321,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 322,
+          "stream_id": 22
+        }
+      ]
+    },
+    {
+      "object_ind": 325,
+      "parent_id": 23,
+      "cache_id": 24,
+      "properties": [
+        {
+          "object_ind": 324,
+          "stream_id": 23
+        }
+      ]
+    },
+    {
+      "object_ind": 340,
+      "parent_id": 24,
+      "cache_id": 35,
+      "properties": [
+        {
+          "object_ind": 326,
+          "stream_id": 24
+        },
+        {
+          "object_ind": 327,
+          "stream_id": 25
+        },
+        {
+          "object_ind": 328,
+          "stream_id": 26
+        },
+        {
+          "object_ind": 329,
+          "stream_id": 27
+        },
+        {
+          "object_ind": 330,
+          "stream_id": 28
+        },
+        {
+          "object_ind": 331,
+          "stream_id": 29
+        },
+        {
+          "object_ind": 332,
+          "stream_id": 30
+        },
+        {
+          "object_ind": 333,
+          "stream_id": 31
+        },
+        {
+          "object_ind": 334,
+          "stream_id": 32
+        },
+        {
+          "object_ind": 335,
+          "stream_id": 33
+        },
+        {
+          "object_ind": 336,
+          "stream_id": 34
+        },
+        {
+          "object_ind": 337,
+          "stream_id": 35
+        },
+        {
+          "object_ind": 338,
+          "stream_id": 36
+        },
+        {
+          "object_ind": 339,
+          "stream_id": 37
+        }
+      ]
+    },
+    {
+      "object_ind": 344,
+      "parent_id": 23,
+      "cache_id": 25,
+      "properties": [
+        {
+          "object_ind": 342,
+          "stream_id": 23
+        },
+        {
+          "object_ind": 343,
+          "stream_id": 24
+        }
+      ]
+    },
+    {
+      "object_ind": 346,
+      "parent_id": 23,
+      "cache_id": 23,
+      "properties": []
+    },
+    {
+      "object_ind": 349,
+      "parent_id": 24,
+      "cache_id": 25,
+      "properties": [
+        {
+          "object_ind": 348,
+          "stream_id": 24
+        }
+      ]
+    },
+    {
+      "object_ind": 352,
+      "parent_id": 24,
+      "cache_id": 25,
+      "properties": [
+        {
+          "object_ind": 351,
+          "stream_id": 24
+        }
+      ]
+    },
+    {
+      "object_ind": 363,
+      "parent_id": 48,
+      "cache_id": 57,
+      "properties": [
+        {
+          "object_ind": 354,
+          "stream_id": 48
+        },
+        {
+          "object_ind": 355,
+          "stream_id": 49
+        },
+        {
+          "object_ind": 356,
+          "stream_id": 50
+        },
+        {
+          "object_ind": 357,
+          "stream_id": 51
+        },
+        {
+          "object_ind": 358,
+          "stream_id": 52
+        },
+        {
+          "object_ind": 359,
+          "stream_id": 53
+        },
+        {
+          "object_ind": 360,
+          "stream_id": 54
+        },
+        {
+          "object_ind": 361,
+          "stream_id": 55
+        },
+        {
+          "object_ind": 362,
+          "stream_id": 56
+        }
+      ]
+    },
+    {
+      "object_ind": 385,
+      "parent_id": 57,
+      "cache_id": 77,
+      "properties": [
+        {
+          "object_ind": 364,
+          "stream_id": 57
+        },
+        {
+          "object_ind": 365,
+          "stream_id": 58
+        },
+        {
+          "object_ind": 366,
+          "stream_id": 59
+        },
+        {
+          "object_ind": 367,
+          "stream_id": 60
+        },
+        {
+          "object_ind": 368,
+          "stream_id": 61
+        },
+        {
+          "object_ind": 369,
+          "stream_id": 62
+        },
+        {
+          "object_ind": 370,
+          "stream_id": 63
+        },
+        {
+          "object_ind": 371,
+          "stream_id": 64
+        },
+        {
+          "object_ind": 372,
+          "stream_id": 65
+        },
+        {
+          "object_ind": 373,
+          "stream_id": 66
+        },
+        {
+          "object_ind": 374,
+          "stream_id": 67
+        },
+        {
+          "object_ind": 375,
+          "stream_id": 68
+        },
+        {
+          "object_ind": 376,
+          "stream_id": 69
+        },
+        {
+          "object_ind": 377,
+          "stream_id": 70
+        },
+        {
+          "object_ind": 378,
+          "stream_id": 71
+        },
+        {
+          "object_ind": 379,
+          "stream_id": 72
+        },
+        {
+          "object_ind": 380,
+          "stream_id": 73
+        },
+        {
+          "object_ind": 381,
+          "stream_id": 74
+        },
+        {
+          "object_ind": 382,
+          "stream_id": 75
+        },
+        {
+          "object_ind": 383,
+          "stream_id": 76
+        },
+        {
+          "object_ind": 384,
+          "stream_id": 77
+        }
+      ]
+    },
+    {
+      "object_ind": 390,
+      "parent_id": 20,
+      "cache_id": 23,
+      "properties": [
+        {
+          "object_ind": 387,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 388,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 389,
+          "stream_id": 22
+        }
+      ]
+    },
+    {
+      "object_ind": 401,
+      "parent_id": 20,
+      "cache_id": 23,
+      "properties": [
+        {
+          "object_ind": 398,
+          "stream_id": 20
+        },
+        {
+          "object_ind": 399,
+          "stream_id": 21
+        },
+        {
+          "object_ind": 400,
+          "stream_id": 22
+        }
+      ]
+    },
+    {
+      "object_ind": 402,
+      "parent_id": 23,
+      "cache_id": 23,
+      "properties": []
+    }
+  ]
+}

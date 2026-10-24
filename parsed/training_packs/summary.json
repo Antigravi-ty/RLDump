@@ -1,0 +1,70 @@
+[
+  {
+    "file": "172CA0CF4A0FF134062365815A6A5816.Tem",
+    "guid": "172CA0CF-4A0FF134-06236581-5A6A5816",
+    "name": "New Sequence",
+    "code": null,
+    "creator": null,
+    "creator_id": null,
+    "map": "woods_p",
+    "type": {
+      "ETrainingType": "Training_Striker"
+    },
+    "difficulty": null,
+    "rounds_count": 2,
+    "unowned": false,
+    "licensee_version": 34,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "file": "A2AD27B74DE54E9E99B104982853DE26.Tem",
+    "guid": "A2AD27B7-4DE54E9E-99B10498-2853DE26",
+    "name": "New Sequence",
+    "code": null,
+    "creator": null,
+    "creator_id": null,
+    "map": "music_p",
+    "type": {
+      "ETrainingType": "Training_Striker"
+    },
+    "difficulty": null,
+    "rounds_count": 1,
+    "unowned": false,
+    "licensee_version": 34,
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "file": "5F69C04047BEF4D8509A7289138FAFFB.Tem",
+    "guid": "5F69C040-47BEF4D8-509A7289-138FAFFB",
+    "name": "Kevpert: Adv Double Taps 1 F10",
+    "code": "3115-DC26-525D-F409",
+    "creator": "Hampert",
+    "creator_id": {
+      "_struct": "UniqueNetId",
+      "Uid": 76561198141307920,
+      "Platform": {
+        "OnlinePlatform": "OnlinePlatform_Steam"
+      }
+    },
+    "map": "EuroStadium_Night_P",
+    "type": {
+      "ETrainingType": "Training_Striker"
+    },
+    "difficulty": {
+      "EDifficulty": "D_Medium"
+    },
+    "rounds_count": 50,
+    "unowned": true,
+    "licensee_version": 32,
+    "created_at": {
+      "epoch": 1608246054,
+      "iso_utc": "2020-12-17T23:00:54+00:00"
+    },
+    "updated_at": {
+      "epoch": 1744572550,
+      "iso_utc": "2025-04-13T19:29:10+00:00"
+    }
+  }
+]

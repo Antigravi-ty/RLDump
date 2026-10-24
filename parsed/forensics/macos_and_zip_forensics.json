@@ -1,0 +1,358 @@
+{
+  "zip_archive_entries": [
+    {
+      "filename": "RLorig/",
+      "file_size": 0,
+      "compress_size": 0,
+      "compress_type": 0,
+      "modified_local": "2026-10-24T18:04:54",
+      "crc32": "0x00000000",
+      "create_system": 3,
+      "external_attr_octal": "0o40755"
+    },
+    {
+      "filename": "RLorig/172CA0CF4A0FF134062365815A6A5816.Tem",
+      "file_size": 1848,
+      "compress_size": 1853,
+      "compress_type": 8,
+      "modified_local": "2026-10-22T10:12:22",
+      "crc32": "0xB118178A",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "__MACOSX/RLorig/._172CA0CF4A0FF134062365815A6A5816.Tem",
+      "file_size": 163,
+      "compress_size": 86,
+      "compress_type": 8,
+      "modified_local": "2026-10-22T10:12:22",
+      "crc32": "0x679C6FF0",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "RLorig/.DS_Store",
+      "file_size": 6148,
+      "compress_size": 417,
+      "compress_type": 8,
+      "modified_local": "2026-10-24T17:50:32",
+      "crc32": "0xF11F00FB",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "__MACOSX/RLorig/._.DS_Store",
+      "file_size": 120,
+      "compress_size": 53,
+      "compress_type": 8,
+      "modified_local": "2026-10-24T17:50:32",
+      "crc32": "0x38C0880B",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "RLorig/others/",
+      "file_size": 0,
+      "compress_size": 0,
+      "compress_type": 0,
+      "modified_local": "2026-10-24T17:50:26",
+      "crc32": "0x00000000",
+      "create_system": 3,
+      "external_attr_octal": "0o40755"
+    },
+    {
+      "filename": "RLorig/A2AD27B74DE54E9E99B104982853DE26.Tem",
+      "file_size": 1128,
+      "compress_size": 1133,
+      "compress_type": 8,
+      "modified_local": "2026-10-22T10:06:32",
+      "crc32": "0x7D16249B",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "__MACOSX/RLorig/._A2AD27B74DE54E9E99B104982853DE26.Tem",
+      "file_size": 163,
+      "compress_size": 86,
+      "compress_type": 8,
+      "modified_local": "2026-10-22T10:06:32",
+      "crc32": "0x679C6FF0",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "RLorig/3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay",
+      "file_size": 1708616,
+      "compress_size": 1445367,
+      "compress_type": 8,
+      "modified_local": "2026-10-24T18:04:46",
+      "crc32": "0x291CB083",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "__MACOSX/RLorig/._3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay",
+      "file_size": 562,
+      "compress_size": 361,
+      "compress_type": 8,
+      "modified_local": "2026-10-24T18:04:46",
+      "crc32": "0x45C77EEB",
+      "create_system": 3,
+      "external_attr_octal": "0o100644"
+    },
+    {
+      "filename": "RLorig/others/5F69C04047BEF4D8509A7289138FAFFB.Tem",
+      "file_size": 35304,
+      "compress_size": 22734,
+      "compress_type": 8,
+      "modified_local": "2026-05-30T16:29:04",
+      "crc32": "0xBD0B631A",
+      "create_system": 3,
+      "external_attr_octal": "0o100664"
+    },
+    {
+      "filename": "__MACOSX/RLorig/others/._5F69C04047BEF4D8509A7289138FAFFB.Tem",
+      "file_size": 222,
+      "compress_size": 134,
+      "compress_type": 8,
+      "modified_local": "2026-05-30T16:29:04",
+      "crc32": "0x8BB77E4D",
+      "create_system": 3,
+      "external_attr_octal": "0o100664"
+    }
+  ],
+  "ds_store_records": [
+    {
+      "filename": "others",
+      "code": "bwsp",
+      "type": "<class 'ds_store.store.PlistCodec'>",
+      "value": {
+        "ShowStatusBar": true,
+        "ShowToolbar": true,
+        "ShowTabView": true,
+        "ContainerShowSidebar": true,
+        "WindowBounds": "{{589, 735}, {920, 492}}",
+        "ShowSidebar": true
+      },
+      "decoded_timestamp_utc": null
+    },
+    {
+      "filename": "others",
+      "code": "lg1S",
+      "type": "comp",
+      "value": 35304,
+      "decoded_timestamp_utc": null
+    },
+    {
+      "filename": "others",
+      "code": "moDD",
+      "type": "blob",
+      "value": "2127a9715b46c841",
+      "decoded_timestamp_utc": "2026-10-24T09:50:27.321507+00:00"
+    },
+    {
+      "filename": "others",
+      "code": "modD",
+      "type": "blob",
+      "value": "2127a9715b46c841",
+      "decoded_timestamp_utc": "2026-10-24T09:50:27.321507+00:00"
+    },
+    {
+      "filename": "others",
+      "code": "ph1S",
+      "type": "comp",
+      "value": 36864,
+      "decoded_timestamp_utc": null
+    },
+    {
+      "filename": "others",
+      "code": "vSrn",
+      "type": "long",
+      "value": 1,
+      "decoded_timestamp_utc": null
+    }
+  ],
+  "appledouble_extended_attributes": [
+    {
+      "file": "/tmp/rldump/__MACOSX/RLorig/._.DS_Store",
+      "size_bytes": 120,
+      "magic": "0x00051607",
+      "version": "0x00020000",
+      "filler_ascii": "Mac OS X",
+      "entries": [
+        {
+          "entry_id": 9,
+          "offset": 50,
+          "length": 70,
+          "finder_info_hex": "2020202020202020401000000000000000000000000000000000000000000000",
+          "extended_attributes": []
+        },
+        {
+          "entry_id": 2,
+          "offset": 120,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "file": "/tmp/rldump/__MACOSX/RLorig/._172CA0CF4A0FF134062365815A6A5816.Tem",
+      "size_bytes": 163,
+      "magic": "0x00051607",
+      "version": "0x00020000",
+      "filler_ascii": "Mac OS X",
+      "entries": [
+        {
+          "entry_id": 9,
+          "offset": 50,
+          "length": 113,
+          "finder_info_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+          "extended_attributes": [
+            {
+              "name": "com.apple.provenance",
+              "length": 11,
+              "flags": 0,
+              "raw_hex": "01020039ea8b2f98326147"
+            }
+          ]
+        },
+        {
+          "entry_id": 2,
+          "offset": 163,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "file": "/tmp/rldump/__MACOSX/RLorig/._3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay",
+      "size_bytes": 562,
+      "magic": "0x00051607",
+      "version": "0x00020000",
+      "filler_ascii": "Mac OS X",
+      "entries": [
+        {
+          "entry_id": 9,
+          "offset": 50,
+          "length": 512,
+          "finder_info_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+          "extended_attributes": [
+            {
+              "name": "com.apple.lastuseddate#PS",
+              "length": 16,
+              "flags": 0,
+              "raw_hex": "be82dc6a00000000d749290500000000",
+              "decoded_last_used_utc": "2026-10-24T10:04:46+00:00",
+              "nanoseconds": 86591959
+            },
+            {
+              "name": "com.apple.metadata:kMDItemDownloadedDate",
+              "length": 53,
+              "flags": 0,
+              "raw_hex": "62706c6973743030a1013341c8465d1f0aa2ba080a0000000000000101000000000000000200000000000000000000000000000013",
+              "decoded_plist": [
+                "2026-10-24T10:04:46.083091"
+              ]
+            },
+            {
+              "name": "com.apple.metadata:kMDItemWhereFroms",
+              "length": 141,
+              "flags": 0,
+              "raw_hex": "62706c6973743030a1015f105e68747470733a2f2f62616c6c63686173696e672e636f6d2f646c2f7265706c61792f33616463353965612d326133642d343962302d626439322d3135663064323762623366363f673d6b632d76732d666c636e2d636d3334787530776d6d080a000000000000010100000000000000020000000000000000000000000000006b",
+              "decoded_plist": [
+                "https://ballchasing.com/dl/replay/3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6?g=kc-vs-flcn-cm34xu0wmm"
+              ]
+            },
+            {
+              "name": "com.apple.quarantine",
+              "length": 60,
+              "flags": 0,
+              "raw_hex": "712f303038333b36616463383262653b5361666172693b32413439464131432d424532392d344339382d414335392d39423634443043313034314200",
+              "decoded_quarantine": {
+                "raw_string": "q/0083;6adc82be;Safari;2A49FA1C-BE29-4C98-AC59-9B64D0C1041B",
+                "flags_hex": "q/0083",
+                "timestamp_hex": "6adc82be",
+                "timestamp_utc": "2026-10-24T10:04:46+00:00",
+                "agent_app": "Safari",
+                "event_uuid": "2A49FA1C-BE29-4C98-AC59-9B64D0C1041B"
+              }
+            }
+          ]
+        },
+        {
+          "entry_id": 2,
+          "offset": 562,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "file": "/tmp/rldump/__MACOSX/RLorig/._A2AD27B74DE54E9E99B104982853DE26.Tem",
+      "size_bytes": 163,
+      "magic": "0x00051607",
+      "version": "0x00020000",
+      "filler_ascii": "Mac OS X",
+      "entries": [
+        {
+          "entry_id": 9,
+          "offset": 50,
+          "length": 113,
+          "finder_info_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+          "extended_attributes": [
+            {
+              "name": "com.apple.provenance",
+              "length": 11,
+              "flags": 0,
+              "raw_hex": "01020039ea8b2f98326147"
+            }
+          ]
+        },
+        {
+          "entry_id": 2,
+          "offset": 163,
+          "length": 0
+        }
+      ]
+    },
+    {
+      "file": "/tmp/rldump/__MACOSX/RLorig/others/._5F69C04047BEF4D8509A7289138FAFFB.Tem",
+      "size_bytes": 222,
+      "magic": "0x00051607",
+      "version": "0x00020000",
+      "filler_ascii": "Mac OS X",
+      "entries": [
+        {
+          "entry_id": 9,
+          "offset": 50,
+          "length": 172,
+          "finder_info_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+          "extended_attributes": [
+            {
+              "name": "com.apple.provenance",
+              "length": 11,
+              "flags": 0,
+              "raw_hex": "01020039ea8b2f98326147"
+            },
+            {
+              "name": "com.apple.quarantine",
+              "length": 27,
+              "flags": 0,
+              "raw_hex": "712f303038323b36613161613066623b4c6f63616c53656e643b00",
+              "decoded_quarantine": {
+                "raw_string": "q/0082;6a1aa0fb;LocalSend;",
+                "flags_hex": "q/0082",
+                "timestamp_hex": "6a1aa0fb",
+                "timestamp_utc": "2026-05-30T08:34:03+00:00",
+                "agent_app": "LocalSend",
+                "event_uuid": ""
+              }
+            }
+          ]
+        },
+        {
+          "entry_id": 2,
+          "offset": 222,
+          "length": 0
+        }
+      ]
+    }
+  ]
+}
