@@ -31,7 +31,30 @@ import math
 import struct
 import sys
 from pathlib import Path
-from parse_tem import calc_rl_crc32
+
+CRC_POLY = 0x04C11DB7
+CRC_SEED = 0xEFCBF201
+_CRC_TABLE = None
+
+
+def _init_crc_table():
+    global _CRC_TABLE
+    tbl = []
+    for i in range(256):
+        c = i << 24
+        for _ in range(8):
+            c = ((c << 1) ^ CRC_POLY) & 0xFFFFFFFF if (c & 0x80000000) else (c << 1) & 0xFFFFFFFF
+        tbl.append(c)
+    _CRC_TABLE = tbl
+
+
+def calc_rl_crc32(data: bytes) -> int:
+    if _CRC_TABLE is None:
+        _init_crc_table()
+    crc = (~CRC_SEED) & 0xFFFFFFFF
+    for b in data:
+        crc = ((crc << 8) & 0xFFFFFFFF) ^ _CRC_TABLE[((crc >> 24) ^ b) & 0xFF]
+    return (~crc) & 0xFFFFFFFF
 
 PROPERTY_TYPE_BY_EXACT_NAME = {
     "Engine.Actor:RemoteRole": "Enum",
