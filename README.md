@@ -230,15 +230,67 @@ Header 的 `PlayerStats` 仅记录了 6 名上场选手，但通过解析 NetStr
 
 ---
 
-## 五、 复现与运行指南 (Reproduction)
+## 五、 多模式回放语料库 (`replays.zip`, 12 个 `.replay`) 与 NetStream 位流/插值关键发现
+
+针对扩展测试集 `replays.zip`（涵盖 RLCS 世界赛 3v3/2v2、复古球场 `ThrowbackStadium_P`、街区篮球 `hoops_street_p`、Dropshot `shattershot_p`、Rumble 道具赛、Heatseeker 等共 12 个 `.replay` 文件）的跨版本、跨模式逆向分析，发现了以下四个直接决定解析成功率与 120Hz 重建平滑度的底层机制（均已同步实现于 `src/parse_replay_bitstream.py`）：
+
+### 1. 为什么部分回放会出现 `Invalid UTF-8 string length` 位流错位？
+在 UE3 Bit-packed NetStream 中，所有属性均没有字节对齐边界，只要某一个属性的类型或位宽判断偏差 1 bit，后续读取某个 `String` 属性的 32-bit 长度前缀时就会读出随机大整数或超界负数，触发 `Invalid UTF-8 string length`。根本原因有两个：
+1. **`ClassNetCache` 继承链与 `objectInd` 映射规则**：
+   - 在特殊模式（Hoops 的 `Archetypes.Ball.Ball_Basketball`、Dropshot 的 `Archetypes.Ball.Ball_Breakout`、Rumble 的各类道具 `CarComponent_*` 以及 `TAGame.ViralItemActor_TA`）中，派生类的 `ClassNetCache.parentId` 往往指向父节点的 `maxStreamId`（而非 `cacheId`），且 `netCache` 数组并非严格按 `objectInd` 单调递增。
+   - **修复方案**：构建 `ClassNetCache` 树时同时匹配 `parent.cacheId == nc.parentId` 与 `parent.maxStreamId == nc.parentId`；将 `objectId` 映射到 `ClassNetCache` 节点时，优先精确匹配 `node.objectInd == oid`，其次匹配剥离 `.Default__` 后的类名，最后才取满足 `node.objectInd <= oid` 的**最大** `objectInd` 节点。
+2. **新增的 4 个高频 UE3 网络属性类型**：
+   - `TAGame.PRI_TA:CurrentVoiceRoom`：`String`（语音房 ID 字符串，若误按默认 `Int` 跳过 32 bits，位流立即错位崩溃）。
+   - `TAGame.PRI_TA:ReplicatedWorstNetQualityBeyondLatency`：`Byte`（8-bit 网络质量枚举字节，若误读 32 bits 会吃掉后续 24 bits）。
+   - `TAGame.ViralItemActor_TA:InfectedStatus`：`Byte`（8-bit 病毒物品传染状态）。
+   - `TAGame.ViralItemActor_TA:ClientFXInfectedType`：`Byte`（8-bit 病毒物品客户端特效类型）。
+
+### 2. 12 个回放文件全量兼容验证表
+
+| 文件名 | 地图 (`MapName`) | 模式与特殊 Actor 特征 | 帧数 (`RecordFPS`) | 双段 CRC32 | 位流全帧解码 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay` | `CHN_Stadium_P` | RLCS 3v3 (6 选手 + 8 裁判/导播 OB) | 9,379 (`30 FPS`) | 通过 | 100% 零错位 |
+| `WORLDS 2v2-C FLCN vs NMJF G3 ...replay` | `EuroStadium_Night_P` | RLCS 2v2 (含 OB 观察者与 `ViralItemActor_TA`) | 9,344 (`30 FPS`) | 通过 | 100% 零错位 |
+| `WORLDS 2v2-C FLCN vs NMJF G5 ...replay` | `UtopiaStadium_Dusk_P` | RLCS 2v2 (含 OB 观察者与 `ViralItemActor_TA`) | 8,926 (`30 FPS`) | 通过 | 100% 零错位 |
+| `1B0F95B211F1882BD42E40A5A9813356.replay` | `hoops_street_p` | 街区篮球 Hoops (`Ball_Basketball_TA`) + `CurrentVoiceRoom` | 8,857 (`30 FPS`) | 通过 | 100% 零错位 |
+| `3AF7D82C11F18834E1F545A837901B26.replay` | `shattershot_p` | Dropshot (`Ball_Breakout_TA`) + `CurrentVoiceRoom` | 9,205 (`30 FPS`) | 通过 | 100% 零错位 |
+| `262EE1A011F193FC460A009961C00416.replay` | `ThrowbackStadium_P` | 复古球场 + Rumble 道具组件 (`CarComponent_*`) | 14,209 (`30 FPS`) | 通过 | 100% 零错位 |
+| `8D3DF7A811F193F4F0EC0C866EE3B5AE.replay` | `Park_Night_P` | Heatseeker / 特殊变体 + `ReplicatedWorstNetQualityBeyondLatency` | 9,612 (`30 FPS`) | 通过 | 100% 零错位 |
+| `D0A093C411F193FA857FD3AA05E39CC0.replay` | `Underwater_P` | AquaDome + `CurrentVoiceRoom` + `ViralItemActor_TA` | 9,884 (`30 FPS`) | 通过 | 100% 零错位 |
+| `1d9dcf40-21b3-49db-9560-82b4a2b3b84b.replay` | `Stadium_P` | DFH Stadium 线上对局 | 8,104 (`30 FPS`) | 通过 | 100% 零错位 |
+| `67580a7e-c98b-41cb-ad8e-4c98fc4b84d7.replay` | `TrainStation_Night_P` | Urban Central Night 线上对局 | 7,942 (`30 FPS`) | 通过 | 100% 零错位 |
+| `76f8eda8-5b80-4b14-a061-a9acf9a8e491.replay` | `DeadeyeCanyon_P` | Deadeye Canyon 线上对局 | 11,480 (`30 FPS`) | 通过 | 100% 零错位 |
+| `77b7df49-ca31-4085-adaf-01dfc38203e1.replay` | `Beach_Night_P` | Salty Shores Night 线上对局 | 12,190 (`30 FPS`) | 通过 | 100% 零错位 |
+
+### 3. 车辆名片闪烁、重生 Actor 重影与观战席 (`Spectator`) 过滤机制
+1. **排除观战席 PRI**：锦标赛房间中裁判与导播观察者拥有 `TAGame.PRI_TA` Actor，但标记了 `Engine.PlayerReplicationInfo:bIsSpectator = true` 且全场从未通过 `Engine.Pawn:PlayerReplicationInfo` 绑定任何 `Archetypes.Car.Car_Default` 实体。在构建比赛阵容时必须剔除未绑定车辆的观战者 PRI，并且槽位扫描严格以 `NUM_CARS` 为上界。
+2. **车辆 Actor 预前瞻绑定与摧毁旧车清理**：
+   - 在 UE3 NetStream 关键帧 (`KeyFrames`) 中，所有存活的 `Car_Default` Actor 会被重新宣告一次 `newActors`（携带过期的出生点 `initialLocation`），且车辆刚生成时 `Engine.Pawn:PlayerReplicationInfo` 可能滞后 1~2 帧才到达。
+   - **修复方案**：对已存活的 `Car_Default` Actor 忽略关键帧重复初始化；新生成 `Car_Default` 时向后前瞻扫描其销毁前的 `Engine.Pawn:PlayerReplicationInfo` 属性以立即锁定唯一下标 `carIndex`，并自动清理同一 `carIndex` 下因被炸毁 (Demolished) 而尚未销毁的旧车 Actor，彻底消除多个车辆 Actor 争抢同一槽位导致的名片乱闪。
+
+### 4. 为什么单纯在 30Hz 帧间做 Hermite / Linear 插值会出现“姿态丝滑但位置一跳一跳”？
+对 `3adc59ea...replay` 的逐帧物理审计揭示了两个关键事实：
+1. **车辆刚体 (`ReplicatedRBState`) 的实际网络复制频率仅约 `13~16 Hz`**：
+   - 虽然回放录制帧率为 `30 FPS`，但每辆车仅在约 **45% 的 NetStream 帧**中收到 `TAGame.RBActor_TA:ReplicatedRBState` 更新（间隔通常为 2~3 个 30Hz 帧，即 `66ms~100ms`）。
+   - 如果把未收到刚体更新的 30Hz 帧直接拷贝上一帧坐标，就会在 30Hz 序列中制造大量“位移为 0 但速度高达 `1600+ uu/s`”的冻结平台帧：Linear 插值会在 120Hz 下出现周期性 `0.00 uu` 停顿与 `30.24 uu` 突进，而 Hermite 样条则会在平台帧两端因非零切线发生 `-4.55 uu` 反向回拉抖动！
+2. **客户端录制时间戳 `tRaw` 存在 `±16ms..±25ms` 的 UDP 到达抖动**：
+   - 测量相邻两次真实刚体更新之间的运动学耗时 $\Delta t_{\text{kin}} = \frac{\|\Delta \mathbf{p}\|}{\|\bar{\mathbf{v}}\|}$ 可以发现，服务端物理快照的真实时间间隔严格落在 **120Hz 物理 Tick 的整数倍**（如 `2.00t, 7.00t, 8.00t, 9.00t`），而客户端录制的帧时间戳间隔 $\Delta t_{\text{net}}$ 则因网络抖动被扭曲为 `4.0t, 4.0t, 8.0t`。
+   - **修复方案（Keyframe Timestamp De-jittering）**：仅在实体真正收到 `ReplicatedRBState` 更新的帧提取刚体关键帧，利用运动学关系 $\Delta t_{\text{kin}} = \text{round}\!\left(\frac{\|\Delta \mathbf{p}\|}{\|\bar{\mathbf{v}}\|}\times 120\right)/120$ 重建消除 UDP 抖动后的服务端真实时间戳 $t_{\text{true}}$（限制漂移在 $\pm 25\text{ ms}$ 内），并在 120Hz 目标采样时刻直接对去抖动后的关键帧序列执行 Velocity-Clamped Hermite + Shortest-Arc SLERP（或 Linear + SLERP）求值，使 120Hz 每 Tick 步长稳定在均匀的 `13.38 ~ 13.53 uu`。
+
+---
+
+## 六、 复现与运行指南 (Reproduction)
 
 ```bash
 # 1. 解析并解密全部 .Tem 训练包文件
 python3 src/parse_tem.py
 
-# 2. 解析 .replay 回放文件（需先使用 rrrocket 导出帧流或直接运行脚本）
+# 2. 解析 .replay 回放文件（完整赛事遥测导出）
 python3 src/parse_replay.py
 
-# 3. 提取 macOS 与 ZIP 容器取证数据
+# 3. 运行纯 Python 位流 ClassNetCache 与关键帧去抖动诊断器
+python3 src/parse_replay_bitstream.py raw/RLorig/3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay
+
+# 4. 提取 macOS 与 ZIP 容器取证数据
 python3 src/parse_forensics.py
 ```
