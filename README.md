@@ -230,52 +230,91 @@ Header 的 `PlayerStats` 仅记录了 6 名上场选手，但通过解析 NetStr
 
 ---
 
-## 五、 多模式回放语料库 (`replays.zip`, 12 个 `.replay`) 与 NetStream 位流/插值关键发现
+## 五、 扩展回放语料库 (`replays.zip`, 12 个 `.replay`) 全量解析与核心字段结构分析
 
-针对扩展测试集 `replays.zip`（涵盖 RLCS 世界赛 3v3/2v2、复古球场 `ThrowbackStadium_P`、街区篮球 `hoops_street_p`、Dropshot `shattershot_p`、Rumble 道具赛、Heatseeker 等共 12 个 `.replay` 文件）的跨版本、跨模式逆向分析，发现了以下四个直接决定解析成功率与 120Hz 重建平滑度的底层机制（均已同步实现于 `src/parse_replay_bitstream.py`）：
+针对 `replays.zip` 中全部 **12 个 `.replay` 文件**（包含 7 场 RLCS 世界赛 3v3/2v2 锦标赛回放与 5 场线上排位 2v2/3v3 回放，覆盖 7 张不同标准球场地图、116 个房间成员 PRI、10 种不同车身 Product ID），我们通过 `src/parse_all_replays.py` 完成了全量验证与导出（详见 `parsed/replay/corpus_12_replays_summary.json`）。
 
-### 1. 为什么部分回放会出现 `Invalid UTF-8 string length` 位流错位？
-在 UE3 Bit-packed NetStream 中，所有属性均没有字节对齐边界，只要某一个属性的类型或位宽判断偏差 1 bit，后续读取某个 `String` 属性的 32-bit 长度前缀时就会读出随机大整数或超界负数，触发 `Invalid UTF-8 string length`。根本原因有两个：
-1. **`ClassNetCache` 继承链与 `objectInd` 映射规则**：
-   - 在特殊模式（Hoops 的 `Archetypes.Ball.Ball_Basketball`、Dropshot 的 `Archetypes.Ball.Ball_Breakout`、Rumble 的各类道具 `CarComponent_*` 以及 `TAGame.ViralItemActor_TA`）中，派生类的 `ClassNetCache.parentId` 往往指向父节点的 `maxStreamId`（而非 `cacheId`），且 `netCache` 数组并非严格按 `objectInd` 单调递增。
-   - **修复方案**：构建 `ClassNetCache` 树时同时匹配 `parent.cacheId == nc.parentId` 与 `parent.maxStreamId == nc.parentId`；将 `objectId` 映射到 `ClassNetCache` 节点时，优先精确匹配 `node.objectInd == oid`，其次匹配剥离 `.Default__` 后的类名，最后才取满足 `node.objectInd <= oid` 的**最大** `objectInd` 节点。
-2. **新增的 4 个高频 UE3 网络属性类型**：
-   - `TAGame.PRI_TA:CurrentVoiceRoom`：`String`（语音房 ID 字符串，若误按默认 `Int` 跳过 32 bits，位流立即错位崩溃）。
-   - `TAGame.PRI_TA:ReplicatedWorstNetQualityBeyondLatency`：`Byte`（8-bit 网络质量枚举字节，若误读 32 bits 会吃掉后续 24 bits）。
-   - `TAGame.ViralItemActor_TA:InfectedStatus`：`Byte`（8-bit 病毒物品传染状态）。
-   - `TAGame.ViralItemActor_TA:ClientFXInfectedType`：`Byte`（8-bit 病毒物品客户端特效类型）。
+### 1. 12 个回放文件全量元数据与解析验证表
 
-### 2. 12 个回放文件全量兼容验证表
+| 文件名 | 地图 (`MapName`) | 模式 (`TeamSize`) | 场上选手 / 观战 OB | 帧数 (`RecordFPS`) | 进球 / 击毁 | 拾取到的唯一 BoostPad | 双段 CRC32 & 位流解码 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay` | `CHN_Stadium_P` | RLCS 3v3 (KC vs FLCN) | 6 选手 + 8 裁判/OB | 9,379 (`30 FPS`) | 1 / 7 | `34 / 34` (100% 映射) | 通过 |
+| `76f8eda8-5b80-4b14-a061-a9acf9a8e491.replay` | `UF_Night_P` | RLCS 3v3 (KC vs FLCN) | 6 选手 + 8 裁判/OB | 10,803 (`30 FPS`) | 4 / 8 | `34 / 34` (100% 映射) | 通过 |
+| `77b7df49-ca31-4085-adaf-01dfc38203e1.replay` | `EuroStadium_Dusk_P` | RLCS 3v3 (KC vs FLCN) | 6 选手 + 8 裁判/OB | 10,601 (`30 FPS`) | 3 / 5 | `34 / 34` (100% 映射) | 通过 |
+| `1d9dcf40-21b3-49db-9560-82b4a2b3b84b.replay` | `cs_p` | RLCS 2v2 (FLCN vs VIT) | 4 选手 + 8 裁判/OB | 10,956 (`30 FPS`) | 4 / 7 | `34 / 34` (100% 映射) | 通过 |
+| `67580a7e-c98b-41cb-ad8e-4c98fc4b84d7.replay` | `EuroStadium_Dusk_P` | RLCS 2v2 (FLCN vs VIT) | 4 选手 + 8 裁判/OB | 13,590 (`30 FPS`) | 9 / 11 | `34 / 34` (100% 映射) | 通过 |
+| `WORLDS 2v2-C FLCN vs NMJF G3 ...replay` | `UF_Night_P` | RLCS 2v2 (FLCN vs NMJF) | 4 选手 + 8 裁判/OB | 11,488 (`30 FPS`) | 6 / 5 | `34 / 34` (100% 映射) | 通过 |
+| `WORLDS 2v2-C FLCN vs NMJF G5 ...replay` | `street_p` | RLCS 2v2 (FLCN vs NMJF) | 4 选手 + 8 裁判/OB | 12,188 (`30 FPS`) | 7 / 7 | `34 / 34` (100% 映射) | 通过 |
+| `1B0F95B211F1882BD42E40A5A9813356.replay` | `Underwater_P` | 线上 2v2 | 4 选手 + 0 OB | 9,012 (`30 FPS`) | 4 / 1 | `33 / 34` (1 个小球未踩) | 通过 |
+| `3AF7D82C11F18834E1F545A837901B26.replay` | `EuroStadium_Dusk_P` | 线上 2v2 | 4 选手 + 0 OB | 9,418 (`30 FPS`) | 2 / 4 | `34 / 34` (100% 映射) | 通过 |
+| `262EE1A011F193FC460A009961C00416.replay` | `TrainStation_Night_P` | 线上 3v3 (含加时) | 6 选手 + 0 OB | 14,193 (`30 FPS`) | 4 / 7 | `34 / 34` (100% 映射) | 通过 |
+| `8D3DF7A811F193F4F0EC0C866EE3B5AE.replay` | `cs_p` | 线上 3v3 | 6 选手 + 0 OB | 10,803 (`30 FPS`) | 5 / 3 | `34 / 34` (100% 映射) | 通过 |
+| `D0A093C411F193FA857FD3AA05E39CC0.replay` | `UF_Night_P` | 线上 3v3 | 6 选手 + 0 OB | 11,932 (`30 FPS`) | 6 / 8 | `34 / 34` (100% 映射) | 通过 |
 
-| 文件名 | 地图 (`MapName`) | 模式与特殊 Actor 特征 | 帧数 (`RecordFPS`) | 双段 CRC32 | 位流全帧解码 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay` | `CHN_Stadium_P` | RLCS 3v3 (6 选手 + 8 裁判/导播 OB) | 9,379 (`30 FPS`) | 通过 | 100% 零错位 |
-| `WORLDS 2v2-C FLCN vs NMJF G3 ...replay` | `EuroStadium_Night_P` | RLCS 2v2 (含 OB 观察者与 `ViralItemActor_TA`) | 9,344 (`30 FPS`) | 通过 | 100% 零错位 |
-| `WORLDS 2v2-C FLCN vs NMJF G5 ...replay` | `UtopiaStadium_Dusk_P` | RLCS 2v2 (含 OB 观察者与 `ViralItemActor_TA`) | 8,926 (`30 FPS`) | 通过 | 100% 零错位 |
-| `1B0F95B211F1882BD42E40A5A9813356.replay` | `hoops_street_p` | 街区篮球 Hoops (`Ball_Basketball_TA`) + `CurrentVoiceRoom` | 8,857 (`30 FPS`) | 通过 | 100% 零错位 |
-| `3AF7D82C11F18834E1F545A837901B26.replay` | `shattershot_p` | Dropshot (`Ball_Breakout_TA`) + `CurrentVoiceRoom` | 9,205 (`30 FPS`) | 通过 | 100% 零错位 |
-| `262EE1A011F193FC460A009961C00416.replay` | `ThrowbackStadium_P` | 复古球场 + Rumble 道具组件 (`CarComponent_*`) | 14,209 (`30 FPS`) | 通过 | 100% 零错位 |
-| `8D3DF7A811F193F4F0EC0C866EE3B5AE.replay` | `Park_Night_P` | Heatseeker / 特殊变体 + `ReplicatedWorstNetQualityBeyondLatency` | 9,612 (`30 FPS`) | 通过 | 100% 零错位 |
-| `D0A093C411F193FA857FD3AA05E39CC0.replay` | `Underwater_P` | AquaDome + `CurrentVoiceRoom` + `ViralItemActor_TA` | 9,884 (`30 FPS`) | 通过 | 100% 零错位 |
-| `1d9dcf40-21b3-49db-9560-82b4a2b3b84b.replay` | `Stadium_P` | DFH Stadium 线上对局 | 8,104 (`30 FPS`) | 通过 | 100% 零错位 |
-| `67580a7e-c98b-41cb-ad8e-4c98fc4b84d7.replay` | `TrainStation_Night_P` | Urban Central Night 线上对局 | 7,942 (`30 FPS`) | 通过 | 100% 零错位 |
-| `76f8eda8-5b80-4b14-a061-a9acf9a8e491.replay` | `DeadeyeCanyon_P` | Deadeye Canyon 线上对局 | 11,480 (`30 FPS`) | 通过 | 100% 零错位 |
-| `77b7df49-ca31-4085-adaf-01dfc38203e1.replay` | `Beach_Night_P` | Salty Shores Night 线上对局 | 12,190 (`30 FPS`) | 通过 | 100% 零错位 |
+---
 
-### 3. 车辆名片闪烁、重生 Actor 重影与观战席 (`Spectator`) 过滤机制
-1. **排除观战席 PRI**：锦标赛房间中裁判与导播观察者拥有 `TAGame.PRI_TA` Actor，但标记了 `Engine.PlayerReplicationInfo:bIsSpectator = true` 且全场从未通过 `Engine.Pawn:PlayerReplicationInfo` 绑定任何 `Archetypes.Car.Car_Default` 实体。在构建比赛阵容时必须剔除未绑定车辆的观战者 PRI，并且槽位扫描严格以 `NUM_CARS` 为上界。
-2. **车辆 Actor 预前瞻绑定与摧毁旧车清理**：
-   - 在 UE3 NetStream 关键帧 (`KeyFrames`) 中，所有存活的 `Car_Default` Actor 会被重新宣告一次 `newActors`（携带过期的出生点 `initialLocation`），且车辆刚生成时 `Engine.Pawn:PlayerReplicationInfo` 可能滞后 1~2 帧才到达。
-   - **修复方案**：对已存活的 `Car_Default` Actor 忽略关键帧重复初始化；新生成 `Car_Default` 时向后前瞻扫描其销毁前的 `Engine.Pawn:PlayerReplicationInfo` 属性以立即锁定唯一下标 `carIndex`，并自动清理同一 `carIndex` 下因被炸毁 (Demolished) 而尚未销毁的旧车 Actor，彻底消除多个车辆 Actor 争抢同一槽位导致的名片乱闪。
+### 2. 观战者 (`Spectator`) 过滤与车辆实体动态生命周期（击毁 / 重生 / 掉线退出）
 
-### 4. 为什么单纯在 30Hz 帧间做 Hermite / Linear 插值会出现“姿态丝滑但位置一跳一跳”？
-对 `3adc59ea...replay` 的逐帧物理审计揭示了两个关键事实：
-1. **车辆刚体 (`ReplicatedRBState`) 的实际网络复制频率仅约 `13~16 Hz`**：
-   - 虽然回放录制帧率为 `30 FPS`，但每辆车仅在约 **45% 的 NetStream 帧**中收到 `TAGame.RBActor_TA:ReplicatedRBState` 更新（间隔通常为 2~3 个 30Hz 帧，即 `66ms~100ms`）。
-   - 如果把未收到刚体更新的 30Hz 帧直接拷贝上一帧坐标，就会在 30Hz 序列中制造大量“位移为 0 但速度高达 `1600+ uu/s`”的冻结平台帧：Linear 插值会在 120Hz 下出现周期性 `0.00 uu` 停顿与 `30.24 uu` 突进，而 Hermite 样条则会在平台帧两端因非零切线发生 `-4.55 uu` 反向回拉抖动！
-2. **客户端录制时间戳 `tRaw` 存在 `±16ms..±25ms` 的 UDP 到达抖动**：
-   - 测量相邻两次真实刚体更新之间的运动学耗时 $\Delta t_{\text{kin}} = \frac{\|\Delta \mathbf{p}\|}{\|\bar{\mathbf{v}}\|}$ 可以发现，服务端物理快照的真实时间间隔严格落在 **120Hz 物理 Tick 的整数倍**（如 `2.00t, 7.00t, 8.00t, 9.00t`），而客户端录制的帧时间戳间隔 $\Delta t_{\text{net}}$ 则因网络抖动被扭曲为 `4.0t, 4.0t, 8.0t`。
-   - **修复方案（Keyframe Timestamp De-jittering）**：仅在实体真正收到 `ReplicatedRBState` 更新的帧提取刚体关键帧，利用运动学关系 $\Delta t_{\text{kin}} = \text{round}\!\left(\frac{\|\Delta \mathbf{p}\|}{\|\bar{\mathbf{v}}\|}\times 120\right)/120$ 重建消除 UDP 抖动后的服务端真实时间戳 $t_{\text{true}}$（限制漂移在 $\pm 25\text{ ms}$ 内），并在 120Hz 目标采样时刻直接对去抖动后的关键帧序列执行 Velocity-Clamped Hermite + Shortest-Arc SLERP（或 Linear + SLERP）求值，使 120Hz 每 Tick 步长稳定在均匀的 `13.38 ~ 13.53 uu`。
+1. **上场选手 vs 观战者/裁判 (`PawnType`)**：
+   - 7 场 RLCS 比赛均包含 8 个裁判/导播账号（`RLCS REFEREE` ×2、`blastobserver1..5`、`baguetteobs1`）。
+   - 它们的 `TAGame.PRI_TA:PawnType = 1`（或 `3`），**没有 `Engine.PlayerReplicationInfo:Team` 属性**，且全场绑定的 `Car_Default` Actor 数量为 `0`。
+   - 真实上场选手拥有 `Team`（指向 `Archetypes.Teams.Team0` 或 `Team1`），且通过 `Engine.Pawn:PlayerReplicationInfo` 绑定 `Archetypes.Car.Car_Default` 实体。
+2. **车辆被炸毁 (`Demolish`) 与 3 秒后重生的底层 Actor 生命周期**：
+   - 以 `3adc59ea` 第 `1442` 帧（`76.467s`）**Atow 炸毁 Kiileerrz (Car Actor `162`)** 为例：
+     - **被炸瞬间 (`Frame 1442`, `76.467s`)**：Car Actor `162` **不会立即进入 `deleted_actors`**，而是收到：
+       - `Engine.Actor:bHidden = true`, `bCollideActors = false`, `bBlockActors = false`
+       - `Engine.Pawn:PlayerReplicationInfo = { active: false, actor: -1 }`（**与选手 PRI 解绑**）
+       - `TAGame.Car_TA:ReplicatedDemolishExtended`（记录攻击者/受害者及三维速度）
+     - **3 秒无车真空期 (`Frame 1442 .. 1529`, `76.467s .. 79.401s`)**：此时该选手在场上**没有任何存活的车辆实体**（旧 Actor `162` 处于 `bHidden = true` 且已解绑 PRI，直到 `Frame 1589` 才被 `deleted_actors` 回收）。
+     - **重生瞬间 (`Frame 1530`, `79.435s`)**：流中 `new_actors` 创建一个**全新的 `Archetypes.Car.Car_Default` (Actor `211`)**，并在同帧通过 `Engine.Pawn:PlayerReplicationInfo = { active: true, actor: 54 }` 重新绑定到 Kiileerrz 的 PRI。
+   - **架构启示**：某名选手在帧 $f$ 是否存在场上实体，取决于其当前绑定的 `Car_Default` Actor 是否满足 `alive && !bHidden && PRI != -1`。当发生被炸毁或中途掉线退出时，可直接将该槽位的车辆实体从物理世界动态移除（`removeCar`），待新 `Car_Default` Actor 生成绑定时再动态创建（`addCarAtSlot`），无需将死车塞到地下 $Z = -5000$。
+
+---
+
+### 3. 12 个回放中的全部车身 (`body` Product ID) 与 Hitbox 自动物理标定
+
+跨 12 个回放共提取出 **10 种不同的车身 Product ID**。除静态查表外，直接统计各车身在平地静止/匀速行驶时的刚体高度中位数 `median_rest_Z` 与悬挂俯仰倾角 `|fwd_z|`，可以 **100% 自动推导出其所属的 RocketSim 标准 Hitbox 预设**：
+
+| `body` Product ID | 车型名称 | 出现次数 (蓝+橙) | 平地静止 `median_rest_Z` | 平地悬挂倾角 `\|fwd_z\|` | RocketSim 理论 `(rest_Z, \|fwd_z\|)` | 对应 Hitbox 预设 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `4284` | **Fennec** | 110 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00941)` | `octane` (视觉: `fennec`) |
+| `23` | **Octane** | 82 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00941)` | `octane` (视觉: `octane`) |
+| `1568` | **Dominus** | 18 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00958)` | `dominus` (视觉: `dominus`) |
+| `3582` | **Octane ZSR / Octane 系** | 6 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00941)` | `octane` |
+| `12814` | **Octane 系 (ID 12814)** | 6 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00941)` | `octane` |
+| `7948` | **Octane 系 (ID 7948)** | 2 | `17.010 uu` | `0.00958` | `(17.01 uu, 0.00941)` | `octane` |
+| `403` | **Masamune (Dominus 系)** | 2 | `17.060 uu` | `0.01675` | `(17.06 uu, 0.01675)` | `dominus` |
+| `12262` | **Dominus 系 (ID 12262)** | 2 | `17.060 uu` | `0.01675` | `(17.06 uu, 0.01675)` | `dominus` |
+| `1894` | **Breakout 系 (ID 1894)** | 2 | `18.340 uu` | `0.01705` | `(18.34 uu, 0.01680)` | `breakout` |
+| `12658` | **Breakout 系 (ID 12658)** | 2 | `18.340 uu` | `0.01705` | `(18.34 uu, 0.01680)` | `breakout` |
+
+---
+
+### 4. 34 个 Boost Pad 的事件流机制 (`NewReplicatedPickupData`) 与跨地图自动坐标映射
+
+1. **事件触发式同步（非逐帧同步）**：
+   - `.replay` 不会每帧广播 34 个 Boost Pad 的状态，仅在某块 Pad **首次被吃掉**时在流中动态 `NEW` 对应的 `<MapName>.TheWorld:PersistentLevel.VehiclePickup_Boost_TA_<N>` Actor 并更新 `TAGame.VehiclePickup_TA:NewReplicatedPickupData`：
+     - **被拾取 (Picked Up)**：`{ "instigator": <car_actor_id>, "picked_up": 1 (或奇数递增计数) }`。
+     - **冷却刷新重生 (Respawned)**：小球约 `4.0s` 后、大球约 `10.0s` 后收到 `{ "instigator": null (或原 car_id), "picked_up": 255 (或偶数翻转) }`。
+     - **进球开球重置 (Kickoff Reset)**：进球回放结束切回开球的关键帧 (`KeyFrame`) 中，旧 Pickup Actor 被 `DELETED`，全场 34 个 Pad 恢复满状态可用。
+2. **无需外部地图表、100% 跨地图自动映射 34 个标准 Pad**：
+   - 不同地图的 Actor 编号完全不同（例如 `UF_Night_P` 编号到 `_122`），但每次发生拾取事件时，拾取车辆 `instigator` 在该帧的刚体位置 $(x, y)$ 距离 RocketSim 的 **34 个标准 Boost Pad 坐标**平均误差仅 `60~140 uu`（而相邻两个标准 Pad 的最小间距 $> 900\text{ uu}$）。
+   - 因此只需在收到拾取事件时将 `instigator` 车辆坐标与 34 个标准坐标做最近邻匹配，即可在全部 12 个回放（7 张不同地图）上实现 **100% 零歧义一一映射**。
+
+---
+
+### 5. 车辆控制量、组件激活位 (`ReplicatedActive`) 与比赛时钟 (`SecondsRemaining`)
+
+1. **无需逆动力学反推的原生控制与组件状态**：
+   - `TAGame.Vehicle_TA:ReplicatedThrottle` (`Byte 0..255`)：`128 = 0.0`（松油门），`255 = +1.0`（满油门前进），`0 = -1.0`（满倒车）。
+   - `TAGame.Vehicle_TA:ReplicatedSteer` (`Byte 0..255`)：`128 = 0.0`（直行），`0 = -1.0`（满左转），`255 = +1.0`（满右转）。
+   - `TAGame.Vehicle_TA:bReplicatedHandbrake` (`Boolean`)：是否按下手刹漂移。
+   - `TAGame.CarComponent_Boost_TA:ReplicatedBoost`：`{ "grant_count": int, "boost_amount": 0..255 }`（换算为 `0..100` 气量）。
+   - `TAGame.CarComponent_TA:ReplicatedActive` (`Byte`)：挂载于 `CarComponent_Boost`、`CarComponent_Jump`、`CarComponent_DoubleJump`、`CarComponent_Dodge` 上，**当且仅当 `ReplicatedActive % 2 == 1`（奇数值）时表示该组件当前正在激活（正在喷气 / 起跳 / 二段跳 / 翻滚）**，偶数值表示关闭。
+2. **比赛时钟与状态机 (`GameEvent_Soccar_TA`)**：
+   - `TAGame.GameEvent_Soccar_TA:SecondsRemaining` (`Int`)：极度干净，比赛激活期间每秒整点递减 1 次（`300, 299, 298 ... 0`，单场约 300 次更新）。
+   - `TAGame.GameEvent_TA:ReplicatedRoundCountDownNumber` (`Int`)：开球倒计时 `3 -> 2 -> 1 -> 0`。
+   - `TAGame.GameEvent_TA:ReplicatedStateName` (`Int` -> `names[]`)：状态机切换 `'Countdown' -> 'Active' -> 'PostGoalScored' -> 'ReplayPlayback' -> 'Finished'`。
 
 ---
 
@@ -285,12 +324,15 @@ Header 的 `PlayerStats` 仅记录了 6 名上场选手，但通过解析 NetStr
 # 1. 解析并解密全部 .Tem 训练包文件
 python3 src/parse_tem.py
 
-# 2. 解析 .replay 回放文件（完整赛事遥测导出）
+# 2. 解析单场 .replay 回放文件（完整赛事遥测导出）
 python3 src/parse_replay.py
 
-# 3. 运行纯 Python 位流 ClassNetCache 与关键帧去抖动诊断器
+# 3. 批量解析全部 12 个 .replay 回放语料库（阵容/OB分离、车身Hitbox标定、34个BoostPad自动映射、时钟与组件统计）
+python3 src/parse_all_replays.py /path/to/replays_dir
+
+# 4. 运行纯 Python 位流 ClassNetCache 与关键帧去抖动诊断器
 python3 src/parse_replay_bitstream.py raw/RLorig/3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay
 
-# 4. 提取 macOS 与 ZIP 容器取证数据
+# 5. 提取 macOS 与 ZIP 容器取证数据
 python3 src/parse_forensics.py
 ```

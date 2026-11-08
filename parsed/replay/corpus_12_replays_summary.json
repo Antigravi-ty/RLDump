@@ -1,0 +1,3288 @@
+{
+  "total_replays": 12,
+  "all_crc_valid": true,
+  "car_body_catalog": [
+    {
+      "product_id": 23,
+      "name": "Octane",
+      "hitbox": "octane",
+      "occurrences": 82
+    },
+    {
+      "product_id": 403,
+      "name": "Masamune",
+      "hitbox": "dominus",
+      "occurrences": 2
+    },
+    {
+      "product_id": 1568,
+      "name": "Dominus",
+      "hitbox": "dominus",
+      "occurrences": 12
+    },
+    {
+      "product_id": 1894,
+      "name": "Breakout-Class (ID 1894)",
+      "hitbox": "breakout",
+      "occurrences": 2
+    },
+    {
+      "product_id": 3582,
+      "name": "Octane ZSR / Octane-Class (ID 3582)",
+      "hitbox": "octane",
+      "occurrences": 6
+    },
+    {
+      "product_id": 4284,
+      "name": "Fennec",
+      "hitbox": "octane",
+      "occurrences": 102
+    },
+    {
+      "product_id": 7948,
+      "name": "Octane-Class (ID 7948)",
+      "hitbox": "octane",
+      "occurrences": 2
+    },
+    {
+      "product_id": 12262,
+      "name": "Dominus-Class (ID 12262)",
+      "hitbox": "dominus",
+      "occurrences": 2
+    },
+    {
+      "product_id": 12658,
+      "name": "Breakout-Class (ID 12658)",
+      "hitbox": "breakout",
+      "occurrences": 2
+    },
+    {
+      "product_id": 12814,
+      "name": "Octane-Class (ID 12814)",
+      "hitbox": "octane",
+      "occurrences": 6
+    }
+  ],
+  "replays": [
+    {
+      "file_name": "1B0F95B211F1882BD42E40A5A9813356.replay",
+      "crc": {
+        "file_size_bytes": 1543855,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "Underwater_P",
+      "match_type": "Online",
+      "team_size": 2,
+      "num_frames": 7508,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 4458,
+          "PlayerName": "千年先を見透かすプロ猛者",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 5168,
+          "PlayerName": "Ping Dominator",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 5514,
+          "PlayerName": "千年先を見透かすプロ猛者",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 7291,
+          "PlayerName": "千年先を見透かすプロ猛者",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 0,
+      "active_players": [
+        {
+          "name": "soyan02",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 12658,
+          "body_id_orange": 12658,
+          "body_name": "Breakout-Class (ID 12658)",
+          "hitbox": "breakout",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Captain Ping",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "千年先を見透かすプロ猛者",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 403,
+          "body_id_orange": 403,
+          "body_name": "Masamune",
+          "hitbox": "dominus",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Ping Dominator",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 12814,
+          "body_id_orange": 12814,
+          "body_name": "Octane-Class (ID 12814)",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        }
+      ],
+      "spectators": [],
+      "demolishes_count": 4,
+      "demolishes_sample": [
+        {
+          "frame": 1032,
+          "time_s": 57.68,
+          "attacker": "Captain Ping",
+          "victim": "soyan02",
+          "victim_car_actor_id": 12
+        },
+        {
+          "frame": 2536,
+          "time_s": 126.81,
+          "attacker": "千年先を見透かすプロ猛者",
+          "victim": "Captain Ping",
+          "victim_car_actor_id": 22
+        },
+        {
+          "frame": 4904,
+          "time_s": 240.737,
+          "attacker": "Ping Dominator",
+          "victim": "千年先を見透かすプロ猛者",
+          "victim_car_actor_id": 125
+        },
+        {
+          "frame": 7261,
+          "time_s": 363.269,
+          "attacker": "Ping Dominator",
+          "victim": "千年先を見透かすプロ猛者",
+          "victim_car_actor_id": 192
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 296,
+      "boost_pad_respawns_total": 289,
+      "component_update_counts": {
+        "ReplicatedThrottle": 1873,
+        "ReplicatedSteer": 4360,
+        "bReplicatedHandbrake": 362,
+        "ReplicatedBoost": 886,
+        "Boost_ReplicatedActive": 1018,
+        "Jump_ReplicatedActive": 555,
+        "DoubleJump_ReplicatedActive": 119,
+        "Dodge_ReplicatedActive": 428
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 297,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 156,
+            "time_s": 17.408,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 178,
+            "time_s": 18.415,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 200,
+            "time_s": 19.423,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 221,
+            "time_s": 20.388,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 243,
+            "time_s": 21.398,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 22,
+            "time_s": 11.279,
+            "countdown": 3
+          },
+          {
+            "frame": 44,
+            "time_s": 12.28,
+            "countdown": 2
+          },
+          {
+            "frame": 66,
+            "time_s": 13.285,
+            "countdown": 1
+          },
+          {
+            "frame": 88,
+            "time_s": 14.287,
+            "countdown": 0
+          },
+          {
+            "frame": 4548,
+            "time_s": 224.445,
+            "countdown": 3
+          },
+          {
+            "frame": 4570,
+            "time_s": 225.449,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 1,
+            "time_s": 10.324,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 88,
+            "time_s": 14.287,
+            "state_name": "Active"
+          },
+          {
+            "frame": 4458,
+            "time_s": 214.97,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 4527,
+            "time_s": 223.489,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 4614,
+            "time_s": 227.453,
+            "state_name": "Active"
+          },
+          {
+            "frame": 5168,
+            "time_s": 252.847,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 5237,
+            "time_s": 264.903,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 5324,
+            "time_s": 268.863,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "1d9dcf40-21b3-49db-9560-82b4a2b3b84b.replay",
+      "crc": {
+        "file_size_bytes": 1438480,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "cs_p",
+      "match_type": "Private",
+      "team_size": 2,
+      "num_frames": 10532,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 1511,
+          "PlayerName": "zen",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 3066,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 6137,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 6545,
+          "PlayerName": "zen",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 7603,
+          "PlayerName": "Atow",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "Kiileerrz",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        },
+        {
+          "name": "Rw9",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        },
+        {
+          "name": "zen",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        },
+        {
+          "name": "Atow",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 8,
+      "demolishes_sample": [
+        {
+          "frame": 191,
+          "time_s": 95.985,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 67
+        },
+        {
+          "frame": 411,
+          "time_s": 103.33,
+          "attacker": "Rw9",
+          "victim": "zen",
+          "victim_car_actor_id": 56
+        },
+        {
+          "frame": 888,
+          "time_s": 119.231,
+          "attacker": "Rw9",
+          "victim": "Atow",
+          "victim_car_actor_id": 47
+        },
+        {
+          "frame": 2417,
+          "time_s": 179.209,
+          "attacker": "Rw9",
+          "victim": "zen",
+          "victim_car_actor_id": 178
+        },
+        {
+          "frame": 3013,
+          "time_s": 199.075,
+          "attacker": "Rw9",
+          "victim": "zen",
+          "victim_car_actor_id": 0
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 423,
+      "boost_pad_respawns_total": 391,
+      "component_update_counts": {
+        "ReplicatedThrottle": 4184,
+        "ReplicatedSteer": 11742,
+        "bReplicatedHandbrake": 863,
+        "ReplicatedBoost": 1370,
+        "Boost_ReplicatedActive": 1719,
+        "Jump_ReplicatedActive": 853,
+        "DoubleJump_ReplicatedActive": 207,
+        "Dodge_ReplicatedActive": 697
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 298,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 198,
+            "time_s": 96.218,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 228,
+            "time_s": 97.218,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 258,
+            "time_s": 98.22,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 288,
+            "time_s": 99.22,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 318,
+            "time_s": 100.22,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 31,
+            "time_s": 90.316,
+            "countdown": 3
+          },
+          {
+            "frame": 51,
+            "time_s": 91.316,
+            "countdown": 2
+          },
+          {
+            "frame": 81,
+            "time_s": 92.316,
+            "countdown": 1
+          },
+          {
+            "frame": 111,
+            "time_s": 93.316,
+            "countdown": 0
+          },
+          {
+            "frame": 1630,
+            "time_s": 152.978,
+            "countdown": 3
+          },
+          {
+            "frame": 1660,
+            "time_s": 153.978,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 111,
+            "time_s": 93.316,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1511,
+            "time_s": 139.997,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1720,
+            "time_s": 155.978,
+            "state_name": "Active"
+          },
+          {
+            "frame": 3066,
+            "time_s": 200.843,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 3276,
+            "time_s": 216.806,
+            "state_name": "Active"
+          },
+          {
+            "frame": 6137,
+            "time_s": 312.161,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 6347,
+            "time_s": 328.208,
+            "state_name": "Active"
+          },
+          {
+            "frame": 6545,
+            "time_s": 334.811,
+            "state_name": "PostGoalScored"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "262EE1A011F193FC460A009961C00416.replay",
+      "crc": {
+        "file_size_bytes": 3581688,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "TrainStation_Night_P",
+      "match_type": "Online",
+      "team_size": 3,
+      "num_frames": 11889,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 11821,
+          "PlayerName": "ViaccAlc",
+          "PlayerTeam": 0
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 0,
+      "active_players": [
+        {
+          "name": "kane",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "Captain Ping",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 3582,
+          "body_id_orange": 3582,
+          "body_name": "Octane ZSR / Octane-Class (ID 3582)",
+          "hitbox": "octane",
+          "car_actor_count": 2
+        },
+        {
+          "name": "LivingLarge-",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "teriyaki-boy0112",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 12262,
+          "body_id_orange": 12262,
+          "body_name": "Dominus-Class (ID 12262)",
+          "hitbox": "dominus",
+          "car_actor_count": 2
+        },
+        {
+          "name": "Mochos-Chos",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 2
+        },
+        {
+          "name": "ViaccAlc",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 1894,
+          "body_id_orange": 1894,
+          "body_name": "Breakout-Class (ID 1894)",
+          "hitbox": "breakout",
+          "car_actor_count": 2
+        }
+      ],
+      "spectators": [],
+      "demolishes_count": 2,
+      "demolishes_sample": [
+        {
+          "frame": 6521,
+          "time_s": 309.263,
+          "attacker": "teriyaki-boy0112",
+          "victim": "kane",
+          "victim_car_actor_id": 9
+        },
+        {
+          "frame": 7512,
+          "time_s": 354.452,
+          "attacker": "Mochos-Chos",
+          "victim": "LivingLarge-",
+          "victim_car_actor_id": 112
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 750,
+      "boost_pad_respawns_total": 737,
+      "component_update_counts": {
+        "ReplicatedThrottle": 9462,
+        "ReplicatedSteer": 18262,
+        "bReplicatedHandbrake": 1398,
+        "ReplicatedBoost": 2251,
+        "Boost_ReplicatedActive": 2665,
+        "Jump_ReplicatedActive": 1303,
+        "DoubleJump_ReplicatedActive": 327,
+        "Dodge_ReplicatedActive": 1080
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 522,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 159,
+            "time_s": 18.767,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 180,
+            "time_s": 19.725,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 202,
+            "time_s": 20.728,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 224,
+            "time_s": 21.727,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 246,
+            "time_s": 22.734,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 23,
+            "time_s": 12.624,
+            "countdown": 3
+          },
+          {
+            "frame": 45,
+            "time_s": 13.613,
+            "countdown": 2
+          },
+          {
+            "frame": 67,
+            "time_s": 14.603,
+            "countdown": 1
+          },
+          {
+            "frame": 90,
+            "time_s": 15.636,
+            "countdown": 0
+          },
+          {
+            "frame": 6749,
+            "time_s": 319.663,
+            "countdown": 3
+          },
+          {
+            "frame": 6772,
+            "time_s": 320.701,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 1,
+            "time_s": 11.635,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 90,
+            "time_s": 15.636,
+            "state_name": "Active"
+          },
+          {
+            "frame": 6727,
+            "time_s": 318.665,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 6816,
+            "time_s": 322.695,
+            "state_name": "Active"
+          },
+          {
+            "frame": 11821,
+            "time_s": 551.102,
+            "state_name": "PostGoalScored"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "3AF7D82C11F18834E1F545A837901B26.replay",
+      "crc": {
+        "file_size_bytes": 1702275,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "EuroStadium_Dusk_P",
+      "match_type": "Online",
+      "team_size": 2,
+      "num_frames": 8066,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 307,
+          "PlayerName": "t-boze10",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 1265,
+          "PlayerName": "Ping Dominator",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 7997,
+          "PlayerName": "t-boze10",
+          "PlayerTeam": 0
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 0,
+      "active_players": [
+        {
+          "name": "Captain Ping",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Ping Dominator",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 12814,
+          "body_id_orange": 12814,
+          "body_name": "Octane-Class (ID 12814)",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "oOTakaHiroOo",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "t-boze10",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        }
+      ],
+      "spectators": [],
+      "demolishes_count": 1,
+      "demolishes_sample": [
+        {
+          "frame": 6548,
+          "time_s": 322.159,
+          "attacker": "Captain Ping",
+          "victim": "t-boze10",
+          "victim_car_actor_id": 119
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 332,
+      "boost_pad_respawns_total": 328,
+      "component_update_counts": {
+        "ReplicatedThrottle": 3076,
+        "ReplicatedSteer": 8237,
+        "bReplicatedHandbrake": 445,
+        "ReplicatedBoost": 989,
+        "Boost_ReplicatedActive": 1144,
+        "Jump_ReplicatedActive": 579,
+        "DoubleJump_ReplicatedActive": 98,
+        "Dodge_ReplicatedActive": 495
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 329,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 162,
+            "time_s": 18.229,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 184,
+            "time_s": 19.222,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 207,
+            "time_s": 20.261,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 229,
+            "time_s": 21.257,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 251,
+            "time_s": 22.253,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 23,
+            "time_s": 11.971,
+            "countdown": 3
+          },
+          {
+            "frame": 45,
+            "time_s": 12.959,
+            "countdown": 2
+          },
+          {
+            "frame": 67,
+            "time_s": 13.946,
+            "countdown": 1
+          },
+          {
+            "frame": 90,
+            "time_s": 14.978,
+            "countdown": 0
+          },
+          {
+            "frame": 399,
+            "time_s": 34.877,
+            "countdown": 3
+          },
+          {
+            "frame": 421,
+            "time_s": 35.865,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 1,
+            "time_s": 10.984,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 90,
+            "time_s": 14.978,
+            "state_name": "Active"
+          },
+          {
+            "frame": 307,
+            "time_s": 24.795,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 377,
+            "time_s": 33.887,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 466,
+            "time_s": 37.889,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1265,
+            "time_s": 74.089,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1335,
+            "time_s": 86.142,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 1423,
+            "time_s": 90.099,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "3adc59ea-2a3d-49b0-bd92-15f0d27bb3f6.replay",
+      "crc": {
+        "file_size_bytes": 1708616,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "CHN_Stadium_P",
+      "match_type": "Private",
+      "team_size": 3,
+      "num_frames": 9379,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 1169,
+          "PlayerName": "Atow",
+          "PlayerTeam": 0
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "dralii",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "vatira",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "Rw9",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "Atow",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 2
+        },
+        {
+          "name": "juicy",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 2
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 7,
+      "demolishes_sample": [
+        {
+          "frame": 1442,
+          "time_s": 76.467,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 162
+        },
+        {
+          "frame": 2709,
+          "time_s": 119.059,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 211
+        },
+        {
+          "frame": 4193,
+          "time_s": 169.41,
+          "attacker": "vatira",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 7
+        },
+        {
+          "frame": 5206,
+          "time_s": 203.54,
+          "attacker": "juicy",
+          "victim": "Rw9",
+          "victim_car_actor_id": 164
+        },
+        {
+          "frame": 5467,
+          "time_s": 212.384,
+          "attacker": "dralii",
+          "victim": "vatira",
+          "victim_car_actor_id": 197
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 579,
+      "boost_pad_respawns_total": 547,
+      "component_update_counts": {
+        "ReplicatedThrottle": 5076,
+        "ReplicatedSteer": 16559,
+        "bReplicatedHandbrake": 1307,
+        "ReplicatedBoost": 1777,
+        "Boost_ReplicatedActive": 2201,
+        "Jump_ReplicatedActive": 1106,
+        "DoubleJump_ReplicatedActive": 292,
+        "Dodge_ReplicatedActive": 928
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 299,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 196,
+            "time_s": 25.697,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 226,
+            "time_s": 26.713,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 255,
+            "time_s": 27.697,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 284,
+            "time_s": 28.677,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 315,
+            "time_s": 29.711,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 31,
+            "time_s": 19.826,
+            "countdown": 3
+          },
+          {
+            "frame": 56,
+            "time_s": 21.029,
+            "countdown": 2
+          },
+          {
+            "frame": 79,
+            "time_s": 21.797,
+            "countdown": 1
+          },
+          {
+            "frame": 109,
+            "time_s": 22.798,
+            "countdown": 0
+          },
+          {
+            "frame": 1289,
+            "time_s": 71.368,
+            "countdown": 3
+          },
+          {
+            "frame": 1319,
+            "time_s": 72.367,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 109,
+            "time_s": 22.798,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1169,
+            "time_s": 58.379,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1379,
+            "time_s": 74.367,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "67580a7e-c98b-41cb-ad8e-4c98fc4b84d7.replay",
+      "crc": {
+        "file_size_bytes": 1390096,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "EuroStadium_Dusk_P",
+      "match_type": "Private",
+      "team_size": 2,
+      "num_frames": 9935,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 1460,
+          "PlayerName": "Atow",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 6602,
+          "PlayerName": "zen",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "zen",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "Rw9",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "Atow",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        }
+      ],
+      "spectators": [
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 2,
+      "demolishes_sample": [
+        {
+          "frame": 2572,
+          "time_s": 219.68,
+          "attacker": "Kiileerrz",
+          "victim": "Atow",
+          "victim_car_actor_id": 161
+        },
+        {
+          "frame": 7265,
+          "time_s": 385.125,
+          "attacker": "Atow",
+          "victim": "Rw9",
+          "victim_car_actor_id": 175
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 408,
+      "boost_pad_respawns_total": 391,
+      "component_update_counts": {
+        "ReplicatedThrottle": 4109,
+        "ReplicatedSteer": 11865,
+        "bReplicatedHandbrake": 985,
+        "ReplicatedBoost": 1282,
+        "Boost_ReplicatedActive": 1605,
+        "Jump_ReplicatedActive": 805,
+        "DoubleJump_ReplicatedActive": 200,
+        "Dodge_ReplicatedActive": 675
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 299,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 208,
+            "time_s": 131.854,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 238,
+            "time_s": 132.853,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 268,
+            "time_s": 133.853,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 298,
+            "time_s": 134.853,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 328,
+            "time_s": 135.853,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 30,
+            "time_s": 125.917,
+            "countdown": 3
+          },
+          {
+            "frame": 61,
+            "time_s": 126.951,
+            "countdown": 2
+          },
+          {
+            "frame": 91,
+            "time_s": 127.951,
+            "countdown": 1
+          },
+          {
+            "frame": 121,
+            "time_s": 128.951,
+            "countdown": 0
+          },
+          {
+            "frame": 1580,
+            "time_s": 186.614,
+            "countdown": 3
+          },
+          {
+            "frame": 1609,
+            "time_s": 187.58,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 121,
+            "time_s": 128.951,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1460,
+            "time_s": 173.588,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1669,
+            "time_s": 189.581,
+            "state_name": "Active"
+          },
+          {
+            "frame": 6602,
+            "time_s": 354.013,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 6812,
+            "time_s": 370.025,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "76f8eda8-5b80-4b14-a061-a9acf9a8e491.replay",
+      "crc": {
+        "file_size_bytes": 2514748,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "UF_Night_P",
+      "match_type": "Private",
+      "team_size": 3,
+      "num_frames": 14063,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 2281,
+          "PlayerName": "Atow",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 6349,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 13973,
+          "PlayerName": "vatira",
+          "PlayerTeam": 0
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "Rw9",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        },
+        {
+          "name": "vatira",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        },
+        {
+          "name": "dralii",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Atow",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "juicy",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 16,
+      "demolishes_sample": [
+        {
+          "frame": 180,
+          "time_s": 25.254,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 88
+        },
+        {
+          "frame": 501,
+          "time_s": 35.997,
+          "attacker": "juicy",
+          "victim": "Rw9",
+          "victim_car_actor_id": 56
+        },
+        {
+          "frame": 736,
+          "time_s": 43.905,
+          "attacker": "vatira",
+          "victim": "Rw9",
+          "victim_car_actor_id": 132
+        },
+        {
+          "frame": 1139,
+          "time_s": 57.444,
+          "attacker": "Rw9",
+          "victim": "vatira",
+          "victim_car_actor_id": 49
+        },
+        {
+          "frame": 1599,
+          "time_s": 72.84,
+          "attacker": "juicy",
+          "victim": "dralii",
+          "victim_car_actor_id": 69
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 841,
+      "boost_pad_respawns_total": 805,
+      "component_update_counts": {
+        "ReplicatedThrottle": 7528,
+        "ReplicatedSteer": 24619,
+        "bReplicatedHandbrake": 1765,
+        "ReplicatedBoost": 2672,
+        "Boost_ReplicatedActive": 3317,
+        "Jump_ReplicatedActive": 1613,
+        "DoubleJump_ReplicatedActive": 397,
+        "Dodge_ReplicatedActive": 1332
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 435,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 195,
+            "time_s": 25.754,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 226,
+            "time_s": 26.787,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 255,
+            "time_s": 27.753,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 285,
+            "time_s": 28.765,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 315,
+            "time_s": 29.768,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 30,
+            "time_s": 19.878,
+            "countdown": 3
+          },
+          {
+            "frame": 48,
+            "time_s": 20.853,
+            "countdown": 2
+          },
+          {
+            "frame": 78,
+            "time_s": 21.853,
+            "countdown": 1
+          },
+          {
+            "frame": 108,
+            "time_s": 22.853,
+            "countdown": 0
+          },
+          {
+            "frame": 2401,
+            "time_s": 108.819,
+            "countdown": 3
+          },
+          {
+            "frame": 2431,
+            "time_s": 109.819,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 108,
+            "time_s": 22.853,
+            "state_name": "Active"
+          },
+          {
+            "frame": 2281,
+            "time_s": 95.821,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 2491,
+            "time_s": 111.822,
+            "state_name": "Active"
+          },
+          {
+            "frame": 6349,
+            "time_s": 240.795,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 6559,
+            "time_s": 256.771,
+            "state_name": "Active"
+          },
+          {
+            "frame": 9702,
+            "time_s": 362.034,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 9822,
+            "time_s": 366.037,
+            "state_name": "Active"
+          },
+          {
+            "frame": 13972,
+            "time_s": 505.048,
+            "state_name": "PostGoalScored"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "77b7df49-ca31-4085-adaf-01dfc38203e1.replay",
+      "crc": {
+        "file_size_bytes": 2819310,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "EuroStadium_Dusk_P",
+      "match_type": "Private",
+      "team_size": 3,
+      "num_frames": 15914,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 1103,
+          "PlayerName": "dralii",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 2540,
+          "PlayerName": "vatira",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 4204,
+          "PlayerName": "vatira",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 5267,
+          "PlayerName": "Rw9",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 15824,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "dralii",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        },
+        {
+          "name": "vatira",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Atow",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "juicy",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        },
+        {
+          "name": "Rw9",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 7,
+      "demolishes_sample": [
+        {
+          "frame": 5307,
+          "time_s": 390.457,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 164
+        },
+        {
+          "frame": 5819,
+          "time_s": 416.521,
+          "attacker": "dralii",
+          "victim": "juicy",
+          "victim_car_actor_id": 22
+        },
+        {
+          "frame": 7650,
+          "time_s": 477.548,
+          "attacker": "vatira",
+          "victim": "dralii",
+          "victim_car_actor_id": 9
+        },
+        {
+          "frame": 7888,
+          "time_s": 485.48,
+          "attacker": "Kiileerrz",
+          "victim": "vatira",
+          "victim_car_actor_id": 11
+        },
+        {
+          "frame": 12598,
+          "time_s": 643.905,
+          "attacker": "Atow",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 136
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 995,
+      "boost_pad_respawns_total": 948,
+      "component_update_counts": {
+        "ReplicatedThrottle": 8278,
+        "ReplicatedSteer": 27740,
+        "bReplicatedHandbrake": 2188,
+        "ReplicatedBoost": 3084,
+        "Boost_ReplicatedActive": 3824,
+        "Jump_ReplicatedActive": 1885,
+        "DoubleJump_ReplicatedActive": 401,
+        "Dodge_ReplicatedActive": 1611
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 478,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 208,
+            "time_s": 193.54,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 238,
+            "time_s": 194.54,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 268,
+            "time_s": 195.54,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 298,
+            "time_s": 196.541,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 328,
+            "time_s": 197.541,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 31,
+            "time_s": 187.638,
+            "countdown": 3
+          },
+          {
+            "frame": 61,
+            "time_s": 188.638,
+            "countdown": 2
+          },
+          {
+            "frame": 91,
+            "time_s": 189.638,
+            "countdown": 1
+          },
+          {
+            "frame": 121,
+            "time_s": 190.638,
+            "countdown": 0
+          },
+          {
+            "frame": 1223,
+            "time_s": 236.349,
+            "countdown": 3
+          },
+          {
+            "frame": 1253,
+            "time_s": 237.349,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 121,
+            "time_s": 190.638,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1103,
+            "time_s": 223.375,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1313,
+            "time_s": 239.349,
+            "state_name": "Active"
+          },
+          {
+            "frame": 2540,
+            "time_s": 280.248,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 2750,
+            "time_s": 296.222,
+            "state_name": "Active"
+          },
+          {
+            "frame": 4204,
+            "time_s": 344.687,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 4415,
+            "time_s": 360.706,
+            "state_name": "Active"
+          },
+          {
+            "frame": 5267,
+            "time_s": 389.104,
+            "state_name": "PostGoalScored"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "8D3DF7A811F193F4F0EC0C866EE3B5AE.replay",
+      "crc": {
+        "file_size_bytes": 2125603,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "cs_p",
+      "match_type": "Online",
+      "team_size": 3,
+      "num_frames": 7284,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 3774,
+          "PlayerName": "Geadk_AD",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 4568,
+          "PlayerName": "Ping Dominator",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 6605,
+          "PlayerName": "kane",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 0,
+      "active_players": [
+        {
+          "name": "kane",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        },
+        {
+          "name": "Geadk_AD",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Captain Ping",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 3582,
+          "body_id_orange": 3582,
+          "body_name": "Octane ZSR / Octane-Class (ID 3582)",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        },
+        {
+          "name": "Ping Dominator",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 12814,
+          "body_id_orange": 12814,
+          "body_name": "Octane-Class (ID 12814)",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Hachi._.Ware_kun",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "flowermoja",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        }
+      ],
+      "spectators": [],
+      "demolishes_count": 2,
+      "demolishes_sample": [
+        {
+          "frame": 5059,
+          "time_s": 259.464,
+          "attacker": "Geadk_AD",
+          "victim": "Captain Ping",
+          "victim_car_actor_id": 62
+        },
+        {
+          "frame": 5485,
+          "time_s": 279.022,
+          "attacker": "Hachi._.Ware_kun",
+          "victim": "kane",
+          "victim_car_actor_id": 57
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 437,
+      "boost_pad_respawns_total": 421,
+      "component_update_counts": {
+        "ReplicatedThrottle": 3677,
+        "ReplicatedSteer": 6996,
+        "bReplicatedHandbrake": 572,
+        "ReplicatedBoost": 1389,
+        "Boost_ReplicatedActive": 1672,
+        "Jump_ReplicatedActive": 922,
+        "DoubleJump_ReplicatedActive": 229,
+        "Dodge_ReplicatedActive": 728
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 299,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 155,
+            "time_s": 18.49,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 177,
+            "time_s": 19.496,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 199,
+            "time_s": 20.504,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 243,
+            "time_s": 22.521,
+            "seconds_remaining": 295
+          },
+          {
+            "frame": 265,
+            "time_s": 23.528,
+            "seconds_remaining": 294
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 23,
+            "time_s": 12.51,
+            "countdown": 3
+          },
+          {
+            "frame": 45,
+            "time_s": 13.498,
+            "countdown": 2
+          },
+          {
+            "frame": 67,
+            "time_s": 14.493,
+            "countdown": 1
+          },
+          {
+            "frame": 89,
+            "time_s": 15.487,
+            "countdown": 0
+          },
+          {
+            "frame": 3865,
+            "time_s": 195.915,
+            "countdown": 3
+          },
+          {
+            "frame": 3887,
+            "time_s": 196.911,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 1,
+            "time_s": 11.518,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 89,
+            "time_s": 15.487,
+            "state_name": "Active"
+          },
+          {
+            "frame": 3774,
+            "time_s": 184.58,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 3843,
+            "time_s": 194.909,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 3931,
+            "time_s": 198.903,
+            "state_name": "Active"
+          },
+          {
+            "frame": 4568,
+            "time_s": 228.124,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 4637,
+            "time_s": 240.173,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 4725,
+            "time_s": 244.162,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "D0A093C411F193FA857FD3AA05E39CC0.replay",
+      "crc": {
+        "file_size_bytes": 2152694,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "UF_Night_P",
+      "match_type": "Online",
+      "team_size": 3,
+      "num_frames": 7354,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 392,
+          "PlayerName": "iAMGuardianGreen",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 1595,
+          "PlayerName": "kane",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 2991,
+          "PlayerName": "goalkeeeeeper",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 6,
+      "spectators_count": 0,
+      "active_players": [
+        {
+          "name": "kane",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 3
+        },
+        {
+          "name": "goalkeeeeeper",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Captain Ping",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 3582,
+          "body_id_orange": 3582,
+          "body_name": "Octane ZSR / Octane-Class (ID 3582)",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "iAMGuardianGreen",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 7948,
+          "body_id_orange": 7948,
+          "body_name": "Octane-Class (ID 7948)",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        },
+        {
+          "name": "SIVA-KOU",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Mw24_HaRd-luCK",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        }
+      ],
+      "spectators": [],
+      "demolishes_count": 2,
+      "demolishes_sample": [
+        {
+          "frame": 5090,
+          "time_s": 266.326,
+          "attacker": "SIVA-KOU",
+          "victim": "iAMGuardianGreen",
+          "victim_car_actor_id": 113
+        },
+        {
+          "frame": 6602,
+          "time_s": 335.16,
+          "attacker": "Captain Ping",
+          "victim": "Mw24_HaRd-luCK",
+          "victim_car_actor_id": 109
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 417,
+      "boost_pad_respawns_total": 410,
+      "component_update_counts": {
+        "ReplicatedThrottle": 3005,
+        "ReplicatedSteer": 11565,
+        "bReplicatedHandbrake": 684,
+        "ReplicatedBoost": 1388,
+        "Boost_ReplicatedActive": 1698,
+        "Jump_ReplicatedActive": 775,
+        "DoubleJump_ReplicatedActive": 145,
+        "Dodge_ReplicatedActive": 622
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 297,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 156,
+            "time_s": 19.739,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 178,
+            "time_s": 20.738,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 200,
+            "time_s": 21.738,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 244,
+            "time_s": 23.741,
+            "seconds_remaining": 295
+          },
+          {
+            "frame": 265,
+            "time_s": 24.702,
+            "seconds_remaining": 294
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 23,
+            "time_s": 13.733,
+            "countdown": 3
+          },
+          {
+            "frame": 45,
+            "time_s": 14.721,
+            "countdown": 2
+          },
+          {
+            "frame": 67,
+            "time_s": 15.709,
+            "countdown": 1
+          },
+          {
+            "frame": 90,
+            "time_s": 16.744,
+            "countdown": 0
+          },
+          {
+            "frame": 482,
+            "time_s": 43.466,
+            "countdown": 3
+          },
+          {
+            "frame": 505,
+            "time_s": 44.501,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 1,
+            "time_s": 12.743,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 90,
+            "time_s": 16.744,
+            "state_name": "Active"
+          },
+          {
+            "frame": 392,
+            "time_s": 30.483,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 461,
+            "time_s": 42.518,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 549,
+            "time_s": 46.477,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1595,
+            "time_s": 93.933,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1665,
+            "time_s": 102.684,
+            "state_name": "Countdown"
+          },
+          {
+            "frame": 1754,
+            "time_s": 106.691,
+            "state_name": "Active"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "WORLDS 2v2-C FLCN vs NMJF G3 2026-09-19.17.19 2026-09-19-17-19.replay",
+      "crc": {
+        "file_size_bytes": 1468017,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "UF_Night_P",
+      "match_type": "Private",
+      "team_size": 2,
+      "num_frames": 10603,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 3600,
+          "PlayerName": "Atow",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 4296,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 5896,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 9007,
+          "PlayerName": "zen",
+          "PlayerTeam": 1
+        },
+        {
+          "frame": 10514,
+          "PlayerName": "Rw9",
+          "PlayerTeam": 0
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "zen",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Atow",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        },
+        {
+          "name": "Rw9",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 5
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 8,
+      "demolishes_sample": [
+        {
+          "frame": 406,
+          "time_s": 102.226,
+          "attacker": "Rw9",
+          "victim": "zen",
+          "victim_car_actor_id": 68
+        },
+        {
+          "frame": 1062,
+          "time_s": 124.107,
+          "attacker": "Atow",
+          "victim": "Rw9",
+          "victim_car_actor_id": 54
+        },
+        {
+          "frame": 3045,
+          "time_s": 190.247,
+          "attacker": "Atow",
+          "victim": "Rw9",
+          "victim_car_actor_id": 107
+        },
+        {
+          "frame": 3483,
+          "time_s": 204.874,
+          "attacker": "Atow",
+          "victim": "Rw9",
+          "victim_car_actor_id": 67
+        },
+        {
+          "frame": 5558,
+          "time_s": 292.2,
+          "attacker": "Rw9",
+          "victim": "Atow",
+          "victim_car_actor_id": 103
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 430,
+      "boost_pad_respawns_total": 401,
+      "component_update_counts": {
+        "ReplicatedThrottle": 4522,
+        "ReplicatedSteer": 12281,
+        "bReplicatedHandbrake": 921,
+        "ReplicatedBoost": 1351,
+        "Boost_ReplicatedActive": 1675,
+        "Jump_ReplicatedActive": 874,
+        "DoubleJump_ReplicatedActive": 208,
+        "Dodge_ReplicatedActive": 730
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 300,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 198,
+            "time_s": 95.289,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 228,
+            "time_s": 96.288,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 258,
+            "time_s": 97.288,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 288,
+            "time_s": 98.29,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 318,
+            "time_s": 99.29,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 31,
+            "time_s": 89.355,
+            "countdown": 3
+          },
+          {
+            "frame": 50,
+            "time_s": 90.353,
+            "countdown": 2
+          },
+          {
+            "frame": 80,
+            "time_s": 91.353,
+            "countdown": 1
+          },
+          {
+            "frame": 110,
+            "time_s": 92.353,
+            "countdown": 0
+          },
+          {
+            "frame": 3719,
+            "time_s": 221.777,
+            "countdown": 3
+          },
+          {
+            "frame": 3750,
+            "time_s": 222.81,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 110,
+            "time_s": 92.353,
+            "state_name": "Active"
+          },
+          {
+            "frame": 3600,
+            "time_s": 208.774,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 3809,
+            "time_s": 224.777,
+            "state_name": "Active"
+          },
+          {
+            "frame": 4296,
+            "time_s": 241.053,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 4506,
+            "time_s": 257.084,
+            "state_name": "Active"
+          },
+          {
+            "frame": 5896,
+            "time_s": 303.477,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 6106,
+            "time_s": 319.44,
+            "state_name": "Active"
+          },
+          {
+            "frame": 9007,
+            "time_s": 416.182,
+            "state_name": "PostGoalScored"
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "WORLDS 2v2-C FLCN vs NMJF G5 2026-09-19.17.35 2026-09-19-17-35.replay",
+      "crc": {
+        "file_size_bytes": 1382327,
+        "part1_crc_valid": true,
+        "part2_crc_valid": true
+      },
+      "map_name": "street_p",
+      "match_type": "Private",
+      "team_size": 2,
+      "num_frames": 9806,
+      "record_fps": 30.0,
+      "goals_header": [
+        {
+          "frame": 1693,
+          "PlayerName": "Kiileerrz",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 2117,
+          "PlayerName": "Rw9",
+          "PlayerTeam": 0
+        },
+        {
+          "frame": 7084,
+          "PlayerName": "zen",
+          "PlayerTeam": 1
+        }
+      ],
+      "active_players_count": 4,
+      "spectators_count": 7,
+      "active_players": [
+        {
+          "name": "Atow",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 6
+        },
+        {
+          "name": "Rw9",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 8
+        },
+        {
+          "name": "zen",
+          "team": 1,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 4
+        },
+        {
+          "name": "Kiileerrz",
+          "team": 0,
+          "pawn_type": null,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 7
+        }
+      ],
+      "spectators": [
+        {
+          "name": "RLCS REFEREE",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 1568,
+          "body_id_orange": 1568,
+          "body_name": "Dominus",
+          "hitbox": "dominus",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver3",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "baguetteobs1",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 4284,
+          "body_id_orange": 4284,
+          "body_name": "Fennec",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver2",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver5",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        },
+        {
+          "name": "blastobserver4",
+          "team": -1,
+          "pawn_type": 1,
+          "body_id_blue": 23,
+          "body_id_orange": 23,
+          "body_name": "Octane",
+          "hitbox": "octane",
+          "car_actor_count": 0
+        }
+      ],
+      "demolishes_count": 12,
+      "demolishes_sample": [
+        {
+          "frame": 182,
+          "time_s": 25.537,
+          "attacker": "zen",
+          "victim": "Kiileerrz",
+          "victim_car_actor_id": 68
+        },
+        {
+          "frame": 279,
+          "time_s": 28.783,
+          "attacker": "zen",
+          "victim": "Rw9",
+          "victim_car_actor_id": 49
+        },
+        {
+          "frame": 823,
+          "time_s": 47.477,
+          "attacker": "Kiileerrz",
+          "victim": "Atow",
+          "victim_car_actor_id": 61
+        },
+        {
+          "frame": 2026,
+          "time_s": 97.4,
+          "attacker": "Kiileerrz",
+          "victim": "Atow",
+          "victim_car_actor_id": 148
+        },
+        {
+          "frame": 2159,
+          "time_s": 101.848,
+          "attacker": null,
+          "victim": "Rw9",
+          "victim_car_actor_id": 171
+        }
+      ],
+      "boost_pad_actors_observed": 34,
+      "boost_pad_unique_standard_indices": 34,
+      "boost_pad_pickups_total": 400,
+      "boost_pad_respawns_total": 371,
+      "component_update_counts": {
+        "ReplicatedThrottle": 4026,
+        "ReplicatedSteer": 11630,
+        "bReplicatedHandbrake": 894,
+        "ReplicatedBoost": 1310,
+        "Boost_ReplicatedActive": 1649,
+        "Jump_ReplicatedActive": 827,
+        "DoubleJump_ReplicatedActive": 190,
+        "Dodge_ReplicatedActive": 685
+      },
+      "game_clock_summary": {
+        "seconds_remaining_updates": 300,
+        "first_5_seconds_remaining": [
+          {
+            "frame": 200,
+            "time_s": 26.137,
+            "seconds_remaining": 299
+          },
+          {
+            "frame": 230,
+            "time_s": 27.137,
+            "seconds_remaining": 298
+          },
+          {
+            "frame": 260,
+            "time_s": 28.142,
+            "seconds_remaining": 297
+          },
+          {
+            "frame": 289,
+            "time_s": 29.136,
+            "seconds_remaining": 296
+          },
+          {
+            "frame": 319,
+            "time_s": 30.159,
+            "seconds_remaining": 295
+          }
+        ],
+        "countdown_updates": [
+          {
+            "frame": 23,
+            "time_s": 20.233,
+            "countdown": 3
+          },
+          {
+            "frame": 52,
+            "time_s": 21.202,
+            "countdown": 2
+          },
+          {
+            "frame": 82,
+            "time_s": 22.202,
+            "countdown": 1
+          },
+          {
+            "frame": 112,
+            "time_s": 23.202,
+            "countdown": 0
+          },
+          {
+            "frame": 1811,
+            "time_s": 90.228,
+            "countdown": 3
+          },
+          {
+            "frame": 1842,
+            "time_s": 91.265,
+            "countdown": 2
+          }
+        ],
+        "state_transitions": [
+          {
+            "frame": 112,
+            "time_s": 23.202,
+            "state_name": "Active"
+          },
+          {
+            "frame": 1693,
+            "time_s": 77.257,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 1901,
+            "time_s": 93.231,
+            "state_name": "Active"
+          },
+          {
+            "frame": 2117,
+            "time_s": 100.439,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 2327,
+            "time_s": 116.458,
+            "state_name": "Active"
+          },
+          {
+            "frame": 7084,
+            "time_s": 278.092,
+            "state_name": "PostGoalScored"
+          },
+          {
+            "frame": 7294,
+            "time_s": 294.033,
+            "state_name": "Active"
+          }
+        ]
+      }
+    }
+  ]
+}
